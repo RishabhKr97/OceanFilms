@@ -1,0 +1,3288 @@
+@media only screen and (min-width: 320px) and (max-width: 480px){
+
+/* header */
+.kopa-header.style2 .kopa-header-bottom .menu-wrapper, .kopa-header.style3 .kopa-header-bottom .menu-wrapper {
+	border-bottom: 1px solid #e80300; padding-bottom: 65px; position: fixed; top: 0;}
+.kopa-header.style2 .kopa-header-bottom .menu-wrapper .kopa-logo, .kopa-header.style3 .kopa-header-bottom .menu-wrapper .kopa-logo { 
+margin-left: -80px; margin-top: -7px;}
+.innerpages .kopa-logo img { left: 0; width: 300px;}
+
+/*home*/
+
+/*video*/
+.main-video { border: 5px solid rgb(204, 204, 204);}
+iframe { border: medium none; height: auto; width: 100%;}
+
+/*brand, business*/
+.brandsLogos .brandsLogo { width: 50%;}
+.pad-left-big { padding-left: 36px;}
+.ourbrands::after { display: none;}
+
+/*about-video  */
+.videoHolder { margin-top: 40px;}
+
+/*expertise  */
+.expertise header.style-1 { margin-left: 0;  text-align: right; width: 100%;}
+.expertise .overlay.s1 { width: 100%;}
+/* portfolio breadcrums */
+.kopa-breadcrumb header.style-1 .widget-title { padding-left: 0; text-align: center;text-transform: none;}
+
+/* career-page */
+.jobListing { margin: 1% 10px; width: 94%;}
+.careersHeroimg { right: 0px;}
+/*html .careers .imageBreadcrumb .page-title {left: 0 !important; position: relative; right: 0 !important;}*/
+.input-block.go-bold { border: 1px solid #e5e5e5; padding: 0 10px;}
+
+/*footer  */
+#bottom-sidebar .col-md-2:nth-child(5) { clear: both;}
+
+/*work*/
+#work-page.kopa-area {padding-top: 33px;}
+.filterWrapper > a > i { width: 16%;}
+.wrapper.filterOptions { left: 0;}
+.filterWrapper { width: 100%;}
+.filterWrapper > a { width: 100%;}
+#work-page .filterBg { height: 178px; margin-top: -64px;}
+#work-page.kopa-portfolio-2-widget .filters-options li {margin-bottom: 0;}
+
+
+}
+
+@media only screen and (min-width: 481px) and (max-width: 600px){
+.kopa-header.style2 .kopa-header-bottom .menu-wrapper, .kopa-header.style3 .kopa-header-bottom .menu-wrapper { padding-bottom: 65px;}
+}
+@media only screen and (min-width: 481px) and (max-width: 639px){
+/*.kopa-header.style2 .kopa-header-bottom .menu-wrapper, .kopa-header.style3 .kopa-header-bottom .menu-wrapper { padding-bottom: 65px;}
+*/.kopa-header.style2 .kopa-header-bottom .menu-wrapper .kopa-logo, .kopa-header.style3 .kopa-header-bottom .menu-wrapper .kopa-logo { 
+margin-left: -80px; margin-top: -7px;}
+.innerpages .kopa-logo img { left: 0; width: 350px;}
+
+/*about us page*/
+.expertise header.style-1 { margin-left: 0; width: 100%;}
+.expertise .overlay.s1 { float: right !important; left: inherit; overflow: visible; right: 0 !important;width: 100%;}
+.expertise header.style-1 { margin-left: 0; text-align: right; width: 100%;}
+#expertise2.kopa-area { padding-top: 0;}
+#about-intro .videoHolder { margin-top: 60px;}
+#communication.kopa-area {padding-top: 0;}
+#about-intro.kopa-area { padding-top: 0;}
+
+
+}
+
+
+@media only screen and (min-width: 640px) and (max-width: 767px){
+#kopa-header .mobile-menu-icon, .kopa-header .mobile-menu-icon { display: block;}
+.kopa-header.style2 .kopa-main-nav, .kopa-header.style3 .kopa-main-nav { display: none;}
+
+/*about us page*/
+#expertise2.kopa-area { padding-top: 0;}
+#about-intro .videoHolder { margin-top: 60px;}
+#about-intro.kopa-area { padding-top: 0;}
+#communication.kopa-area {padding-top: 0;}
+#communication .col-md-5.col-sm-5.col-xs-12.pl-50 {
+  padding-left: 20px;
+}
+
+
+
+}
+
+
+@media only screen and (min-width:768px) and (max-width: 992px){
+#kopa-header .mobile-menu-icon, .kopa-header .mobile-menu-icon { display: block;}
+.kopa-header.style2 .kopa-main-nav, .kopa-header.style3 .kopa-main-nav { display: none;}
+
+/*slider*/
+.headerBG .top-bg img { display: none;}
+#bannerscollection_zoominout_generous .top-bg::before { border-bottom: 625px solid transparent; border-left: 564px solid #e90100;top: -295px;}
+#bannerscollection_zoominout_generous .right-bg::before { border-left: 656px solid #000000; border-top: 705px solid transparent;left: 91%;}
+
+/*brand business*/
+.ourbrands::after { right: -31px; transform: rotate(15deg);}
+.widget header.style-1 .widget-title { font: bold 35px/60px "Dancing Script",serif;}
+
+
+
+/*social*/ 
+.fbheading > img { width: 70%;}
+.twitheading > img { width: 70%;}
+.instaheading > img { width: 70%;}
+
+/*about*/
+.expertise .overlay.s1::after {
+  border-bottom: 325px solid transparent;
+  border-right: 198px solid black;
+  border-top: 202px solid transparent;
+  content: "";
+  height: 0;
+  left: -197px;
+  margin-right: -198px;
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 0;
+}
+
+#expertise2.kopa-area { padding-top: 0;}
+#about-intro.kopa-area { padding-top: 0;}
+#communication.kopa-area { padding-top: 0;}
+
+/*team*/
+.pull-3 {right: 27%;  right: 27%;}
+#team .col-md-9.col-sm-9.col-xs-12 { float: right; width: 73%;}
+
+.kopa-header.style2 .kopa-header-bottom .menu-wrapper, .kopa-header.style3 .kopa-header-bottom .menu-wrapper {height: 19%; width: 100%;}
+.newFS {font-size: 13px !important; line-height: normal !important; margin-left: -31px;}
+
+/*contact*/
+#contact-page.kopa-area { padding-top: 30px;}
+#floating-panel .col-md-6 { float: left; width: 50%;}
+#floating-panel select {margin: 0;}
+#contact-page.kopa-area-3 .col-sm-6 { width: 50%;}
+#contact-page #tab .col-md-4 {  width: 50%;}
+#contactform .col-md-4 { width: 100%;}
+#contact-page #tab .col-md-4.col-sm-4.col-xs-12:nth-child(3) { clear: both;}
+
+/*career*/
+#career-page .col-md-7.col-sm-7.col-xs-12 { width: 100%;}
+#career-page .col-sm-5 { width: 50%;}
+.careersHeroimg { display: none;}
+#career-page html .careers .imageBreadcrumb .page-title { left: 0 !important;}
+#career-page .careersForm { width: 100%;}
+
+/*business*/
+/*#theatrical.kopa-breadcrumb.imageBreadcrumb {  background-position: -245px -28px;}
+#theatrical .horizontal_listing.activedetails { right: 50px; top: 70px !important;}
+#theatrical .businesses .horizontal_listing.text-left { float: left; left: -51px; margin-top: -145px !important;}
+
+#entertainmentdesti .page-title.text-left { display: block !important;}
+#entertainmentdesti .businesses .horizontal_listing.text-left {
+  float: left;
+  left: -42px;
+  margin-top: -196px !important;
+}
+#entertainmentdesti .horizontal_listing.text-left.activedetails {
+  left: -32px;
+  top: 290px !important;
+}
+
+#wizspk .businesses .horizontal_listing.text-left { float: left; left: -51px; margin-top: -145px !important;} 
+#wizspk .horizontal_listing.activedetails {
+  right: 50px;
+  top: 220px !important;
+}
+
+#wizspk.kopa-breadcrumb.imageBreadcrumb {
+  background-position: -245px -28px;
+}
+
+#brandactivation.kopa-breadcrumb.imageBreadcrumb { background-position: -226px 50px;}
+#brandactivation .horizontal_listing.activedetails {right: 50px; top: 170px !important;}
+
+#wedniksha .horizontal_listing.text-left { float: left; left: -51px; margin-top: -145px !important;}
+
+#wiztv .horizontal_listing.text-left { float: left; left: 40px; margin-top: -197px !important;}
+
+#specialprojects .horizontal_listing.activedetails { left: 22px; top: 322px !important;}
+
+#ourbrand.kopa-breadcrumb.imageBreadcrumb { background-position: -224px -28px;}
+#ourbrand .horizontal_listing.activedetails {float: left; left: -424px; margin-top: 127px !important;}
+*/
+
+
+/*work*/
+#work-page.kopa-area { padding-top: 19px;}
+.entry-thumb:hover .logotext {transform: translateY(-34px);}
+.popup-icon1 { right: 52%;}
+.popup-icon2 { right: 26%;}
+}
+
+
+@media only screen and (min-width:993px) and (max-width: 1100px){
+/*.kopa-header.style2 .kopa-main-nav, .kopa-header.style3 .kopa-main-nav { display: block; margin-right: 0;}*/
+#kopa-header .mobile-menu-icon, .kopa-header .mobile-menu-icon {display: none;}
+
+
+/*contact*/
+#floating-panel select {margin: 0;}
+
+/*work*/
+#work-page.kopa-area { padding-top: 19px;}
+
+}
+
+/*----------------------------*/
+@media only screen and (min-width:300px) and (max-width:420px)
+{
+    .careers .kopa-breadcrumb .page-title h1 strong + span {
+  right: 23px !important;
+  top: 63px !important;
+	}
+}
+
+@media only screen and (min-width:300px) and (max-width:340px)
+{
+#timeline #next {
+  right: 80px !important;
+}
+}
+
+@media only screen and (min-width:300px) and (max-width:440px)
+{
+html .business #entertainmentdesti.imageBreadcrumb {
+  min-height: 430px;
+}
+.business #wedniksha.imageBreadcrumb, .business #wizspk.imageBreadcrumb, .business #wiztv.imageBreadcrumb {
+  min-height: 390px;
+}
+}
+
+@media only screen and (min-width: 300px) and (max-width: 480px){
+    
+    /*----*/
+    .wizcraft_mime .member-item {
+  padding: 0 10px;
+  width: 100%;
+}
+.bc-white-line {
+  left: 66%;
+  width: 219px;
+}
+
+.wizcraft_mime .imageBreadcrumb .page-title h1 span {
+  display: none;
+}
+
+.course-ul {
+  min-height: auto;
+}
+
+.course-btn {
+    margin-top: 19px;
+  text-align: center;
+  width: 100%;
+}
+    /*----*/
+    
+    #colorbox, #cboxContent, #cboxLoadedContent, #colorbox img {
+  height: auto !important;
+  max-width: 100%;
+}
+
+    
+    .thumb-hover .thumbtitle > strong {
+  font-size: 15px;
+}
+
+.kopa-portfolio-widget .masonry-wrapper .element .link-icon {
+  bottom: 3px;
+  right: 3px;
+}
+
+
+.kopa-post-list-widget .big-post h5 a {
+ font-size:31px;
+ line-height:23px;
+}
+
+    .only-mob
+{
+ display:block;
+}
+
+	.wrapper {
+  padding: 0 14px;
+  width: 100%;
+}
+
+.main-nav-mobile .main-menu-mobile {
+  right: 32px;
+  top: 65px;
+  width: 90%;
+}
+
+.bannerscollection_zoominout_text_line.textElement31_generousFullWidth .newFS {
+  background-color: rgba(0, 0, 0, 0.44);
+  box-shadow: 0 0 20px #000;
+  font-size: 39px !important;
+  line-height: 41px !important;
+  text-shadow: 0 0 6px #000;
+}
+.textElement31_generousFullWidth {
+  font-size: 15px !important;
+  left: -109px !important;
+  line-height: 52px;
+  position: relative;
+  text-align: center;
+  top: 52px !important;
+}
+
+.bannerscollection_zoominout.opportune .bottomNav {
+  top: 82% !important;
+  margin-top: 0 !important;
+}
+
+
+.bannerscollection_zoominout_texts {
+  left: 114px !important;
+  position: absolute;
+  top: 231px !important;
+  z-index: 2;
+}
+
+.bannerscollection_zoominout .contentHolderUnit {
+  height: 500px !important;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  width: 100% !important;
+}
+
+.bannerscollection_zoominout img {
+  height: 500px !important;
+  max-height: inherit;
+  max-width: inherit;
+  position: relative;
+  top: inherit !important;
+  width: 222% !important;
+  left: -221px !important;
+}
+
+.bannerscollection_zoominout .contentHolder {
+  position: absolute;
+  width: 100% !important;
+}
+
+#bannerscollection_zoominout_generous .owl-controls.clickable.style1 {
+  bottom: 0;
+  position: absolute;
+  width: 107%;
+  z-index: 2147483647;
+}
+
+.bannerscollection_zoominout.opportune .contentHolderVisibleWrapper {
+  height: 400px !important;
+  margin-top: 0;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  position: absolute;
+  width: 106% !important;
+}
+
+#bannerscollection_zoominout_generous .owl-controls .owl-pagination .pagination-bg::before {
+  border-bottom-color: rgba(206, 3, 61, 0.7);
+  border-bottom-style: solid;
+  border-bottom-width: 50px;
+  border-left-color: transparent;
+  border-left-style: solid;
+  border-left-width: 40px;
+  border-right-color: transparent;
+  border-right-style: solid;
+  border-right-width: 50px;
+  bottom: -92px;
+  content: "";
+  position: absolute;
+  right: 16px;
+}
+	
+	#bannerscollection_zoominout_generous .owl-controls .owl-pagination .pagination-bg::before {
+  border-bottom-color: rgba(206, 3, 61, 0.7);
+  border-bottom-style: solid;
+  border-bottom-width: 30px;
+  border-left-color: transparent;
+  border-left-style: solid;
+  border-left-width: 30px;
+  border-right-color: transparent;
+  border-right-style: solid;
+  border-right-width: 30px;
+  bottom: -36px;
+  content: "";
+  position: absolute;
+  right: 16px;
+}
+
+
+#bannerscollection_zoominout_generous .owl-controls .owl-pagination .pagination-bg::after {
+  border-bottom-color: rgba(206, 3, 61, 0.7);
+  border-bottom-style: solid;
+  border-bottom-width: 30px;
+  border-left-color: transparent;
+  border-left-style: solid;
+  border-left-width: 30px;
+  border-right-color: transparent;
+  border-right-style: solid;
+  border-right-width: 30px;
+  bottom: -50px;
+  content: "";
+  left: 25px;
+  position: absolute;
+}
+
+#bannerscollection_zoominout_generous .owl-controls .owl-pagination .pagination-bg {
+  border-bottom: 50px solid #e80300;
+  border-left: 50px solid transparent;
+  border-right: 50px solid transparent;
+  bottom: 11px;
+  content: "";
+  height: 30px;
+  left: 63%;
+  margin-left: -61px;
+  position: absolute;
+  width: 60px;
+}
+
+#bannerscollection_zoominout_generous .owl-controls .owl-pagination::after {
+  bottom: 11px;
+}
+
+.testi-item {
+  padding-top: 24px;
+}
+
+#bannerscollection_zoominout_generous .owl-controls.clickable.style1 {
+  bottom: 0;
+  position: absolute;
+  width: 107%;
+  z-index: 2;
+}
+
+#bannerscollection_zoominout_generous .top-bg::before {
+  border-bottom: transparent solid 200px;
+  border-left: #e90100 solid 200px;
+  content: "";
+  left: 0;
+  position: absolute;
+  top: 5px;
+  z-index: 2;
+}
+
+#bannerscollection_zoominout_generous .top-bg {
+  background-color: #e90100;
+  height: 8px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 166px;
+}
+
+.top-bg img {
+  display: none !important;
+}
+
+#bannerscollection_zoominout_generous .right-bg::before {
+  border-bottom: transparent solid 0;
+  border-left: none;
+  border-right: #000000 solid 156px;
+  border-top: transparent solid 171px;
+  content: "";
+  left: -85px;
+  position: absolute;
+  top: 176px;
+}
+
+#bannerscollection_zoominout_generous .right-bg {
+  background-color: #000000;
+  height: 100%;
+  left: 100%;
+  position: absolute;
+  top: 61px;
+  width: 86px;
+  z-index: 2;
+}
+.headerBG {
+  height: 102%;
+  position: absolute;
+  right: 0;
+  top: -2%;
+  width: 100%;
+}
+
+.bannerscollection_zoominout {
+  float: left;
+  height: 411px !important;
+  line-height: 20px;
+  position: relative;
+}
+
+.kopa-header-bottom #zoominoutParent_33925 {
+  height: 286px !important;
+  width: 200% !important;
+}
+.kopa-header-bottom > div {
+  top: 68px;
+}
+
+.textElement32_generousFullWidth {
+  display: none;
+}
+.bannerscollection_zoominout.opportune .bannerControls {
+  top: 30% !important;
+  width: 91%;
+}
+.normalBreadcrumb.kopa-breadcrumb .page-title.dancingScript h1 {
+  font-size: 22px;
+}
+.videooverlay {
+  height: 210px;
+  overflow: hidden;
+  position: absolute;
+  top: 90px;
+  width: 90%;
+}
+
+.videooverlay > img {
+  max-width: 162%;
+}
+
+.ourbrands {
+  padding: 0;
+}
+
+.homepage .pad-left-big {
+  padding-left: 0;
+}
+
+.kopa-testimonial-widget .kopa-quotes {
+  font: italic 300 14px/22px "Raleway",sans-serif;
+  padding: 0 27px;
+  position: relative;
+}
+.kopa-testimonial-widget p.job {
+  margin-bottom: 40px;
+  margin-right: 35px;
+  text-align: right;
+}
+.ourclient > li {
+  width: 24.4%;
+}
+
+.parallex-area .entry-name {
+  font: bold 34px/47px "Dancing Script",serif;
+}
+.fbheading > img, .twitheading > img, .instaheading > img {
+  width: 106px;
+  padding-top: 10px;
+}
+
+/*-----------------home----------------*/
+
+/*---------about---*/
+html .imageBreadcrumb .page-title {
+  display: block !important;
+  left: -52px !important;
+  padding-top: 0;
+  top: 28px;
+}
+.imageBreadcrumb .page-title h1 strong {
+  font-size:  26px !important;
+}
+
+.videoHolder {
+  margin-left: 20px;
+  margin-top: 41px;
+  width: 100%;
+}
+.about-videobox .videooverlay {
+  height: 169px;
+  left: -3px;
+  position: absolute;
+  top: 11px;
+  width: 93%;
+}
+
+
+.about-videobox .videooverlay > img {
+  border: medium none;
+  max-width: 144%;
+}
+
+#main-content .kopa-area {
+  padding-top: 7px;
+}
+/*------------about----*/
+
+/*----------growth story-----------*/
+#timeline {
+  width: 350px !important;
+  margin: 0 auto !important;
+}
+.autoplay-btn, .stop-btn {
+  position: relative;
+}
+header.style-1 .widget-title {
+  font-size:23px;
+}
+.stop-btn {
+  float: none;
+}
+#issues li p {
+  left: -52px;
+  position: absolute;
+  top: 224px;
+  width: 134%;
+}
+
+
+#next {
+  right: 35px !important;
+}
+#prev {
+  left: 24px !important;
+}
+
+#timeline {
+  height:514px !important;
+}
+
+/*----------growth story-----------*/
+
+/*---------portfolio---------------------*/
+
+.single-image-wrap {
+  height: auto;
+  overflow: hidden;
+  width: 100%;
+}
+.paginate.pag1 li.single, .paginate.pag1 li.current {
+  margin-right: 4px;
+}
+.paginate.pag1 li a {
+  margin-right: 4px;
+}
+.kopa-breadcrumb.work-breadcrumb {
+  min-height: 230px;
+}
+.work .slideBreadcrumb .page-title {
+  margin-top: 0px !important;
+}
+.portfilioWraper {
+  margin-top: -18px;
+}
+
+.filterBg {
+  height: 107px;
+  margin-top: -5px !important;
+}
+
+.filterWrapper {
+  height: 39px;
+  margin: 1px;
+  width: 46%;
+}
+
+.filterWrapper > a > i {
+  padding: 11.1px 22px;
+}
+.kopa-portfolio-2-widget .filters-options {
+  z-index: 9;
+}
+
+.kopa-portfolio-2-widget .filterWrapper.supermegaFilter .filters-options {
+  width: 200%;
+}
+
+.kopa-portfolio-2-widget .filterWrapper.supermegaFilter .filters-options li {
+  width: 50%;
+}
+
+.kopa-portfolio-2-widget .portfolio-container .portfolio-list-item > li {
+  margin-bottom: 20px !important;
+  width: 82%;
+}
+.mfp-wrap {
+  z-index: 99999999 !important;
+}
+.mfp-bg {
+  z-index: 99999999 !important;
+}
+
+#colorbox, #cboxOverlay, #cboxWrapper {
+  z-index: 999999999 !important;
+}
+
+
+.mfp-container .kopa-area {
+  padding-top: 0;
+}
+
+.white-popup-block {
+  margin: 15px auto !important;
+  max-width: 96% !important;
+  padding: 21px 0 !important;
+}
+.kopa-portfolio-widget .masonry-wrapper .width1, .kopa-portfolio-widget .masonry-wrapper .width2 {
+  width: 46% !important;
+   height: auto !important;
+}
+html .element.all.width3 {
+  height: auto;
+  overflow: hidden;
+  width: 31% !important;
+}
+
+.kopa-portfolio-widget .masonry-wrapper .element {
+  width: 15%;
+  height: auto;
+  overflow: hidden;
+  float:left;
+}
+
+
+
+html .element.width4.all {
+  height: auto;
+  overflow: hidden;
+  width: 32%;
+}
+
+.white-popup-block {
+  height: 400px;
+  overflow: scroll;
+}
+
+.content {
+  overflow:scroll !important;
+  height:auto !important;
+}
+.kopa-post-list-widget h5 {
+  font-size: 36px;
+}
+
+#colorbox {
+  height: 300px !important;
+  position: fixed !important;
+  top: 12% !important;
+  width: 100% !important;
+}
+.kopa-portfolio-widget .element.width-2 {
+  width: 48% !important;
+}
+.kopa-portfolio-widget .element.width-3, .kopa-portfolio-widget .element.width-4 {
+  width: 23% !important;
+}
+
+.kopa-portfolio-2-widget .filterWrapper.megaFilter .filters-options {
+  left: -154px;
+  width: 207%;
+}
+.slideBreadcrumb .page-title {
+  margin-top: 20px;
+}
+
+.slideBreadcrumb.kopa-breadcrumb header.style-1 .widget-title {
+  margin-right: 50px !important;
+  padding: 0 !important;
+  right:0;
+}
+/*---------portfolio---------------------*/
+
+/*-------------bussiness page------------------*/
+
+.businesses .horizontal_listing li.message {
+  font-size: 28px;
+  line-height: 31px;
+}
+
+.innerpages .kopa-breadcrumb.imageBreadcrumb {
+  background-position: -128px 0;
+  background-size: cover;
+  min-height: 258px;
+  padding: 8px 0;
+}
+
+
+.innerpages .kopa-breadcrumb {
+  padding: 10px 0;
+}
+
+.businesses .wrapper {
+  padding: 0;
+  width: 100%;
+}
+.businesses .horizontal_listing::before {
+  background-image: url("../images/bottomshadow2.png");
+  background-repeat: repeat-x;
+  content: "";
+  height: 359px;
+  left: -10px;
+  position: absolute;
+  top: -2px;
+  width: 114%;
+  z-index: -1;
+  display: none;
+}
+.businesses .horizontal_listing {
+  display: block !important;
+  margin: 12px 6px !important;
+  position: absolute !important;
+  top: 138px !important;
+  width: 96% !important;
+  z-index: 1;
+}
+
+/*--.businesses .kopa-breadcrumb.imageBreadcrumb {
+  background-position: -394px 30px !important;
+  background-size: 831px auto;
+  min-height: 387px;
+}--*/
+
+.businesses .kopa-breadcrumb.imageBreadcrumb {
+  background-position: -392px -55px !important;
+  background-size: 831px auto;
+  min-height: 340px;
+  background-attachment: scroll;
+}
+
+.business #specialprojects.imageBreadcrumb {
+  background-position: -68px -70px !important;
+}
+
+.business  #wiztv.imageBreadcrumb {
+  background-position: -68px -37px !important;
+}
+
+.business #wedniksha.imageBreadcrumb {
+  background-position: -127px 10px !important;
+}
+
+.business #entertainmentdesti.imageBreadcrumb {
+  background-position: -68px -8px !important;
+  min-height: 370px;
+}
+
+.business #mime.imageBreadcrumb {
+  background-position: -68px -39px !important;
+}
+/*.kopa-breadcrumb.imageBreadcrumb.scroll-big-content {
+  min-height: 356px;
+}*/
+.businesses .kopa-breadcrumb:first-child .horizontal_listing li {
+  display: block;
+}
+
+.kopa-breadcrumb.imageBreadcrumb.bg-left {
+  background-position: -68px 79px !important;
+}
+
+.arrow-bounce {
+  bottom: 0;
+}
+
+.businesses .horizontal_listing.text-left {
+  float: left;
+  left: 0;
+}
+.kopa-newsletter-widget .newsletter-form .input-area > input {
+  font-size: 16px;
+  text-align: left;
+}
+.kopa-newsletter-widget {
+  width: 100%;
+}
+
+#bottom-sidebar {
+  padding: 0 0;
+}
+#bottom-sidebar ul.clearfix li {
+  padding-bottom: 0;
+}
+
+.widget header.style-1 p {
+  width: 94%;
+}
+
+.owl-item .member-item {
+  padding: 0 13px;
+}
+
+
+
+/*-------------bussiness page------------------*/
+
+/*----------------directors----------------*/
+.name {
+  text-align: center;
+}
+
+.push-9 {
+  left: 0  !important;
+}
+
+.pull-3 {
+  right: 0  !important;
+}
+.text-right {
+  text-align: left !important;
+}
+#bottom-sidebar .widget {
+  margin-bottom: 0;
+  margin-top: 6px;
+}
+#subscribe.md-button {
+  margin: 0 auto;
+}
+/*----------------directors----------------*/
+/*--------------careers---------------------*/
+
+#kopa-header .mobile-menu-icon, .kopa-header .mobile-menu-icon {
+  top: 20px; }
+.modal-content {
+  background-color: #ffffff;
+  border: none;
+  box-shadow: 0 3px 9px rgba(0, 0, 0, 0.5);
+}
+.modal-content {
+  height: 400px;
+  overflow: scroll;
+  position: relative;
+}
+.innerpages.careers .kopa-breadcrumb.imageBreadcrumb {
+  background-position: -94% center !important;
+  background-size: cover;
+}
+.wizstar {
+  left: -58px;
+  position: absolute !important;
+  top: -79px;
+}
+.wizstar > img {
+  width: 142px;
+}
+
+.careers .kopa-breadcrumb .page-title h1 span.wizstartext {
+  font-size: 35px !important;
+}
+.careers .kopa-breadcrumb .page-title h1 {
+  min-height: 114px;
+  position: relative;
+  top: -26px;
+}
+.careers .kopa-breadcrumb .page-title h1 strong {
+  top: 109px ;
+  position: relative;
+  left: 48px;
+}
+
+.freelancer {
+  font-size: 16px !important;
+  margin-top: 15px;
+  position: absolute;
+  right: 0;
+  top: 8px !important;
+}
+
+.imageBreadcrumb .page-title h1 span {
+  font-size: 18px;
+}
+.careers .kopa-breadcrumb .page-title h1 strong + span {
+  float: none;
+  margin: 30px 0 0 10px;
+  position: absolute;
+  right: 40px;
+  top: 95px;
+}
+.careers .kopa-breadcrumb .page-title h1 span {
+  margin: 23px 0 0 10px;
+  float:right;
+  position:relative;
+}
+.careersForm {
+  padding: 0 12px 17px;
+}
+.careers .my-pop-up.modal {
+  overflow-y: scroll;
+  top: 113px;
+}
+.kopa-button {
+  position: relative;
+  z-index: 9999;
+}
+/*--------------careers---------------------*/
+
+/*--------------contact---------------------*/
+.kopa-breadcrumb.googlemap {
+  padding: 0 !important;
+}
+#floating-panel .wrapper {
+  width: 100%;
+}
+/*--------------contact---------------------*/
+
+}
+
+@media only screen and (min-width: 400px) and (max-width: 480px){
+    
+.brandsLogos .brandsLogo {
+  width: 25%;
+}
+
+#bottom-sidebar .wrapper {
+  width: 100%;
+}
+#bottom-sidebar .col-xs-6 {
+  width: 50%;
+}
+
+.normalBreadcrumb.kopa-breadcrumb .page-title.dancingScript h1 {
+  font-size: 32px;
+}
+
+.wrapper {
+  width: 100%;
+  padding: 0 2%;
+}
+
+#next {
+  right: 0 !important;
+}
+#prev {
+  left: 0 !important;
+}
+}
+
+
+
+@media only screen and (min-width: 481px) and (max-width: 600px){
+    
+     /*----*/
+    .wizcraft_mime .member-item {
+  padding: 0 10px;
+  width: 100%;
+}
+.bc-white-line {
+  left: 66%;
+  width: 219px;
+}
+.course-ul {
+  min-height: auto;
+}
+.wizcraft_mime .imageBreadcrumb .page-title h1 span {
+  display: none;
+}
+    /*----*/
+    
+    .kopa-post-list-widget .big-post h5 a {
+ font-size:31px;
+ line-height:23px;
+}
+    
+    .wrapper {
+  padding: 0 14px;
+  width: 100%;
+}
+
+.main-nav-mobile .main-menu-mobile {
+  right: 32px;
+  top: 65px;
+  width: 54%;
+}
+
+
+.bannerscollection_zoominout_text_line.textElement31_generousFullWidth .newFS {
+  background-color: rgba(0, 0, 0, 0.44);
+  box-shadow: 0 0 20px #000;
+  font-size: 39px !important;
+  line-height: 41px !important;
+  text-shadow: 0 0 6px #000;
+}
+.textElement31_generousFullWidth {
+  font-size: 15px !important;
+  left: -109px !important;
+  line-height: 52px;
+  position: relative;
+  text-align: center;
+  top: 52px !important;
+}
+
+.bannerscollection_zoominout.opportune .bottomNav {
+  top: 82% !important;
+  margin-top: 0 !important;
+}
+
+
+.bannerscollection_zoominout_texts {
+  left: 114px !important;
+  position: absolute;
+  top: 231px !important;
+  z-index: 2;
+}
+
+.bannerscollection_zoominout .contentHolderUnit {
+  height: 500px !important;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  width: 100% !important;
+}
+
+.bannerscollection_zoominout img {
+  height: 500px !important;
+  left: -254px !important;
+  max-height: inherit;
+  max-width: inherit;
+  position: relative;
+  top: inherit !important;
+  width: 145% !important;
+}
+.bannerscollection_zoominout .contentHolder {
+  position: absolute;
+  width: 100% !important;
+}
+
+#bannerscollection_zoominout_generous .owl-controls.clickable.style1 {
+  bottom: 0;
+  position: absolute;
+  width: 107%;
+  z-index: 2147483647;
+}
+
+.bannerscollection_zoominout.opportune .contentHolderVisibleWrapper {
+  height: 400px !important;
+  margin-top: 0;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  position: absolute;
+  width: 106% !important;
+}
+
+#bannerscollection_zoominout_generous .owl-controls .owl-pagination .pagination-bg::before {
+  border-bottom-color: rgba(206, 3, 61, 0.7);
+  border-bottom-style: solid;
+  border-bottom-width: 50px;
+  border-left-color: transparent;
+  border-left-style: solid;
+  border-left-width: 40px;
+  border-right-color: transparent;
+  border-right-style: solid;
+  border-right-width: 50px;
+  bottom: -92px;
+  content: "";
+  position: absolute;
+  right: 16px;
+}
+	
+	#bannerscollection_zoominout_generous .owl-controls .owl-pagination .pagination-bg::before {
+  border-bottom-color: rgba(206, 3, 61, 0.7);
+  border-bottom-style: solid;
+  border-bottom-width: 30px;
+  border-left-color: transparent;
+  border-left-style: solid;
+  border-left-width: 30px;
+  border-right-color: transparent;
+  border-right-style: solid;
+  border-right-width: 30px;
+  bottom: -36px;
+  content: "";
+  position: absolute;
+  right: 16px;
+}
+
+
+#bannerscollection_zoominout_generous .owl-controls .owl-pagination .pagination-bg::after {
+  border-bottom-color: rgba(206, 3, 61, 0.7);
+  border-bottom-style: solid;
+  border-bottom-width: 30px;
+  border-left-color: transparent;
+  border-left-style: solid;
+  border-left-width: 30px;
+  border-right-color: transparent;
+  border-right-style: solid;
+  border-right-width: 30px;
+  bottom: -50px;
+  content: "";
+  left: 25px;
+  position: absolute;
+}
+
+#bannerscollection_zoominout_generous .owl-controls .owl-pagination .pagination-bg {
+  border-bottom: 50px solid #e80300;
+  border-left: 50px solid transparent;
+  border-right: 50px solid transparent;
+  bottom: 11px;
+  content: "";
+  height: 30px;
+  left: 63%;
+  margin-left: -61px;
+  position: absolute;
+  width: 60px;
+}
+
+#bannerscollection_zoominout_generous .owl-controls .owl-pagination::after {
+  bottom: 11px;
+}
+
+.testi-item {
+  padding-top: 24px;
+}
+
+#bannerscollection_zoominout_generous .owl-controls.clickable.style1 {
+  bottom: 0;
+  position: absolute;
+  width: 107%;
+  z-index: 2;
+}
+
+#bannerscollection_zoominout_generous .top-bg::before {
+  border-bottom: transparent solid 200px;
+  border-left: #e90100 solid 200px;
+  content: "";
+  left: 0;
+  position: absolute;
+  top: 5px;
+  z-index: 2;
+}
+
+#bannerscollection_zoominout_generous .top-bg {
+  background-color: #e90100;
+  height: 8px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 166px;
+}
+
+.top-bg img {
+  display: none !important;
+}
+
+#bannerscollection_zoominout_generous .right-bg::before {
+  border-bottom: transparent solid 0;
+  border-left: none;
+  border-right: #000000 solid 156px;
+  border-top: transparent solid 171px;
+  content: "";
+  left: -85px;
+  position: absolute;
+  top: 176px;
+}
+
+#bannerscollection_zoominout_generous .right-bg {
+  background-color: #000000;
+  height: 100%;
+  left: 100%;
+  position: absolute;
+  top: 61px;
+  width: 86px;
+  z-index: 2;
+}
+.headerBG {
+  height: 102%;
+  position: absolute;
+  right: 0;
+  top: -2%;
+  width: 100%;
+}
+
+.bannerscollection_zoominout {
+  float: left;
+  height: 411px !important;
+  line-height: 20px;
+  position: relative;
+}
+
+.kopa-header-bottom #zoominoutParent_33925 {
+  height: 286px !important;
+  width: 200% !important;
+}
+.kopa-header-bottom > div {
+  top: 68px;
+}
+
+.textElement32_generousFullWidth {
+  display: none;
+}
+.bannerscollection_zoominout.opportune .bannerControls {
+  top: 30% !important;
+  width: 91%;
+}
+.normalBreadcrumb.kopa-breadcrumb .page-title.dancingScript h1 {
+  font-size: 22px;
+}
+.videooverlay {
+  height: 210px;
+  overflow: hidden;
+  position: absolute;
+  top: 90px;
+  width: 90%;
+}
+
+.videooverlay > img {
+  max-width: 162%;
+}
+
+.ourbrands {
+  padding: 0;
+}
+
+.homepage .pad-left-big {
+  padding-left: 16px;
+}
+
+.kopa-testimonial-widget .kopa-quotes {
+  font: italic 300 14px/22px "Raleway",sans-serif;
+  padding: 0 27px;
+  position: relative;
+}
+.kopa-testimonial-widget p.job {
+  margin-bottom: 40px;
+  margin-right: 35px;
+  text-align: right;
+}
+
+.parallex-area {
+  height: 239px;
+}
+
+.parallex-area .entry-name {
+  font: bold 34px/47px "Dancing Script",serif;
+}
+.fbheading > img, .twitheading > img, .instaheading > img {
+  width: 106px;
+  padding-top: 10px;
+}
+
+.col-md-5.col-sm-5.col-xs-12.videobox {
+  width: 383px;
+  margin: 0 auto;
+  float: none !important;
+  clear: both;
+  position: relative;
+}
+
+.fb_iframe_widget {
+  display: table  !important;
+  position: relative;
+  margin: 0 auto !important;
+  float: none;
+}
+/*-----------------home----------------*/
+
+    /*---------about---*/
+html .imageBreadcrumb .page-title {
+  display: block !important;
+  left: -52px !important;
+  padding-top: 0;
+  top: 28px;
+}
+.imageBreadcrumb .page-title h1 strong {
+  font-size:  26px !important;
+}
+
+.videoHolder {
+  margin-left: 20px;
+  margin-top: 41px;
+  width: 365px;
+}
+.about-videobox .videooverlay {
+  height: 169px;
+  left: -3px;
+  position: absolute;
+  top: 11px;
+  width: 93%;
+}
+
+
+.about-videobox .videooverlay > img {
+  border: medium none;
+  max-width: 144%;
+}
+
+#main-content .kopa-area {
+  padding-top: 7px;
+}
+.innerpages .kopa-breadcrumb.imageBreadcrumb {
+  background-position: -126px 0;
+  background-size: cover;
+     min-height: 239px;
+}
+
+.innerpages .kopa-breadcrumb {
+  padding: 10px 0;
+}
+
+.pl-50 {
+  padding-left: 12px;
+}
+.text-right {
+  text-align: left !important;
+}
+.kopa-newsletter-widget .newsletter-form .input-area {
+  margin-bottom: 0;
+  margin-right: 15px;
+  width: 60%;
+}
+.newsletter-content {
+  margin-top: 15px;
+}
+/*------------about----*/
+
+
+/*----------growth story-----------*/
+#timeline {
+  margin: 0 auto !important;
+  width: 480px !important;
+}
+.autoplay-btn, .stop-btn {
+  position: relative;
+}
+header.style-1 .widget-title {
+  font-size:34px;
+}
+.stop-btn {
+  float: none;
+}
+#issues li p {
+  left: -52px;
+  position: absolute;
+  top: 224px;
+  width: 134%;
+}
+
+
+#next {
+  right: 0 !important;
+}
+#prev {
+  left: 0 !important;
+}
+
+/*----------growth story-----------*/
+
+/*---------portfolio---------------------*/
+
+.single-image-wrap {
+  height: auto;
+  overflow: hidden;
+  width: 100%;
+}
+
+.work .slideBreadcrumb .page-title {
+  margin-top: 0px !important;
+}
+.portfilioWraper {
+  margin-top: -18px;
+}
+
+.filterBg {
+  height: 107px;
+  margin-top: -5px !important;
+}
+
+.filterWrapper {
+  height: 39px;
+  margin: 1px;
+  width: 46%;
+}
+
+.filterWrapper > a > i {
+  padding: 11.1px 22px;
+}
+.kopa-portfolio-2-widget .filters-options {
+  z-index: 9;
+}
+
+.kopa-portfolio-2-widget .filterWrapper.supermegaFilter .filters-options {
+  width: 200%;
+}
+
+.kopa-portfolio-2-widget .filterWrapper.supermegaFilter .filters-options li {
+  width: 50%;
+}
+
+.kopa-portfolio-2-widget .portfolio-container .portfolio-list-item > li {
+  margin-bottom: 20px !important;
+  width: 44%;
+}
+
+#colorbox, #cboxContent, #cboxLoadedContent, #colorbox img {
+  max-width: 100% !important;
+  height: auto !important;
+}
+
+.mfp-wrap {
+  z-index: 99999999 !important;
+}
+.mfp-bg {
+  z-index: 99999999 !important;
+}
+
+#colorbox, #cboxOverlay, #cboxWrapper {
+  z-index: 999999999 !important;
+}
+
+
+.mfp-container .kopa-area {
+  padding-top: 0;
+}
+
+.white-popup-block {
+  margin: 15px auto !important;
+  max-width: 96% !important;
+  padding: 21px 0 !important;
+}
+.kopa-portfolio-widget .masonry-wrapper .width1, .kopa-portfolio-widget .masonry-wrapper .width2 {
+  width: 46% !important;
+   height: auto !important;
+}
+html .element.all.width3 {
+  height: auto;
+  overflow: hidden;
+  width: 31% !important;
+}
+
+.kopa-portfolio-widget .masonry-wrapper .element {
+  width: 15%;
+  height: auto;
+  overflow: hidden;
+  float:left;
+}
+
+#colorbox, #cboxContent, #cboxLoadedContent, #colorbox img {
+  height: auto !important;
+  max-width: 100%;
+}
+
+html .element.width4.all {
+  height: auto;
+  overflow: hidden;
+  width: 32%;
+}
+
+.white-popup-block {
+  height: 400px;
+  overflow: scroll;
+}
+
+.content {
+  overflow:scroll !important;
+  height:auto !important;
+}
+.kopa-post-list-widget h5 {
+  font-size: 36px;
+}
+
+#colorbox {
+  height: 300px !important;
+  position: fixed !important;
+  top: 12% !important;
+  width: 100% !important;
+}
+.filterWrapper > a {
+  width: 100%;
+}
+
+.portfilioWraper .prjectDetailWrap {
+  min-height: 120px;
+}
+.kopa-portfolio-widget .element.width-2 {
+  width: 50% !important;
+}
+.kopa-portfolio-widget .element.width-3, .kopa-portfolio-widget .element.width-4 {
+  width: 24% !important;
+}
+
+.kopa-portfolio-2-widget .filterWrapper.megaFilter .filters-options {
+  left: -254px;
+  width: 200%;
+}
+
+.slideBreadcrumb .page-title {
+  margin-top: 20px;
+}
+
+
+.slideBreadcrumb.kopa-breadcrumb header.style-1 .widget-title {
+  padding-right: 81px;
+}
+.kopa-breadcrumb.work-breadcrumb {
+  min-height: 230px;
+}
+/*---------portfolio---------------------*/
+
+    /*-------------bussiness page------------------*/
+.wrapper {
+  width: 100%;
+  padding: 0 2%;
+}
+
+.innerpages .kopa-breadcrumb {
+  padding: 8px 0;
+}
+
+
+.businesses .horizontal_listing::before {
+  background-image: url("../images/bottomshadow2.png");
+  background-repeat: repeat-x;
+  content: "";
+  height: 359px;
+  left: -10px;
+  position: absolute;
+  top: -2px;
+  width: 114%;
+  z-index: -1;
+  display: none;
+}
+.businesses .horizontal_listing {
+  display: block !important;
+  margin: 33px 0 !important;
+  position: absolute !important;
+  top: 138px !important;
+  width: 96% !important;
+  z-index: 1;
+}
+
+.businesses .kopa-breadcrumb.imageBreadcrumb {
+  background-position: -394px 30px !important;
+  background-size: 831px auto;
+  min-height: 387px;
+}
+/*.kopa-breadcrumb.imageBreadcrumb.scroll-big-content {
+  min-height: 356px;
+}*/
+.businesses .kopa-breadcrumb:first-child .horizontal_listing li {
+  display: block;
+}
+
+.kopa-breadcrumb.imageBreadcrumb.bg-left {
+  background-position: -68px 79px !important;
+}
+
+.arrow-bounce {
+  bottom: 0;
+}
+
+.businesses .horizontal_listing.text-left {
+  float: left;
+  left: 0;
+}
+.kopa-newsletter-widget .newsletter-form .input-area > input {
+  font-size: 16px;
+}
+.kopa-newsletter-widget {
+  width: 100%;
+}
+
+#bottom-sidebar {
+  padding: 0 0;
+}
+#bottom-sidebar ul.clearfix li {
+  padding-bottom: 0;
+}
+
+.widget header.style-1 p {
+  width: 94%;
+}
+
+.owl-item .member-item {
+  padding: 0 13px;
+}
+
+
+#bottom-sidebar .wrapper {
+  width: 100%;
+}
+#bottom-sidebar .col-xs-6 {
+  width: 33.33%;
+}
+
+.normalBreadcrumb.kopa-breadcrumb .page-title.dancingScript h1 {
+  font-size: 32px;
+}
+/*-------------bussiness page------------------*/
+/*----------------directors----------------*/
+.name {
+  text-align: center;
+}
+
+.push-9 {
+  left: 0  !important;
+}
+
+.pull-3 {
+  right: 0  !important;
+}
+.text-right {
+  text-align: left !important;
+}
+#bottom-sidebar .widget {
+  margin-bottom: 0;
+  margin-top: 6px;
+}
+#subscribe.md-button {
+  margin: 0 auto;
+}
+/*----------------directors----------------*/
+
+/*----------------careers----------------*/
+.careers .kopa-breadcrumb .page-title h1 {
+  left: -6px;
+  position: relative;
+  top: 72px;
+    min-height: 127px;
+}
+
+.wizstar > img {
+  left: -8px;
+  position: relative;
+  top: -18px;
+  width: 152px;
+}
+.freelancer {
+  position: relative;
+  top: -102px;
+}
+
+.jobListing {
+  min-height: 200px;
+  padding: 20px;
+  width: 100%;
+}
+.careers .my-pop-up.modal {
+  overflow-y: scroll;
+  top: 113px;
+}
+.kopa-button {
+  position: relative;
+  z-index: 9999;
+}
+#kopa-header .mobile-menu-icon, .kopa-header .mobile-menu-icon {
+  top: 20px; }
+  
+/*----------------careers----------------*/
+
+/*--------------contact---------------------*/
+.kopa-breadcrumb.googlemap {
+  padding: 0 !important;
+}
+#floating-panel .wrapper {
+  width: 100%;
+}
+/*--------------contact---------------------*/
+}
+
+
+
+@media only screen and (min-width: 601px) and (max-width: 900px){
+    
+     /*----*/
+     .wizcraft_mime .member-item {
+  width: 50%;
+}
+
+.course-ul {
+  min-height: auto;
+}
+      /*----*/
+  .wrapper {
+  padding: 0 14px;
+  width: 100%;
+}
+
+.kopa-header.style2 .kopa-header-bottom .menu-wrapper, .kopa-header.style3 .kopa-header-bottom .menu-wrapper {
+  padding-top: 60px;
+  height: auto;
+}
+
+.kopa-header-bottom .menu-wrapper .wrapper {
+  top: -35px;
+}
+
+/*.homeAbout {
+  position: relative;
+  top: 23px;
+  width: 58%;
+}*/
+
+.growth-story .homeAbout {
+  position: relative;
+  top: 23px;
+  width: 100%;
+}
+
+.kopa-area-3 .ab-bg {
+  display: block;
+  width: 91%;
+  right: -163px;
+}
+
+.bannerscollection_zoominout_text_line.textElement31_generousFullWidth .newFS {
+  font-size: 39px !important;
+  line-height: 41px !important;
+  text-shadow: 0 0 6px #000;
+}
+.textElement31_generousFullWidth {
+  font-size: 15px !important;
+  left: -30px !important;
+  line-height: 52px;
+  position: relative;
+  text-align: center;
+  top: 9px !important;
+}
+
+.bannerscollection_zoominout.opportune .bottomNav {
+  top: 82% !important;
+  margin-top: 0 !important;
+}
+
+
+.bannerscollection_zoominout_texts {
+  left: 114px !important;
+  position: absolute;
+  top: 231px !important;
+  z-index: 2;
+}
+
+.bannerscollection_zoominout .contentHolderUnit {
+  height: 500px !important;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  width: 100% !important;
+}
+.bannerscollection_zoominout img {
+  height: 500px !important;
+  max-height: inherit;
+  max-width: inherit;
+  position: relative;
+  top: inherit !important;
+  width: 110% !important;
+}
+.bannerscollection_zoominout .contentHolder {
+  position: absolute;
+  width: 100% !important;
+}
+
+.bannerscollection_zoominout_text_line.textElement31_generousFullWidth .newFS {
+  font-size: 36px !important;
+  line-height: 40px !important;
+  margin-left: 0 !important;
+  margin-top: 0 !important;
+}
+
+#bannerscollection_zoominout_generous .owl-controls.clickable.style1 {
+  bottom: 0;
+  position: absolute;
+  width: 107%;
+  z-index: 2147483647;
+}
+
+.bannerscollection_zoominout.opportune .contentHolderVisibleWrapper {
+  height: 400px !important;
+  margin-top: 0;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  position: absolute;
+  width: 106% !important;
+}
+
+#bannerscollection_zoominout_generous .owl-controls .owl-pagination .pagination-bg {
+  bottom: 11px;
+}
+#bannerscollection_zoominout_generous .owl-controls .owl-pagination::after {
+  bottom: 11px;
+}
+
+.testi-item {
+  padding-top: 24px;
+}
+
+#bannerscollection_zoominout_generous .owl-controls.clickable.style1 {
+  bottom: 0;
+  position: absolute;
+  width: 107%;
+  z-index: 2;
+}
+
+#bannerscollection_zoominout_generous .top-bg::before {
+  border-bottom: 300px solid transparent;
+  border-left: 294px solid #e90100;
+  content: "";
+  left: 0;
+  position: absolute;
+  top: 5px;
+  z-index: 2;
+}
+
+#bannerscollection_zoominout_generous .top-bg {
+  background-color: #e90100;
+  height: 8px;
+  left: -31px;
+  position: absolute;
+  top: 0;
+  width: 166px;
+}
+
+#bannerscollection_zoominout_generous .right-bg::before {
+  border-left: 300px solid #000000;
+  border-top: 417px solid transparent;
+  left: 91%;
+  top: 0;
+}
+
+.bannerscollection_zoominout .top-bg img {
+  display: none;
+}
+#bannerscollection_zoominout_generous .right-bg {
+  background-color: #000000;
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top: -12px;
+  width: 78px;
+  z-index: 2;
+}
+.headerBG {
+  height: 102%;
+  position: absolute;
+  right: 0;
+  top: -2%;
+  width: 100%;
+}
+
+.bannerscollection_zoominout {
+  float: left;
+  height: 411px !important;
+  line-height: 20px;
+  position: relative;
+}
+
+.kopa-header-bottom #zoominoutParent_33925 {
+  height: 286px !important;
+  width: 200% !important;
+}
+.kopa-header-bottom > div {
+  top: 68px;
+}
+
+.textElement32_generousFullWidth {
+  display: none;
+}
+.bannerscollection_zoominout.opportune .bannerControls {
+  top: 30% !important;
+  width: 91%;
+}
+.normalBreadcrumb.kopa-breadcrumb .page-title.dancingScript h1 {
+  font-size: 22px;
+}
+.videooverlay {
+  height: 212px;
+  overflow: hidden;
+  position: absolute;
+  top: 90px;
+  width: 85%;
+}
+
+.videooverlay > img {
+  max-width: 193%;
+}
+
+.ourbrands {
+  padding: 0;
+}
+
+.homepage .pad-left-big {
+  padding-left: 16px;
+}
+
+.kopa-testimonial-widget .kopa-quotes {
+  font: italic 300 14px/22px "Raleway",sans-serif;
+  padding: 0 27px;
+  position: relative;
+}
+.kopa-testimonial-widget p.job {
+  margin-bottom: 40px;
+  margin-right: 35px;
+  text-align: right;
+}
+
+.parallex-area {
+  height: 239px;
+}
+
+.parallex-area .entry-name {
+  font: bold 34px/47px "Dancing Script",serif;
+}
+.fbheading > img, .twitheading > img, .instaheading > img {
+  width: 106px;
+  padding-top: 10px;
+}
+
+.col-md-5.col-sm-5.col-xs-12.videobox {
+  margin: 0 auto;
+  position: relative;
+  top: 78px;
+  width: 242px;
+}
+
+.main-video {
+  height: 184px;
+}
+
+.fb_iframe_widget {
+  display: table  !important;
+  position: relative;
+  margin: 0 auto !important;
+  float: none;
+}
+
+.kopa-post-list-widget .col-md-4 {
+  margin-right: 1%;
+  width: 32.33%;
+  min-height: 313px;
+}
+
+.like-btn {
+  text-align: center;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+}
+
+/*-----------------home----------------*/  
+    /*---------about---*/
+html .imageBreadcrumb .page-title {
+  display: block !important;
+  left: -52px !important;
+  padding-top: 0;
+  top: 28px;
+}
+.imageBreadcrumb .page-title h1 strong {
+  font-size:  26px !important;
+}
+
+.videoHolder {
+  margin-left: 20px;
+  margin-top: 41px;
+  width: 270px;
+}
+.videoHolder::after {
+  right: -172%;
+  top: 38%;
+  width: 281%;
+  z-index: -1;
+}
+.about-videobox .videooverlay {
+  height: 169px;
+  left: -3px;
+  position: absolute;
+  top: 11px;
+  width: 93%;
+}
+
+
+.about-videobox .videooverlay > img {
+  border: medium none;
+  max-width: 144%;
+}
+
+#main-content .kopa-area {
+  padding-top: 7px;
+}
+/*.innerpages .kopa-breadcrumb.imageBreadcrumb{
+  background-position: -126px 0;
+  background-size: cover;
+     min-height: 239px;
+}*/
+
+.innerpages .kopa-breadcrumb.imageBreadcrumb {
+  background-position: 0 59px;
+  background-size: 100% auto;
+  min-height: 239px;
+}
+
+.pl-50 {
+  padding-left: 12px;
+}
+
+.kopa-newsletter-widget .newsletter-form .input-area {
+  margin-bottom: 0;
+  margin-right: 15px;
+  width: 60%;
+}
+.newsletter-content {
+  margin-top: 15px;
+}
+.communicationandentrainment .col-md-7, .communicationandentrainment .col-md-5 {
+  width: 50%;
+}
+
+/*------------about----*/
+
+
+/*----------growth story-----------*/
+#timeline {
+  margin: 0 auto !important;
+  width: 600px !important;
+}
+.autoplay-btn, .stop-btn {
+  right: 33px;
+}
+header.style-1 .widget-title {
+  font-size:34px;
+}
+
+#issues li p {
+  left: -134px;
+  position: absolute;
+  top: 224px;
+  width: 243%;
+}
+
+
+#next {
+  right: 38px !important;
+}
+#prev {
+  left: 0 !important;
+}
+
+/*----------growth story-----------*/
+
+/*---------portfolio---------------------*/
+.single-image-wrap {
+  height: auto;
+  overflow: hidden;
+  width: 100%;
+}
+.work .slideBreadcrumb .page-title {
+  margin-top: 0px !important;
+}
+.portfilioWraper {
+  margin-top: -18px;
+}
+
+.filterBg {
+  height: 65px;
+  margin-top: -5px !important;
+}
+
+.filterWrapper {
+  height: 39px;
+  margin: 1px;
+  width: 24%;
+}
+
+.filterWrapper > a > i {
+  padding: 11.1px 22px;
+}
+.kopa-portfolio-2-widget .filters-options {
+  z-index: 9;
+}
+
+.kopa-portfolio-2-widget .filterWrapper.supermegaFilter .filters-options {
+  width: 200%;
+}
+
+.kopa-portfolio-2-widget .filterWrapper.supermegaFilter .filters-options li {
+  width: 50%;
+}
+
+.kopa-portfolio-2-widget .portfolio-container .portfolio-list-item > li {
+  margin-bottom: 20px !important;
+  width: 30%;
+}
+
+#colorbox, #cboxContent, #cboxLoadedContent, #colorbox img {
+  max-width: 100% !important;
+  height: auto !important;
+}
+
+.mfp-wrap {
+  z-index: 99999999 !important;
+}
+.mfp-bg {
+  z-index: 99999999 !important;
+}
+
+#colorbox, #cboxOverlay, #cboxWrapper {
+  z-index: 999999999 !important;
+}
+
+
+.mfp-container .kopa-area {
+  padding-top: 0;
+}
+
+.white-popup-block {
+  margin: 15px auto !important;
+  max-width: 96% !important;
+  padding: 21px 0 !important;
+}
+.kopa-portfolio-widget .masonry-wrapper .width1, .kopa-portfolio-widget .masonry-wrapper .width2 {
+  width: 46% !important;
+   height: auto !important;
+}
+html .element.all.width3 {
+  height: auto;
+  overflow: hidden;
+  width: 31% !important;
+}
+
+.kopa-portfolio-widget .masonry-wrapper .element {
+  width: 15%;
+  height: auto;
+  overflow: hidden;
+  float:left;
+}
+
+#colorbox, #cboxContent, #cboxLoadedContent, #colorbox img {
+  height: auto !important;
+  max-width: 100%;
+}
+
+html .element.width4.all {
+  height: auto;
+  overflow: hidden;
+  width: 32%;
+}
+
+.white-popup-block {
+  height: 400px;
+  overflow: scroll;
+}
+
+.content {
+  overflow:scroll !important;
+  height:auto !important;
+}
+.kopa-post-list-widget h5 {
+  font-size: 36px;
+}
+
+#colorbox {
+  height: 300px !important;
+  position: fixed !important;
+  top: 12% !important;
+  width: 100% !important;
+}
+.filterWrapper > a {
+  width: 100%;
+}
+
+.portfilioWraper .prjectDetailWrap {
+  min-height: 135px;
+}
+.kopa-portfolio-widget .element.width-2 {
+  width: 50% !important;
+}
+.kopa-portfolio-widget .element.width-3, .kopa-portfolio-widget .element.width-4 {
+  width: 24% !important;
+}
+
+.kopa-portfolio-2-widget .filterWrapper.megaFilter .filters-options {
+  left: -254px;
+  width: 200%;
+}
+
+.slideBreadcrumb .page-title {
+  margin-top: 20px;
+}
+
+
+.mfp-content .col-sm-4 {
+  width: 100%;
+}
+
+.slideBreadcrumb.kopa-breadcrumb header.style-1 .widget-title {
+  padding-right: 81px;
+}
+
+.kopa-breadcrumb.work-breadcrumb {
+  min-height: 230px;
+}
+
+/*---------portfolio---------------------*/
+
+    /*-------------bussiness page------------------*/
+.wrapper {
+  width: 100%;
+  padding: 0 2%;
+}
+.innerpages .kopa-breadcrumb {
+  padding: 8px 0;
+}
+
+.businesses .wrapper {
+  padding: 0;
+  width: 100%;
+}
+.businesses .horizontal_listing::before {
+  background-image: url("../images/bottomshadow2.png");
+  background-repeat: repeat-x;
+  content: "";
+  height: 359px;
+  left: -10px;
+  position: absolute;
+  top: -2px;
+  width: 114%;
+  z-index: -1;
+  display: none;
+}
+
+
+.businesses .horizontal_listing {
+  display: block !important;
+  margin: 33px 10px !important;
+  position: absolute !important;
+  top: 94px !important;
+  width: 78% !important;
+  z-index: 1;
+}
+
+.businesses .kopa-breadcrumb.imageBreadcrumb {
+  background-position: -18px 30px !important;
+  background-size: 831px auto;
+  min-height: 273px;
+}
+/*.kopa-breadcrumb.imageBreadcrumb.scroll-big-content {
+  min-height: 356px;
+}*/
+.businesses .kopa-breadcrumb:first-child .horizontal_listing li {
+  display: block;
+}
+
+.kopa-breadcrumb.imageBreadcrumb.bg-left {
+  background-position: -68px 36px !important;
+}
+
+.arrow-bounce {
+  bottom: 0;
+}
+
+.businesses .horizontal_listing.text-left {
+  float: left;
+  left: 0;
+}
+.kopa-newsletter-widget .newsletter-form .input-area > input {
+  font-size: 16px;
+}
+.kopa-newsletter-widget {
+  width: 100%;
+}
+
+#bottom-sidebar {
+  padding: 0 0;
+}
+#bottom-sidebar ul.clearfix li {
+  padding-bottom: 0;
+}
+
+.widget header.style-1 p {
+  width: 94%;
+}
+
+.owl-item .member-item {
+  padding: 0 13px;
+}
+
+
+#bottom-sidebar .wrapper {
+  width: 100%;
+}
+#bottom-sidebar .col-xs-6 {
+  width: 33.33%;
+}
+
+.normalBreadcrumb.kopa-breadcrumb .page-title.dancingScript h1 {
+  font-size: 32px;
+}
+/*-------------bussiness page------------------*/
+
+/*----------------directors----------------*/
+
+.push-9 {
+  left: 0  !important;
+}
+
+.pull-3 {
+  right: 0  !important;
+}
+.text-right {
+  text-align: left !important;
+}
+#bottom-sidebar .widget {
+  margin-bottom: 0;
+  margin-top: 10px;
+}
+
+.homeAbout .col-md-3 {
+  float: left;
+  width: 27%;
+}
+
+.homeAbout .col-md-9 {
+  float: left;
+  width: 70%;
+}
+
+.homeAbout .avatar {
+  height: 100%;
+  width: 100%;
+}
+/*----------------directors----------------*/
+
+/*----------------careers----------------*/
+.careers .kopa-breadcrumb .page-title h1 {
+  left: -6px;
+  position: relative;
+  top: 72px;
+    min-height: 127px;
+}
+
+.wizstar > img {
+  left: -8px;
+  position: relative;
+  top: -18px;
+  width: 152px;
+}
+.careers .my-pop-up.modal {
+  overflow-y: scroll;
+  top: 113px;
+}
+
+
+
+.jobListing {
+  min-height: 294px;
+  position: relative;
+  width: 48%;
+}
+
+.jobListing .applybtn {
+  bottom: 4px;
+  color: #606060;
+  position: absolute;
+  right: 25px;
+  z-index: 9999;
+}
+/*----------------careers----------------*/
+
+/*--------------contact---------------------*/
+.kopa-breadcrumb.googlemap {
+  padding: 0 !important;
+}
+#floating-panel .wrapper {
+  width: 100%;
+}
+/*--------------contact---------------------*/
+
+}
+
+@media only screen and (min-width: 801px) and (max-width: 1071px){
+    .course-info .col-sm-12 {
+      width: 33.33%;
+    }
+    .text-style3 .pull-right {
+  font-size: 14px;
+  width: 100%;
+}
+
+.course-ul {
+  min-height: 300px;
+}
+
+}
+
+@media only screen and (min-width: 900px) and (max-width: 1290px) and (min-height: 700px) and (max-height: 900px){
+    .businesses .kopa-breadcrumb.imageBreadcrumb {
+  min-height: 500px;
+  background-size: 120% !important;
+}
+    
+    }
+    
+    @media only screen and (min-width: 750px) and (max-width: 900px) and (min-height: 1000px) and (max-height: 1300px){
+  			.businesses .kopa-breadcrumb.imageBreadcrumb {
+              background-position: 0 -86px !important;
+              background-size: 928px auto;
+              min-height: 304px;
+              background-attachment: scroll;
+            }
+            
+            .businesses .horizontal_listing {
+              top: 118px !important;
+            }
+
+    }
+    
+    /*---------------ipad-----------------*/
+    .ipad .businesses .kopa-breadcrumb.imageBreadcrumb {
+              background-position: 0 -86px !important;
+              background-size: 928px auto;
+              min-height: 360px;
+              background-attachment: scroll;
+            }
+            
+           .ipad .businesses .horizontal_listing {
+              top: 185px !important;
+            }
+            
+            .ipad .kopa-area.kopa-area-3.expertise {
+background-attachment: scroll;
+}
+
+            
+  @media only screen and (min-width: 701px) and (max-width: 900px){          
+            .ipad .businesses .kopa-breadcrumb.imageBreadcrumb {
+background-position: 0 -43px !important;
+background-size: 928px auto;
+min-height: 370px;
+background-attachment: scroll;
+}
+
+
+.ipad .businesses .horizontal_listing {
+top: 149px !important;
+}
+
+  }
+     /*---------------ipad-----------------*/       
+    
+@media only screen and (min-width: 701px) and (max-width: 900px){
+    .widget header.style-1 .widget-title {
+  font: bold 31px/60px "Dancing Script",serif;
+}
+.kopa-portfolio-widget .col-md-6 {
+  width: 50%;
+}
+
+.homepage .pad-left-big {
+  padding-left: 43px;
+}
+
+.homepage .widget.kopa-portfolio-widget header.style-1 {
+  min-height: 283px;
+}
+
+.kopa-area-18 .col-md-6 {
+  width: 50%;
+}
+
+}
+
+@media only screen and (min-width: 901px) and (max-width: 1100px){
+ .our_brands .widget header.style-1 .widget-title {
+  font-size: 46px;
+}
+
+
+}
+
+@media only screen and (min-width: 901px) and (max-width: 1140px){
+.course-div .member-item .icon-box {
+  float: none;
+  margin: 0 auto;
+}
+.course-div .details {
+  float: left;
+  min-height: 125px;
+  width: 100%;
+}
+}
+
+@media only screen and (min-height: 901px) and (max-height: 1200px){
+.intro {
+  background-position: -500px 0 !important;
+}
+.IntroLogo {
+  top: 37% !important;
+}
+.absolutediv {
+  left: 30% !important;
+  top: 800px !important;
+}
+
+
+
+
+}
+
+
+@media only screen and (min-width: 800px) and (max-width: 1000px) and (min-height: 1200px) {
+.intro {
+  background-position: -500px 0 !important;
+}
+
+.absolutediv {
+  left: 30% !important;
+  top: 800px !important;
+}
+
+}
+
+@media only screen and (min-width: 300px) and (max-width: 348px){
+html .popup-style .element.all.width3, html .popup-style .element.all.width4
+{
+ height: 50px;
+ width:31%;
+}
+
+.popup-style .kopa-portfolio-widget .masonry-wrapper .element {
+ height: 50px;
+    margin: 1px;
+    width: 18%;
+}
+.popup-style  .kopa-portfolio-widget .four_columns .element.width-3, .kopa-portfolio-widget .four_columns .element.width-4 {
+  width: 25% !important;
+}
+.popup-style  .kopa-portfolio-widget .four_columns.masonry-wrapper .element.seven_box2 {
+  height: 92px;
+  margin: 1px;
+}
+.popup-style  .kopa-portfolio-widget .four_columns.masonry-wrapper .element{
+  height: 46px;
+  margin: 1px;
+}
+.popup-style  .kopa-portfolio-widget .four_columns .element.width-2 {
+  width: 50% !important;
+}
+
+}
+
+@media only screen and (min-width: 349px) and (max-width: 480px){
+html .popup-style .element.all.width3, html .popup-style .element.all.width4 {
+   height: 70px;
+    width: 31%;
+}
+
+.popup-style .kopa-portfolio-widget .masonry-wrapper .element {
+  height: 70px;
+    margin: 1px;
+    width: 16%;
+}
+
+.popup-style  .kopa-portfolio-widget .four_columns.masonry-wrapper .element.seven_box3 img, .popup-style  .kopa-portfolio-widget .four_columns.masonry-wrapper .element.seven_box4 img, .element.seven_box7 img {
+  max-width: 199%;
+  width: 195%;
+}
+
+.popup-style  .kopa-portfolio-widget .four_columns.masonry-wrapper .element.seven_box2 {
+  height: 107px;
+  margin: 1px;
+}
+.popup-style  .kopa-portfolio-widget .four_columns.masonry-wrapper .element{
+  height: 70px;
+  margin: 1px;
+}
+.popup-style  .kopa-portfolio-widget .four_columns .element.width-2 {
+  width: 50% !important;
+}
+.popup-style  .kopa-portfolio-widget .four_columns.masonry-wrapper .width-3, .popup-style  .kopa-portfolio-widget .four_columns.masonry-wrapper .width-4 {
+  width: 24% !important;
+}
+
+}
+
+@media only screen and (min-width: 481px) and (max-width: 600px){
+html .popup-style .element.all.width3, html .popup-style .element.all.width4
+{
+ height: 75px;
+ width:31%;
+}
+
+.popup-style .kopa-portfolio-widget .masonry-wrapper .element {
+  height: 75px;
+  width:18%;
+}
+.popup-style  .kopa-portfolio-widget .four_columns.masonry-wrapper .element.seven_box2 {
+  height: 175px;
+}
+.popup-style  .kopa-portfolio-widget .four_columns.masonry-wrapper .element{
+  height: 95px;
+}
+
+}
+
+@media only screen and (min-width: 601px) and (max-width: 750px){
+html .popup-style .element.all.width3, html .popup-style .element.all.width4
+{
+ height: 100px;
+ width:31%;
+}
+
+.popup-style .kopa-portfolio-widget .masonry-wrapper .element {
+  height: 100px;
+  width:18%;
+}
+.popup-style  .kopa-portfolio-widget .four_columns.masonry-wrapper .element.seven_box2 {
+  height: 175px;
+}
+.popup-style  .kopa-portfolio-widget .four_columns.masonry-wrapper .element{
+  height: 95px;
+}
+.popup-style  .kopa-portfolio-widget .four_columns.masonry-wrapper .width1 {
+  height: auto !important;
+  width: 36% !important;
+}
+
+}
+
+@media only screen and (min-width: 751px) and (max-width: 900px){
+html .popup-style .element.all.width3, html .popup-style .element.all.width4
+{
+ height: 129px;
+ width:31%;
+}
+
+.popup-style .kopa-portfolio-widget .masonry-wrapper .element {
+  height: 129px;
+  width:18%;
+}
+
+.popup-style  .kopa-portfolio-widget .four_columns.masonry-wrapper .element.seven_box2 {
+  height: 175px;
+}
+.popup-style  .kopa-portfolio-widget .four_columns.masonry-wrapper .element{
+  height: 95px;
+}
+.popup-style  .kopa-portfolio-widget .four_columns.masonry-wrapper .width1 {
+  height: auto !important;
+  width: 29% !important;
+}
+
+}
+
+@media only screen and (min-width: 901px) and (max-width: 991px){
+html .popup-style .element.all.width3, html .popup-style .element.all.width4
+{
+ height: 129px;
+ width:31%;
+}
+
+.popup-style .kopa-portfolio-widget .masonry-wrapper .element {
+  height: 129px;
+  width:15%;
+}
+.popup-style  .kopa-portfolio-widget .four_columns.masonry-wrapper .element.seven_box2 {
+  height: 175px;
+}
+.popup-style  .kopa-portfolio-widget .four_columns.masonry-wrapper .element{
+  height: 95px;
+}
+.popup-style  .kopa-portfolio-widget .four_columns.masonry-wrapper .width1 {
+  height: auto !important;
+  width: 29% !important;
+}
+
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1200px){
+html .popup-style .element.all.width3, html .popup-style .element.all.width4
+{
+ height: 98px;
+ width:31%;
+}
+
+.popup-style .kopa-portfolio-widget .masonry-wrapper .element {
+  height: 98px;
+  width:17%;
+}
+.popup-style  .kopa-portfolio-widget .four_columns.masonry-wrapper .width1 {
+  height: auto !important;
+  width: 29% !important;
+}
+.white-popup-block .col-md-8 {
+  width: 58.667%;
+}
+.mfp-content .col-sm-4 {
+  width: 36% !important;
+}
+}
+
+@media only screen and (min-width: 1201px) and (max-width: 1300px){
+    .white-popup-block {
+  height: 400px;
+  min-height: 400px;
+  overflow-y: scroll;
+}
+.white-popup-block .col-md-8 {
+  width: 787px !important;
+}
+
+.mfp-content .white-popup-block .col-sm-4 {
+  width: 68% !important;
+}
+
+
+}
+
+@media only screen and (min-width: 901px) and (max-width: 1200px){
+    
+   
+    /*----home------------*/
+   .kopa-header-bottom #zoominoutParent_90274 {
+  position: relative !important;
+  top: 69px !important;
+  min-height: 455px !important;
+}
+
+.bannerscollection_zoominout {
+  float: left;
+  line-height: 20px;
+  position: relative;
+  top: 45px !important; 
+}
+
+.homepage #main-content {
+  position: relative;
+  padding-top: 66px;
+}
+
+.headerBG .top-bg img {
+  display: none;
+}
+    /*----home------------*/
+    
+    
+    /*---------about---*/
+html .imageBreadcrumb .page-title {
+  display: block !important;
+  left: -52px !important;
+  padding-top: 0;
+  top: 28px;
+}
+.imageBreadcrumb .page-title h1 strong {
+  font-size:  26px !important;
+}
+
+.videoHolder {
+  margin-left: 20px;
+  margin-top: 41px;
+  width: 365px;
+}
+.about-videobox .videooverlay {
+  height: 169px;
+  left: -3px;
+  position: absolute;
+  top: 11px;
+  width: 93%;
+}
+
+
+.about-videobox .videooverlay > img {
+  border: medium none;
+  max-width: 144%;
+}
+
+#main-content .kopa-area {
+  padding-top: 7px;
+}
+.businesses .kopa-breadcrumb.imageBreadcrumb {
+  background-position: 0 0;
+  background-size: cover;
+     min-height: 239px;
+}
+.pl-50 {
+  padding-left: 12px;
+}
+
+.kopa-newsletter-widget .newsletter-form .input-area {
+  margin-bottom: 0;
+  margin-right: 15px;
+  width: 60%;
+}
+.newsletter-content {
+  margin-top: 15px;
+}
+/*------------about----*/
+
+/*----------growth story-----------*/
+#timeline {
+  margin: 0 auto !important;
+  width: 900px !important;
+}
+.autoplay-btn, .stop-btn {
+  right: 33px;
+}
+
+
+#next {
+  right: 0 !important;
+}
+#prev {
+  left: 0 !important;
+}
+
+/*----------growth story-----------*/
+
+/*---------portfolio---------------------*/
+.work .slideBreadcrumb .page-title {
+  margin-top: 0px !important;
+}
+.portfilioWraper {
+  margin-top: -18px;
+}
+
+.filterBg {
+  height: 65px;
+  margin-top: -5px !important;
+}
+
+.filterWrapper {
+  height: 39px;
+  margin: 1px;
+  width: 24%;
+}
+
+.filterWrapper > a > i {
+  padding: 11.1px 22px;
+}
+.kopa-portfolio-2-widget .filters-options {
+  z-index: 9;
+}
+
+.kopa-portfolio-2-widget .filterWrapper.supermegaFilter .filters-options {
+  width: 200%;
+}
+
+.kopa-portfolio-2-widget .filterWrapper.supermegaFilter .filters-options li {
+  width: 50%;
+}
+
+.kopa-portfolio-2-widget .portfolio-container .portfolio-list-item > li {
+  margin-bottom: 20px !important;
+  width: 30%;
+}
+
+#colorbox, #cboxContent, #cboxLoadedContent, #colorbox img {
+  max-width: 100% !important;
+  height: auto !important;
+}
+
+.mfp-wrap {
+  z-index: 99999999 !important;
+}
+.mfp-bg {
+  z-index: 99999999 !important;
+}
+
+#colorbox, #cboxOverlay, #cboxWrapper {
+  z-index: 999999999 !important;
+}
+
+
+.mfp-container .kopa-area {
+  padding-top: 0;
+}
+
+.white-popup-block {
+  margin: 15px auto !important;
+  max-width: 96% !important;
+  padding: 21px 0 !important;
+}
+.kopa-portfolio-widget .masonry-wrapper .width1, .kopa-portfolio-widget .masonry-wrapper .width2 {
+  width: 46% !important;
+   height: auto !important;
+}
+/*html .element.all.width3 {
+  height: auto;
+  overflow: hidden;
+  width: 31% !important;
+}*/
+
+html .element.all.width3 {
+  height: auto;
+  overflow: hidden;
+  width: 31% !important;
+}
+.kopa-portfolio-widget .masonry-wrapper .element {
+  width: 15%;
+  height: auto;
+  overflow: hidden;
+  float:left;
+}
+
+#colorbox, #cboxContent, #cboxLoadedContent, #colorbox img {
+  height: auto !important;
+  max-width: 100%;
+}
+
+html .element.width4.all {
+  height: auto;
+  overflow: hidden;
+  width: 32%;
+}
+
+
+
+.white-popup-block {
+  height: 400px;
+  overflow: scroll;
+}
+
+.content {
+  overflow:scroll !important;
+  height:auto !important;
+}
+.kopa-post-list-widget h5 {
+  font-size: 36px;
+}
+
+#colorbox {
+  height: 300px !important;
+  position: fixed !important;
+  top: 12% !important;
+  width: 100% !important;
+}
+.filterWrapper > a {
+  width: 100%;
+}
+
+
+.kopa-portfolio-widget .element.width-2 {
+  width: 50% !important;
+}
+.kopa-portfolio-widget .element.width-3, .kopa-portfolio-widget .element.width-4 {
+  width: 24% !important;
+}
+
+.kopa-portfolio-2-widget .filterWrapper.megaFilter .filters-options {
+  left: -254px;
+  width: 200%;
+}
+
+.slideBreadcrumb .page-title {
+  margin-top: 20px;
+}
+.mfp-content .col-sm-4 {
+  width: 100%;
+}
+
+.slideBreadcrumb.kopa-breadcrumb header.style-1 .widget-title {
+  padding-right: 81px;
+}
+
+.kopa-breadcrumb.work-breadcrumb {
+  min-height: 230px;
+}
+
+/*---------portfolio---------------------*/
+
+
+    /*-------------bussiness page------------------*/
+
+.innerpages .kopa-breadcrumb {
+  padding: 8px 0;
+}
+
+.businesses .wrapper {
+  padding: 0;
+  width: 100%;
+}
+.businesses .horizontal_listing::before {
+  background-image: url("../images/bottomshadow2.png");
+  background-repeat: repeat-x;
+  content: "";
+  height: 359px;
+  left: -10px;
+  position: absolute;
+  top: -2px;
+  width: 114%;
+  z-index: -1;
+  display: none;
+}
+
+
+.businesses .horizontal_listing {
+  margin: 33px 57px !important;
+  position: absolute !important;
+  top: 133px !important;
+  width: 74% !important;
+  z-index: 1;
+}
+
+.imageBreadcrumb {
+  background-size: 100% auto;
+  min-height: 299px;
+}
+
+.businesses .kopa-breadcrumb.imageBreadcrumb {
+  background-position: 0 -6px !important;
+  background-size: 1107px auto;
+  min-height: 335px;
+}
+/*.businesses .kopa-breadcrumb.imageBreadcrumb {
+  background-position: 0 30px !important;
+  background-size: 1022px auto;
+  min-height: 336px;
+}*/
+/*.kopa-breadcrumb.imageBreadcrumb.scroll-big-content {
+  min-height: 356px;
+}*/
+.businesses .kopa-breadcrumb:first-child .horizontal_listing li {
+  display: block;
+}
+
+
+
+.arrow-bounce {
+  bottom: 0;
+}
+
+.businesses .horizontal_listing.text-left {
+  float: left;
+  left: 0;
+}
+.kopa-newsletter-widget .newsletter-form .input-area > input {
+  font-size: 16px;
+}
+.kopa-newsletter-widget {
+  width: 100%;
+}
+
+#bottom-sidebar {
+  padding: 0 0;
+}
+#bottom-sidebar ul.clearfix li {
+  padding-bottom: 0;
+}
+
+.widget header.style-1 p {
+  width: 94%;
+}
+
+.owl-item .member-item {
+  padding: 0 13px;
+}
+
+
+#bottom-sidebar .wrapper {
+  width: 100%;
+}
+#bottom-sidebar .col-xs-6 {
+  width: 16.33%;
+}
+
+.normalBreadcrumb.kopa-breadcrumb .page-title.dancingScript h1 {
+  font-size: 32px;
+}
+.wrapper {
+  width: 100%;
+  padding: 0 2%;
+}
+/*-------------bussiness page------------------*/
+
+/*----------------careers----------------*/
+.careers .kopa-breadcrumb .page-title h1 {
+  left: -6px;
+  position: relative;
+  top: 72px;
+    min-height: 127px;
+}
+
+.wizstar > img {
+  left: -8px;
+  position: relative;
+  top: -18px;
+  width: 152px;
+}
+
+
+
+.jobListing {
+  min-height: 268px;
+  position: relative;
+  width: 48%;
+}
+
+.jobListing .applybtn {
+  bottom: 4px;
+  color: #606060;
+  position: absolute;
+  right: 25px;
+}
+/*----------------careers----------------*/
+
+}
+
+@media only screen and (min-width: 993px) and (max-width: 1200px){
+    #bannerscollection_zoominout_generous .top-bg::before {
+  left: -115px;
+}
+.bannerscollection_zoominout_text_line.textElement31_generousFullWidth {
+  top: 206px  !important;
+  position: absolute;
+}
+}
+
+@media only screen and (min-width:1201px) and (max-width:1300px)
+{
+    .white-popup-block .col-md-8 {
+  width: 58.667%;
+}
+.mfp-content .col-sm-4 {
+  width: 34% !important;
+}
+
+    .slideBreadcrumb {
+  min-height: 360px !important;
+}
+
+.slideBreadcrumb .page-title {
+  margin-top: 56px !important;
+}
+}
+
+@media only screen and (min-width:1201px) and (max-width:1990px)
+{
+.homepage .kopa-logo img {
+  max-width: 100%;
+  display: none;
+}
+
+.white-popup-block.career-form {
+  max-width: 54%;
+}
+
+.kopa-area-4.our_brands .widget header {
+  min-height: 178px;
+}
+.kopa-area-4.our_brands .widget .innerpage-logo header {
+  min-height: auto;
+}
+}
+@media only screen and (min-width:1700px) and (max-width:1799px)
+{
+    #bannerscollection_zoominout_generous .right-bg::before {
+  border-left: 671px solid #000000 !important;
+  border-top: 805px solid transparent !important;
+}
+}
+
+@media only screen and (min-width:1800px) and (max-width:1990px)
+{
+#bannerscollection_zoominout_generous .right-bg::before {
+  border-bottom: 0 solid transparent;
+  border-left: 1019px solid #000000 !important;
+  border-top: 1336px solid transparent !important;
+  content: "";
+  left: 71%;
+  position: absolute;
+  top: 0;
+}
+}
+
+@media only screen and (min-width:1600px) and (max-width:2560px)
+{
+    
+    .contactinfo.homepage-contact {
+      top: 34% ;
+      position: absolute;
+    }
+    
+   .businesses .kopa-breadcrumb.imageBreadcrumb {
+      min-height: 500px ;
+      background-size: 100%;
+      background-position: 0 -79px;
+    }
+    
+    .intro {
+    background-size: cover !important;
+    background-position: 0 0 !important;
+	}
+
+.businesses .kopa-breadcrumb.imageBreadcrumb:first-child {
+  background-position: 0 -46px;
+}
+.kopa-breadcrumb.imageBreadcrumb {
+  background-size: 100% auto;
+}	
+  
+}

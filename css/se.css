@@ -1,0 +1,240 @@
+
+*{
+border: 0px;
+margin: 0px;
+padding: 0px;
+
+
+}
+
+#container header{
+text-align: center;
+	height: 100px;
+	background: #dbdbdb;
+	width: 100%;
+	z-index: 10;
+	font-size: 200px;
+}
+#banner{
+	text-align: center;
+}
+#content{
+
+	text-align: center;
+}
+hr{
+
+margin-left: 10%;
+outline-color: yellow;
+
+}
+h1{
+text-align:  center;
+margin-top: 10px;
+color: white;
+font-size: 400%;
+font-weight: 10px;
+font-family: Tahoma;
+font-kerning: 100%;
+text-shadow: 4px 4px 7px #666;
+}
+.parallax {
+
+
+	background: url("http://www.freepsdfile.com/wp-content/uploads/2014/04/Free-Black-Wood-Background-PSD.jpg");
+
+}
+.parallax .parallax-inner{
+padding-top: 10%;
+padding-bottom: 10%;
+
+}
+h2{
+
+font-size: 425%;
+padding-top: 0%;
+padding-bottom: 8%;
+font-stretch: 10%;
+font-kerning: 10%;
+font-family: tahoma;
+color: #333;
+margin-left: 7%;
+
+}
+#opo .parallax-inner p{
+font-size: 22px;
+
+font-kerning: unset;
+text-overflow: ellipsis;
+color: white;
+margin-left: 10%;
+font-variant: small-caps;
+text-shadow: 2.3px 2px 1px #175;
+
+
+font-family: -webkit-column-fill: 10px ;
+-moz-column-fill: 10px;
+-o-column-fill: 10px;
+column-fill: 10px;
+}
+ #opo .parallax-inner h4
+{
+font-stretch: 50px;
+font-style: all;
+	color: #999;
+	margin-left: 10%;
+	font-size: 400%;
+	font-synthesis: 200px;
+	backface-visibility: 40%;
+	baseline-shift: 10%;
+	scroll-behavior: 50px;
+
+}
+#oye .parallax-inner{
+
+
+	background: url("http://i1.wp.com/static.web-backgrounds.net/uploads/2012/08/Abstract_Background_with_Blue_Triangles.jpg") repeat fixed 100%;
+
+
+
+	
+
+
+}
+#opo .parallax-inner{
+background: url("https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRtTjKoSWmP1f2CUR2PsnQCKFEw0dRGHg33yBc9_sFyA2Fg-jsq") repeat fixed  100%;
+
+
+
+
+
+}
+#ryo .parallax{
+background: url(" http://i1.wp.com/static.web-backgrounds.net/uploads/2012/08/Abstract_Background_with_Blue_Triangles.jpg") repeat fixed 100%;
+
+
+}
+#ryo .parallax .parallax-inner{
+
+padding-top: 10%;
+padding-bottom: 10%;
+
+}
+#ryo .parallax .parallax-inner p{
+	color: black;
+	margin-left: 10%;
+	font-size: 200%;
+
+font-family: century;
+font-variant: small-caps;
+
+
+font-kerning: auto;
+
+
+flood-color: rgba();
+text-shadow: 2px 2px 3px lightyellow;
+}
+#ryo .parallax .parallax-inner h1{
+margin-left: 9%;
+text-shadow: 5px 5px 8px #416;
+text-align: left;
+text-decoration-style: solid;
+color-interpolation: linearRGB;
+text-decoration-color: hsla('ANd9GcSucyeDh8mB9lURZQ5_F4uXjzXJNY0ZzVQfy_TKPE-u-wSBNkoc');
+font-family: bold;
+font-kerning: initial;
+font-variant: small-caps;
+font-size: 470%;
+text-overflow: clip;
+
+}
+.darkBG .col-sm-4.col-xs-12{
+
+background-color: #333;
+
+}
+.darkerBG .col-sm-4.col-xs-6{
+	background-color: #666;
+}
+.darkestBG .col-sm-4.col-xs-6{
+	background-color: #999;
+}
+.panel.panel-secondary{
+	box-shadow: 5px 5px 3px blue;
+}
+.panel.panel-primary:hover{
+box-decoration-break: slice;
+box-shadow: 5px 5px 3px #666;
+
+}
+.panel.panel-secondary:hover{
+opacity: 25px;
+
+}
+.panel.panel-secondary .panel-heading:hover{
+text-shadow: 2px 2px 1.8px #891;
+font-family: bold;
+color: black;
+
+}
+
+.panel.panel-primary .panel-heading:hover{
+text-shadow: 2px 2px 1.8px #897;
+font-family: bold;
+
+color: black;
+
+}
+.panel.panel-danger .panel-heading:hover{
+text-shadow: 2px 2px 1.7px #897;
+font-variant: small-caps;
+font-family: bold;
+color: black;
+
+}
+.panel.panel-secondary .panel-body{
+
+	
+background: url("http://i1.wp.com/static.web-backgrounds.net/uploads/2012/08/Abstract_Background_with_Blue_Triangles.jpg");
+}
+
+.panel.panel-primary .panel-body{
+	background: url("https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSucyeDh8mB9lURZQ5_F4uXjzXJNY0ZzVQfy_TKPE-u-wSBNkoc");
+}
+.panel.panel-danger .panel-body{
+background: url("http://www.freepsdfile.com/wp-content/uploads/2014/04/Free-Black-Wood-Background-PSD.jpg");
+
+}
+#ishu .parallax-inner {
+
+
+	background: url(https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRtTjKoSWmP1f2CUR2PsnQCKFEw0dRGHg33yBc9_sFyA2Fg-jsq) repeat fixed 100%;
+	
+}
+
+#ishu h5{
+
+ margin-left: 10%;
+color: silver;
+font-family: century;
+font-kerning: auto;
+font-variant: small-caps;
+font-size: 280%;
+text-shadow: 2px 2px 3px pink;
+text-transform: uppercase;
+ 
+}
+#ishu .parallax .parallax-inner {
+padding:10% 0px;
+
+}
+.image{
+height: 750px;
+width: 100%;
+
+}
+#wall_1{
+
+	background: url(https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRtTjKoSWmP1f2CUR2PsnQCKFEw0dRGHg33yBc9_sFyA2Fg-jsq) repeat;
+}

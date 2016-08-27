@@ -67,11 +67,7 @@
         <link rel="apple-touch-icon" sizes="72x72" href="images/apple-touch-icon-72x72.png">
         <link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114.png">
 
-    
-	<!-- Start WOWSlider.com HEAD section --> <!-- add to the <head> of your page -->
-	<link rel="stylesheet" type="text/css" href="engine0/style.css" />
-	<!--script type="text/javascript" src="engine0/jquery.js"></script-->
-	<!-- End WOWSlider.com HEAD section --></head>
+    </head>
     
 <body class="woocommerce woocommerce-page">    
 
@@ -187,9 +183,9 @@
 
 
 		<!--<img class="stars_logo" src="images/homepage/stars.png" />-->
-		<img style="margin-top:-12%;position:top;" class="brandName" src="images/homepage/finalogo.png" style="left: 0px;">
+		<img class="brandName" src="images/homepage/logo-brand.png" style="left: 0px;">
 		<img class="logobase" src="images/homepage/logo_base.jpg" style="right: 0px;">
-		<a href="index-header-fix.html" class="enterWebsite" style="display: inline;">Dive In To The Ocean</a>
+		<a href="index-header-fix.html" class="enterWebsite" style="display: inline;">Explore Further</a>
 		<!--<img src="images/homepage/logo.jpg" />-->
 	</div>	
 
@@ -244,6 +240,4 @@ document.write(year)
 <script type="text/javascript" src="js/adblock-functions..tclick_hook.js"></script>
 <script type="text/javascript" src="js/adblock-notificationoverlay.js"></script>
 
-</div>
-</body>
-</html>
+</div></body></html>

@@ -1,0 +1,413 @@
+@media only screen and (min-width: 320px) and (max-width: 340px){
+    .intro .stars li .introContent {
+  height: 127px;
+  left: -48px !important;
+  top: -49px;
+  width: 303px !important;
+}
+.intro .IntroLogo {
+  left: -38% !important;
+}
+
+.IntroLogo ul.stars li {
+  background-size: 19px auto;
+  height: 22px;
+  width: 22px;
+}
+
+.startwo {
+  left: 38px;
+  top: -17px;
+}
+.starthree {
+  left: 51px;
+  top: -31px;
+}
+.startfour {
+  left: 69px;
+  top: -41px;
+}
+.startfive {
+  left: 88px;
+  top: -49px;
+}
+.startsix {
+  left: 109px;
+  top: -53px;
+}
+.startseven {
+  left: 128px;
+  top: -53px;
+}
+.starteight {
+  left: 144px;
+  top: -52px;
+}
+.startnine {
+  left: 158px;
+  top: -51px;
+}
+
+.startten {
+  left: 172px;
+  top: -45px;
+}
+
+.starteleven {
+  left: 184px;
+  top: -39px;
+}
+
+.starttwleve {
+  left: 194px;
+  top: -32px;
+}
+
+.starttherteen {
+  left: 203px;
+  top: -24px;
+}
+
+.startfourteen {
+  left: 210px;
+  top: -17px;
+}
+.startfifteen {
+  left: 215px;
+  top: -10px;
+}
+.startsixteen {
+  left: 220px;
+  top: -3px;
+}
+.startseventeen {
+  left: 224px;
+  top: 6px;
+}
+.starteighteen {
+  left: 226px;
+  top: 12px;
+}
+
+.startninteen {
+  left: 229px;
+  top: 19px;
+}
+
+.starttwenty {
+  left: 231px;
+  top: 25px;
+}
+.starttwentone {
+  left: 232px;
+  top: 30px;
+}
+
+.starttwentytwo {
+  left: 233px;
+  top: 35px;
+}
+
+
+
+
+.IntroLogo .brandName {
+  width: 257px !important;
+}
+.logobase {
+  width: 86%;
+}
+
+}
+
+
+@media only screen and (min-width: 341px) and (max-width: 360px){
+  
+.intro .IntroLogo {
+  left: -38% !important;
+}
+
+.IntroLogo ul.stars li {
+  background-size: 19px auto;
+  height: 22px;
+  width: 22px;
+}
+
+.startwo {
+  left: 38px;
+  top: -17px;
+}
+.starthree {
+  left: 51px;
+  top: -31px;
+}
+.startfour {
+  left: 69px;
+  top: -41px;
+}
+.startfive {
+  left: 88px;
+  top: -49px;
+}
+.startsix {
+  left: 109px;
+  top: -53px;
+}
+.startseven {
+  left: 128px;
+  top: -53px;
+}
+.starteight {
+  left: 144px;
+  top: -52px;
+}
+.startnine {
+  left: 158px;
+  top: -51px;
+}
+
+.startten {
+  left: 172px;
+  top: -45px;
+}
+
+.starteleven {
+  left: 184px;
+  top: -39px;
+}
+
+.starttwleve {
+  left: 194px;
+  top: -32px;
+}
+
+.starttherteen {
+  left: 203px;
+  top: -24px;
+}
+
+.startfourteen {
+  left: 210px;
+  top: -17px;
+}
+.startfifteen {
+  left: 215px;
+  top: -10px;
+}
+.startsixteen {
+  left: 220px;
+  top: -3px;
+}
+.startseventeen {
+  left: 224px;
+  top: 6px;
+}
+.starteighteen {
+  left: 226px;
+  top: 12px;
+}
+
+.startninteen {
+  left: 229px;
+  top: 19px;
+}
+
+.starttwenty {
+  left: 231px;
+  top: 25px;
+}
+.starttwentone {
+  left: 232px;
+  top: 30px;
+}
+
+.starttwentytwo {
+  left: 233px;
+  top: 35px;
+}
+
+
+
+
+.IntroLogo .brandName {
+  width: 257px !important;
+}
+.logobase {
+  width: 86%;
+}
+
+}
+
+@media only screen and (min-width: 320px) and (max-width: 480px){
+    .footer-text {
+  display: none;
+}
+
+.intro {background-position: -366px 0;}
+.IntroLogo {
+  height: 176px;
+  left: -31% !important;
+  margin-left: 140px !important;
+  margin-top: 25px !important;
+  position: absolute;
+  top: 49% !important;
+  width: 298px;
+}
+.intro .stars {
+  left: 30px !important;
+  position: relative;
+  top: 84px;
+}
+.IntroLogo ul.stars li.bigstar {
+  background-position: 0 100%;
+  background-size: 149px auto;
+  height: 233px !important;
+  left: 11px !important;
+  top: -284px;
+}
+
+.IntroLogo .brandName {
+  margin-top: 110px;
+  width: 100%;
+}
+.intro .stars li .introContent {
+  height: 127px;
+  left: -30px;
+  top: -49px;
+  width: 325px;
+}
+.intro .stars li .introContent h3 { margin-bottom: 6px; font-size:25px; }
+.contactinfo { position: relative; width: 100%;}
+.absolutediv { left: 0; top: 545px;}
+.absolutediv ul { color: #000;list-style: outside none none;}
+.absolutediv li { margin: 0 15px; width: 100%;}
+.absolutediv .clearfix a { color: #000;}
+.enterWebsite { margin-top: 5px;}
+
+
+}
+
+@media only screen and (min-width: 400px ) and (max-width: 481px){
+.IntroLogo {
+  height: 176px;
+  left: -18% !important;
+  position: absolute;
+  top: 49% !important;
+  width: 298px;
+}
+}
+
+@media only screen and (min-width: 481px) and (max-width: 550px){
+.intro {background-position: -283px 0;}
+.IntroLogo {
+  height: 176px;
+  left:-6% !important;
+  margin-left: 140px !important;
+  margin-top: 25px !important;
+  position: absolute;
+  top: 49% !important;
+  width: 298px;
+}
+.intro .stars {
+  left: 30px !important;
+  position: relative;
+  top: 84px;
+}
+.IntroLogo ul.stars li.bigstar {
+  background-position: 128px 70% !important;
+  background-size: 220px auto;
+  height: 223px !important;
+  left: 2px !important;
+  top: -261px;
+  width: 400px !important;
+}
+
+.IntroLogo .brandName {
+  margin-top: 110px;
+  width: 284px;
+}
+.intro .stars li .introContent {
+  height: 127px;
+  left: -110px;
+  top: -49px;
+  width: 303px;
+}
+.intro .stars li .introContent h3 { margin-bottom: 6px; }
+.contactinfo { position: relative; width: 100%;}
+.absolutediv { left: 0; top: 545px;}
+.absolutediv ul { color: #000;list-style: outside none none;}
+.absolutediv li { margin: 0 15px; width: 100%;}
+.absolutediv .clearfix a { color: #000;}
+.enterWebsite { margin-top: 5px;}
+}
+
+@media only screen and (min-width: 551px) and (max-width: 767px){
+.intro {background-position: -172px 0;}
+.IntroLogo {
+  height: 176px;
+  left:16% !important;
+  margin-left: 140px !important;
+  margin-top: 25px !important;
+  position: absolute;
+  top: 49% !important;
+  width: 298px;
+}
+.intro .stars {
+  left: 30px !important;
+  position: relative;
+  top: 84px;
+}
+.IntroLogo ul.stars li.bigstar {
+  background-position: 0 77% !important;
+  background-size: 300px auto;
+  height: 300px !important;
+  left: -248px !important;
+  top: -295px;
+  width: 300px !important;
+}
+
+.IntroLogo .brandName {
+  margin-top: 110px;
+  width: 100%;
+}
+.intro .stars li .introContent {
+  height: 127px;
+  left: 69%;
+  top: -25px;
+  width: 303px;
+}
+
+.contactinfo.homepage-contact {
+  position: absolute;
+  top: -3%;
+}
+.intro .stars li .introContent h3 { margin-bottom: 6px; }
+.contactinfo { position: relative; width: 100%;}
+.absolutediv { left: 0; top: 545px;}
+
+.absolutediv li { margin: 0 15px; width: 100%;}
+
+.enterWebsite { margin-top: 5px;}
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px){
+.IntroLogo { left: 34%;}
+.IntroLogo ul.stars li.bigstar { height: 470px !important; width: 470px !important;   left: -380px !important;}
+.intro .stars li .introContent {left: 320px; top: 70px; width: 370px;}
+.contactinfo { position: relative; width: 35%;}
+.intro .stars li .introContent h3 { margin-bottom: 6px; }
+}
+
+
+
+@media only screen and (min-width: 992px) and (max-width: 1100px){
+
+.IntroLogo {left: 45%;}
+.intro .stars li .introContent { left: 400px; position: relative; text-align: left; top: 105px; width: 460px;}
+
+
+
+
+
+
+}

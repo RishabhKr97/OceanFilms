@@ -80,7 +80,7 @@ html .imageBreadcrumb .page-title {
   text-transform: none;
 }*/
 
-.imageBreadcrumb .page-title h1 strong{ color:#e80300 !important;}
+.imageBreadcrumb .page-title h1 strong{ color:#0D89F0 !important;}
 .imageBreadcrumb .page-title h1 span { color: white; display: block; font-size: 20px;}
 .imageBreadcrumb .page-title h1 { float: left !important; margin-top: 90px; text-align: right; width: 100%;}
 .innerpages .homeAbout .widget.kopa-testimonial-widget.noPadding { margin-top: 0;}
@@ -159,7 +159,7 @@ html .element.width4.all { height: 110px; overflow: hidden; width: 30%;}
 }
 
 
-.applybtn:hover {background:#e80300 !important; border:1px solid #e80300 !important;}
+.applybtn:hover {background:#0D89F0 !important; border:1px solid #0D89F0 !important;}
 
 .our_brands .widget.kopa-portfolio-widget{margin-bottom:40px;}
 .brandsTab header { padding: 22px !important;}
@@ -176,7 +176,7 @@ font-size:13px;
 color:#838383;
 }
 .readmore_btn span, .readmore_btn {transition:all 0.3s; -webkit-transition:all 0.3s; -ms-transition:all 0.3s; -o-transition:all 0.3s; -moz-transition:all 0.3s;}
-.readmore_btn:hover{color:#e80300;}
+.readmore_btn:hover{color:#0D89F0;}
 .readmore_btn:hover span { position: relative; right: -3px;}
 
   .column ul ul, .kopa-user ul, .kopa-pagination ul, .kopa-social-links ul ul, .kopa-social-links.style1 ul, .kopa-social-links.style2 ul, .kopa-social-links.style3 ul, .kopa-social-links.style4 ul, #humberger-menu .humberger-nav ul, .kopa-header ul ul, .kopa-header .kopa-main-nav .main-menu ul, .main-nav-mobile ul, .widget ul ul, .widget ol ul, .kopa-portfolio-widget .portfolio-filter .filter-options ul, .kopa-post-list-widget .related-posts ul ul, .kopa-post-list-2-widget .related-posts ul ul, .kopa-mission-list ul, .woocommerce .kopa-shop-detail div.product ul ul, .woocommerce-page .kopa-shop-detail div.product ul ul, .kopa-por-des ul, #bottom-sidebar .widget_recent_entries > ul ul, #bottom-sidebar .widget_recent_entries ul.menu ul, .column ul ol, .kopa-user ol, .kopa-pagination ol, .kopa-social-links ul ol, .kopa-social-links.style1 ol, .kopa-social-links.style2 ol, .kopa-social-links.style3 ol, .kopa-social-links.style4 ol, #humberger-menu .humberger-nav ol, .kopa-header ul ol, .kopa-header .kopa-main-nav .main-menu ol, .main-nav-mobile ol, .widget ul ol, .widget ol ol, .kopa-portfolio-widget .portfolio-filter .filter-options ol, .kopa-post-list-widget .related-posts ul ol, .kopa-post-list-2-widget .related-posts ul ol, .kopa-mission-list ol, .woocommerce .kopa-shop-detail div.product ul ol, .woocommerce-page .kopa-shop-detail div.product ul ol, .kopa-por-des ol, #bottom-sidebar .widget_recent_entries > ul ol, #bottom-sidebar .widget_recent_entries ul.menu ol {
@@ -191,8 +191,8 @@ color:#838383;
 .button-wrap:after, .mb-5:after, .mb-10:after, .mb-20:after, .mb-30:after, .mb-40:after, .mb-50:after, .mb-60:after, .pd-20:after, .wrapper:after, .kopa-area:after, .kopa-pagination:after, .kopa-header .header-top-right:after, .main-nav-mobile .main-menu-mobile:after, .entry-meta:after, .info-area:after, .kopa-tag-box:after, #comments .comments-list:after, #comments .comments-list .comment:after, #comments .comments-list .comment .comment-wrap:after, #above-bottom-sidebar:after { clear: both; }
 
 .kopa-service-widget .service-icon a:hover, .kopa-service-widget .service-content .service-title a:hover, .kopa-contact-info-widget .email .content .info a:hover {
-  color: #e80300; }
-  .kopa-service-widget .service-icon a:hover *, .kopa-service-widget .service-content .service-title a:hover *, .kopa-contact-info-widget .email .content .info a:hover *, .kopa-service-widget .service-icon a:hover *:before, .kopa-service-widget .service-content .service-title a:hover *:before, .kopa-contact-info-widget .email .content .info a:hover *:before { color: #e80300; }
+  color: #0D89F0; }
+  .kopa-service-widget .service-icon a:hover *, .kopa-service-widget .service-content .service-title a:hover *, .kopa-contact-info-widget .email .content .info a:hover *, .kopa-service-widget .service-icon a:hover *:before, .kopa-service-widget .service-content .service-title a:hover *:before, .kopa-contact-info-widget .email .content .info a:hover *:before { color: #0D89F0; }
 
 /*--- Functions ---*/
 /**
@@ -207,15 +207,15 @@ color:#838383;
  * 1.2 Repeatable Patterns
  * -------------------------------------------------------------------
  */
-::selection { background: #e80300; color: #fff; text-shadow: none; }
+::selection { background: #0D89F0; color: #fff; text-shadow: none; }
 
-::-moz-selection { background: #e80300; color: #fff; text-shadow: none; }
+::-moz-selection { background: #0D89F0; color: #fff; text-shadow: none; }
 a {
   color: #575656;
   text-decoration: none !important;
   outline: none !important; }
   a:hover, a:active {
-    color: #e80300;
+    color: #0D89F0;
     text-decoration: none; }
   a:focus {
     outline: none; }
@@ -248,10 +248,10 @@ h1, h2, h3, h4, h5, h6,
   margin: 0 0 20px; }
   h1 a, h2 a, h3 a, h4 a, h5 a, h6 a,
   .h1 a, .h2 a, .h3 a, .h4 a, .h5 a, .h6 a {
-    color: #e80300; }
+    color: #0D89F0; }
     h1 a:hover, h2 a:hover, h3 a:hover, h4 a:hover, h5 a:hover, h6 a:hover,
     .h1 a:hover, .h2 a:hover, .h3 a:hover, .h4 a:hover, .h5 a:hover, .h6 a:hover {
-      color: #e80300; }
+      color: #0D89F0; }
 
 .e-heading h1, .e-heading .h1 {
   font-size: 65px;
@@ -319,7 +319,7 @@ h6, .h6 { font-size: 14px; line-height: 20px; }
 .videoHolder { margin-left: 20px; margin-top: 220px; position: relative; width: 80%; z-index: 9;}
 .videoHolder > iframe {
     background: white none repeat scroll 0 0;
-    border: 5px solid #e80300;
+    border: 5px solid #0D89F0;
     height: 192px;
     left: -14px;
     padding: 6px;
@@ -433,7 +433,7 @@ select {
 .rightarrowContent.expertise header.style-1 { margin-left: 0;}
 
 .videoHolder::after {
-    background-color: #e80300;
+    background-color: #0D89F0;
     content: " ";
     height: 60px;
     position: absolute;
@@ -555,7 +555,7 @@ blockquote {
     content: '';
     width: 4px;
     height: 100%;
-    background: #e80300;
+    background: #0D89F0;
     position: absolute;
     top: 0;
     left: -1px; }
@@ -567,7 +567,7 @@ blockquote {
 
 /*----- Text style -----*/
 .txt-highlight {
-  background: #e80300;
+  background: #0D89F0;
   color: #fff; }
 
 .txt-highlight-2 {
@@ -575,7 +575,7 @@ blockquote {
   color: #fff; }
 
 .txt-decoration {
-  color: #e80300;
+  color: #0D89F0;
   text-decoration: underline; }
 
 .txt-decoration-2 {
@@ -585,7 +585,7 @@ blockquote {
 /*----- dropcap -----*/
 .kopa-dropcap {
   color: #fff;
-  background: #e80300;
+  background: #0D89F0;
   display: inline-block;
   zoom: 1;
   float: left;
@@ -627,14 +627,14 @@ blockquote {
     background-color: transparent;
     border-bottom: 1px solid rgba(255, 255, 255, 0.1); }
     .kopa-accordion .panel .panel-heading.active > .panel-title a {
-      color: #e80300; }
+      color: #0D89F0; }
       .kopa-accordion .panel .panel-heading.active > .panel-title a i {
-        border-color: #e80300; }
+        border-color: #0D89F0; }
         .kopa-accordion .panel .panel-heading.active > .panel-title a i:hover {
-          color: #e80300; }
+          color: #0D89F0; }
       .kopa-accordion .panel .panel-heading.active > .panel-title a i:before {
         content: "\f068";
-        color: #e80300; }
+        color: #0D89F0; }
     .kopa-accordion .panel .panel-heading > .panel-title a {
       display: block;
       font: 500 16px/30px "Raleway", sans-serif;
@@ -645,13 +645,13 @@ blockquote {
       position: relative;
       padding: 10px 0; }
       .kopa-accordion .panel .panel-heading > .panel-title a:hover {
-        color: #e80300; }
+        color: #0D89F0; }
         .kopa-accordion .panel .panel-heading > .panel-title a:hover i {
-          border-color: #e80300; }
+          border-color: #0D89F0; }
           .kopa-accordion .panel .panel-heading > .panel-title a:hover i:hover {
-            color: #e80300; }
+            color: #0D89F0; }
           .kopa-accordion .panel .panel-heading > .panel-title a:hover i:before {
-            color: #e80300; }
+            color: #0D89F0; }
       .kopa-accordion .panel .panel-heading > .panel-title a i {
         position: absolute;
         width: 30px;
@@ -678,15 +678,15 @@ blockquote {
 .kopa-accordion.style-1 .panel .panel-heading {
   border-bottom: 1px solid #e8e8e8; }
   .kopa-accordion.style-1 .panel .panel-heading.active > .panel-title a {
-    color: #e80300; }
+    color: #0D89F0; }
     .kopa-accordion.style-1 .panel .panel-heading.active > .panel-title a i {
-      border-color: #e80300; }
+      border-color: #0D89F0; }
       .kopa-accordion.style-1 .panel .panel-heading.active > .panel-title a i:before {
-        color: #e80300; }
+        color: #0D89F0; }
   .kopa-accordion.style-1 .panel .panel-heading > .panel-title a {
     color: #171717; }
     .kopa-accordion.style-1 .panel .panel-heading > .panel-title a:hover {
-      color: #e80300; }
+      color: #0D89F0; }
 .kopa-accordion.style-1 .panel .panel-body {
   color: #8e8e8e; }
 
@@ -705,7 +705,7 @@ blockquote {
     text-align: center;
     border-radius: 0;
     border: none;
-    background-color: #e80300; }
+    background-color: #0D89F0; }
     .kopa-accordion.style-2 .panel .panel-heading > .panel-title a i:before {
       line-height: 50px;
       color: #646464;
@@ -741,7 +741,7 @@ blockquote {
 .kopa-button-1 {
   padding: 7px 25px;
   color: #fff;
-  background: #e80300;
+  background: #0D89F0;
   font-size: 15px; }
 
 .small-button {
@@ -755,20 +755,20 @@ blockquote {
 
 .color-button, .border-button:hover {
   color: #fff;
-  background: #e80300;
-  border: 1px solid #e80300; }
+  background: #0D89F0;
+  border: 1px solid #0D89F0; }
 
 .border-button, .color-button:hover {
   background: #fff;
-  border: 1px solid #e80300;
-  color: #e80300; }
+  border: 1px solid #0D89F0;
+  color: #0D89F0; }
 
 .span-button {
   background: #fff;
-  border: 2px solid #e80300;
+  border: 2px solid #0D89F0;
   padding: 1px; }
   .span-button span {
-    background: #e80300;
+    background: #0D89F0;
     display: block; }
   .span-button.small-button > span {
     padding: 5px 24px; }
@@ -780,23 +780,23 @@ blockquote {
     background: #fff; }
 
 .black-button {
-  background: #e80300; }
+  background: #0D89F0; }
   .black-button.span-button {
     background: #fff;
-    border-color: #e80300; }
+    border-color: #0D89F0; }
     .black-button.span-button span {
-      background: #e80300; }
+      background: #0D89F0; }
     .black-button.span-button:hover span {
       background: #fff;
-      color: #e80300; }
+      color: #0D89F0; }
   .black-button.color-button, .black-button.border-button:hover {
     color: #fff;
-    background: #e80300;
-    border: 1px solid #e80300; }
+    background: #0D89F0;
+    border: 1px solid #0D89F0; }
   .black-button.border-button, .black-button.color-button:hover {
     background: #fff;
-    border-color: #e80300;
-    color: #e80300; }
+    border-color: #0D89F0;
+    color: #0D89F0; }
 
 .button-wrap {
   margin-top: 15px; }
@@ -836,8 +836,8 @@ blockquote {
 .button-3 {
   display: inline-block;
   padding: 0 15px;
-  background-color: #e80300;
-  border: 1px solid #e80300; }
+  background-color: #0D89F0;
+  border: 1px solid #0D89F0; }
   
 .button-3:hover {
   background-color: #292929;
@@ -919,7 +919,7 @@ blockquote {
   background: #4fc7ed; }
 
 .kopa-alert.alert-1 {
-  background: #e80300; }
+  background: #0D89F0; }
 
 .kopa-alert.alert-2 {
   background: #292929; }
@@ -981,12 +981,12 @@ blockquote {
       display: block;
       padding: 18px 10px; }
       .column .footer-row a:hover {
-        background-color: #e80300; }
+        background-color: #0D89F0; }
   .column.style-2 .pricing-row {
-    background-color: #e80300;
-    border: 1px solid #e80300; }
+    background-color: #0D89F0;
+    border: 1px solid #0D89F0; }
   .column.style-2 .footer-row {
-    background-color: #e80300; }
+    background-color: #0D89F0; }
 
 /*----- Column -----*/
 .e-column .e-title {
@@ -1018,7 +1018,7 @@ blockquote {
     padding: 5px 15px;
     text-align: left; }
     .progress .progress-bar:hover {
-      background-color: #e80300; }
+      background-color: #0D89F0; }
     .progress .progress-bar span {
       font: 300 13px/20px "Raleway", sans-serif;
       color: #fff;
@@ -1279,7 +1279,7 @@ img {
   -moz-opacity: 0.8;
   -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=80)"; }
 .overlay.s2 {
-  background-color: #e80300;
+  background-color: #0D89F0;
   opacity: 0.79;
   -moz-opacity: 0.79;
   -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=70)"; }
@@ -1294,7 +1294,7 @@ img {
   -moz-opacity: 0.9;
   -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=90)"; }
 .overlay.s5 {
-  background-color: #e80300;
+  background-color: #0D89F0;
   opacity: 0.85;
   -moz-opacity: 0.85;
   -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=85)"; }
@@ -1337,7 +1337,7 @@ img {
   background: url("../images/background/bg-3.jpg");
   background-size: cover; background-attachment:fixed; }
 
-.kopa-area-5 { background-color: #e80300; padding: 0; }
+.kopa-area-5 { background-color: #0D89F0; padding: 0; }
 
 .kopa-area-6 { padding-bottom: 17px; background: url("../images/background/bg-6.jpg"); background-size: cover; }
 .kopa-area-6.s2 { padding-top: 100px; }
@@ -1353,7 +1353,7 @@ img {
 .kopa-area-8 #video_bg1 { top: 0 !important; }
 
 .kopa-area-9 { padding-top: 30px; background-image: url("../images/background/bg-3.jpg"); background-size: cover; background-attachment:fixed; }
-.kopa-area-9 .span-bg { background-color: #e80300;  opacity: 0.7; -moz-opacity: 0.7; -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=70)"; }
+.kopa-area-9 .span-bg { background-color: #0D89F0;  opacity: 0.7; -moz-opacity: 0.7; -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=70)"; }
 
 .kopa-area-10 {
   padding-bottom: 17px;
@@ -1415,7 +1415,7 @@ img {
       position: absolute;
       border-top: 14px solid transparent;
       border-bottom: 0 solid transparent;
-      border-right: 14px solid #e80300;
+      border-right: 14px solid #0D89F0;
       right: 100%;
       bottom: 0; }
   .kopa-area-13 .bottom-left-corner {
@@ -1426,7 +1426,7 @@ img {
       position: absolute;
       border-top: 14px solid transparent;
       border-bottom: 0 solid transparent;
-      border-left: 14px solid #e80300; }
+      border-left: 14px solid #0D89F0; }
 
 .kopa-area-14 {
   position: relative;
@@ -1460,7 +1460,7 @@ img {
   z-index: 9999;
   width: 100%;
   height: 3px;
-  background-color: #e80300;
+  background-color: #0D89F0;
   left: 0;
   top: 0; }
 .freelancer {
@@ -1486,7 +1486,7 @@ img {
   z-index: 9999;
   width: 100%;
   height: 3px;
-  background-color: #e80300;
+  background-color: #0D89F0;
   left: 0;
   bottom: 0; }
 
@@ -1501,7 +1501,7 @@ img {
   z-index: 9999;
   width: 26.7%;
   height: 17px;
-  background-color: #e80300;
+  background-color: #0D89F0;
   left: 0;
   top: 0; }
   .top-left-corner:before {
@@ -1509,7 +1509,7 @@ img {
     position: absolute;
     border-top: 0 solid transparent;
     border-bottom: 17px solid transparent;
-    border-left: 17px solid #e80300;
+    border-left: 17px solid #0D89F0;
     left: 100%;
     top: 0; }
 
@@ -1518,7 +1518,7 @@ img {
   z-index: 9999;
   width: 37.5%;
   height: 17px;
-  background-color: #e80300;
+  background-color: #0D89F0;
   right: 0;
   bottom: 0; }
   .bottom-right-corner:before {
@@ -1526,7 +1526,7 @@ img {
     position: absolute;
     border-top: 17px solid transparent;
     border-bottom: 0 solid transparent;
-    border-right: 17px solid #e80300;
+    border-right: 17px solid #0D89F0;
     right: 100%;
     bottom: 0; }
 
@@ -1535,7 +1535,7 @@ img {
   z-index: 9999;
   width: 37.5%;
   height: 17px;
-  background-color: #e80300;
+  background-color: #0D89F0;
   left: 0;
   bottom: 0; }
   .bottom-left-corner:before {
@@ -1543,7 +1543,7 @@ img {
     position: absolute;
     border-top: 17px solid transparent;
     border-bottom: 0 solid transparent;
-    border-left: 17px solid #e80300;
+    border-left: 17px solid #0D89F0;
     left: 100%;
     bottom: 0; }
 
@@ -1675,10 +1675,10 @@ img {
       top: 0; }
     .kopa-loadmore span:hover {
       color: #fff;
-      background: #e80300; }
+      background: #0D89F0; }
       .kopa-loadmore span:hover > i {
         color: #fff;
-        background: #e80300; }
+        background: #0D89F0; }
       .kopa-loadmore span:hover:after {
         border-left: 1px solid #fff; }
 
@@ -1724,7 +1724,7 @@ background-attachment:fixed; position:relative;
 }
 
 .fa.fa-star.wizstar {
-  color: red !important;
+  color: blue !important;
   font-size: 158px;
   left: -36px;
   position: absolute;
@@ -1876,9 +1876,9 @@ html .careers .imageBreadcrumb .page-title {
     .kopa-breadcrumb .bread-crumb span {
       color: #7E7E7E; }
       .kopa-breadcrumb .bread-crumb span:hover {
-        color: #e80300; }
+        color: #0D89F0; }
     .kopa-breadcrumb .bread-crumb a.current-page > span {
-      color: #e80300; }
+      color: #0D89F0; }
     @media screen and (max-width: 479px) {
       .kopa-breadcrumb .bread-crumb {
         width: 100%; } }
@@ -1913,18 +1913,18 @@ html .careers .imageBreadcrumb .page-title {
         color: #8e8e8e; }
         .kopa-pagination ul li span.current, .kopa-pagination ul li a.current {
           color: #fff;
-          background: #e80300;
-          border-color: #e80300; }
+          background: #0D89F0;
+          border-color: #0D89F0; }
       .kopa-pagination ul li:hover a, .kopa-pagination ul li.current a {
         color: #fff;
-        background: #e80300;
-        border-color: #e80300; }
+        background: #0D89F0;
+        border-color: #0D89F0; }
       .kopa-pagination ul li a span {
         border: none;
         width: 100%;
         height: 100%; }
         .kopa-pagination ul li a span:hover {
-          background: #e80300;
+          background: #0D89F0;
           color: #fff; }
 
 #main-content section {
@@ -1994,8 +1994,8 @@ html .careers .imageBreadcrumb .page-title {
         line-height: 21px; }
       .kopa-pagination.style1 ul li:hover a, .kopa-pagination.style1 ul li.current a {
         color: #fff;
-        background: #e80300;
-        border-color: #e80300; }
+        background: #0D89F0;
+        border-color: #0D89F0; }
       .kopa-pagination.style1 ul li:first-child a, .kopa-pagination.style1 ul li:last-child a {
         border: none;
         background-color: #fff; }
@@ -2007,8 +2007,8 @@ html .careers .imageBreadcrumb .page-title {
         height: 100%;
         border: 1px solid #e5e5e5; }
         .kopa-pagination.style1 ul li a span:hover {
-          border: 1px solid #e80300;
-          background: #e80300;
+          border: 1px solid #0D89F0;
+          background: #0D89F0;
           color: #fff; }
 
 /*--- Social Links ---*/
@@ -2126,8 +2126,8 @@ html .careers .imageBreadcrumb .page-title {
         border: 1px solid #aaa;
         color: #aaa; }
         .kopa-social-links.style2 ul li a:hover {
-          border-color: #e80300;
-          color: #e80300; }
+          border-color: #0D89F0;
+          color: #0D89F0; }
 
 .clear50{display:block; clear:both; height:50px; width:100%;}
 
@@ -2159,13 +2159,13 @@ html .careers .imageBreadcrumb .page-title {
       height: 44px;
       line-height: 42px;
       font-size: 14px;
-      background: #e80300;
-      border: 1px solid #e80300;
+      background: #0D89F0;
+      border: 1px solid #0D89F0;
       border-radius: 50%;
       color: #ffc618; }
       .kopa-social-links.style3 ul li a:hover {
-        border-color: #e80300;
-        background: #e80300;
+        border-color: #0D89F0;
+        background: #0D89F0;
         color: #fff; }
 
 .kopa-social-links.style4 ul {
@@ -2184,7 +2184,7 @@ html .careers .imageBreadcrumb .page-title {
       background: #e5e5e5;
       color: #ecb8c1; }
       .kopa-social-links.style4 ul li a:hover {
-        background: #e80300;
+        background: #0D89F0;
         color: #fff; }
 
 /**
@@ -2221,13 +2221,13 @@ html .careers .imageBreadcrumb .page-title {
       height: 370px;
       margin-top: -234px;
       margin-left: 37px;
-      background: -webkit-linear-gradient(left, top, #e80300, transparent, transparent, transparent);
+      background: -webkit-linear-gradient(left, top, #0D89F0, transparent, transparent, transparent);
       /* For Safari 5.1 to 6.0 */
-      background: -o-linear-gradient(bottom right, #e80300, transparent, transparent, transparent);
+      background: -o-linear-gradient(bottom right, #0D89F0, transparent, transparent, transparent);
       /* For Opera 11.1 to 12.0 */
-      background: -moz-linear-gradient(bottom right, #e80300, transparent, transparent, transparent);
+      background: -moz-linear-gradient(bottom right, #0D89F0, transparent, transparent, transparent);
       /* For Firefox 3.6 to 15 */
-      background: linear-gradient(to bottom right, #e80300, transparent, transparent, transparent);
+      background: linear-gradient(to bottom right, #0D89F0, transparent, transparent, transparent);
       /* Standard syntax (must be last) */
       -webkit-transform: rotate(-135deg);
       -moz-transform: rotate(-135deg);
@@ -2252,7 +2252,7 @@ body.homepage ul.main-menu {
       position: absolute;
       border-left: 193px solid transparent;
       border-right: 193px solid transparent;
-      border-top: 193px solid #e80300;
+      border-top: 193px solid #0D89F0;
       top: 0;
       left: 28px; }
     #kopa-header .top-content .content-wrapper {
@@ -2331,7 +2331,7 @@ body.homepage ul.main-menu {
     #kopa-header .menu-wrapper {
       position: fixed;
       padding-bottom: 15px;
-      border-bottom: 1px solid #e80300; } }
+      border-bottom: 1px solid #0D89F0; } }
 
 .kopa-header .kopa-header-top {
   background-color: #292929;
@@ -2411,7 +2411,7 @@ body.homepage ul.main-menu {
 .kopa-header.style2 .kopa-header-top, .kopa-header.style3 .kopa-header-top {
   padding: 0 0 8px; 
  
-  background-color: #e80300; }
+  background-color: #0D89F0; }
 .kopa-header.style2 .header-top-left .kopa-hotline, .kopa-header.style3 .header-top-left .kopa-hotline {
   margin-right: 30px; }
   .kopa-header.style2 .header-top-left .kopa-hotline p, .kopa-header.style3 .header-top-left .kopa-hotline p {
@@ -2622,7 +2622,7 @@ body.homepage ul.main-menu {
   .kopa-header.style1 {
     padding-top: 65px; } }
 .kopa-header.style1 .kopa-header-bottom {
-  background-color: #e80300;
+  background-color: #0D89F0;
   border-bottom: 2px solid #fff; }
   .kopa-header.style1 .kopa-header-bottom .kopa-logo {
     float: left;
@@ -2682,7 +2682,7 @@ body.homepage ul.main-menu {
       .kopa-header.style2 .kopa-header-bottom .menu-wrapper, .kopa-header.style3 .kopa-header-bottom .menu-wrapper {
         position: fixed;
         top: 0;
-        border-bottom: 1px solid #e80300;
+        border-bottom: 1px solid #0D89F0;
         padding-bottom: 15px; } }
 		
     .kopa-header.style2 .kopa-header-bottom .menu-wrapper .kopa-logo, .kopa-header.style3 .kopa-header-bottom .menu-wrapper .kopa-logo {
@@ -2701,8 +2701,8 @@ body.homepage ul.main-menu {
     .kopa-header.style2 .kopa-main-nav .main-menu > li:first-child, .kopa-header.style3 .kopa-main-nav .main-menu > li:first-child {
       margin-left: 0; }
     .kopa-header.style2 .kopa-main-nav .main-menu > li.current-menu-item > a, .kopa-header.style2 .kopa-main-nav .main-menu > li:hover > a, .kopa-header.style3 .kopa-main-nav .main-menu > li.current-menu-item > a, .kopa-header.style3 .kopa-main-nav .main-menu > li:hover > a {
-      color: #e80300;
-      border-bottom: 2px solid #e80300; }
+      color: #0D89F0;
+      border-bottom: 2px solid #0D89F0; }
     .kopa-header.style2 .kopa-main-nav .main-menu > li a:hover, .kopa-header.style3 .kopa-main-nav .main-menu > li a:hover {
       color: #b0b0b0; }
 
@@ -2728,7 +2728,7 @@ header.style-1 .widget-title {
 }
 
 header.style-1 .widget-title span {
-    color: #e80300;
+    color: #0D89F0;
 }
 header.style-1 p {
     color: #494949;
@@ -2755,7 +2755,7 @@ text-align:center;
       padding: 0 10px;
       border-bottom: 2px solid transparent; }
     .kopa-header.style2 .kopa-main-nav .main-menu > li ul li.current-menu-item > a, .kopa-header.style2 .kopa-main-nav .main-menu > li ul li:hover > a, .kopa-header.style3 .kopa-main-nav .main-menu > li ul li.current-menu-item > a, .kopa-header.style3 .kopa-main-nav .main-menu > li ul li:hover > a {
-      color: #e80300; }
+      color: #0D89F0; }
     .kopa-header.style2 .kopa-main-nav .main-menu > li ul li a, .kopa-header.style3 .kopa-main-nav .main-menu > li ul li a {
       font: 500 13px/34px "Raleway", sans-serif;
       color: #dfdfdf;
@@ -2772,7 +2772,7 @@ text-align:center;
   right: 12px;
   width: 40px;
   height: 40px;
-  background-color: #e80300;
+  background-color: #0D89F0;
   color: #fff;
   line-height: 23px;
   text-align: left;
@@ -2817,7 +2817,7 @@ text-align:center;
       display: block;
       padding: 10px 25px 10px 0; }
       .main-nav-mobile .main-menu-mobile > li > a:hover {
-        color: #e80300; }
+        color: #0D89F0; }
       .main-nav-mobile .main-menu-mobile > li > a > span {
         position: absolute;
         right: 5px;
@@ -2825,7 +2825,7 @@ text-align:center;
         cursor: pointer;
         font-size: 15px; }
     .main-nav-mobile .main-menu-mobile > li.current-menu-item > a {
-      color: #e80300; }
+      color: #0D89F0; }
     .main-nav-mobile .main-menu-mobile > li .sub-menu li {
       border-top: 1px solid #e4decf; }
       .main-nav-mobile .main-menu-mobile > li .sub-menu li a {
@@ -2835,7 +2835,7 @@ text-align:center;
         display: block;
         position: relative; }
         .main-nav-mobile .main-menu-mobile > li .sub-menu li a:hover {
-          color: #e80300; }
+          color: #0D89F0; }
       .main-nav-mobile .main-menu-mobile > li .sub-menu li span {
         display: none; }
       .main-nav-mobile .main-menu-mobile > li .sub-menu li .sub-menu {
@@ -2845,7 +2845,7 @@ text-align:center;
         height: auto !important;
         width: 100%; }
       .main-nav-mobile .main-menu-mobile > li .sub-menu li.current-menu-item > a {
-        color: #e80300; }
+        color: #0D89F0; }
 
 		
 		@media only screen and (min-width: 640px) and (max-width: 767px){
@@ -2873,7 +2873,7 @@ text-align:center;
     position: absolute;
     border-left: 92px solid transparent;
     border-right: 92px solid transparent;
-    border-bottom: 92px solid #e80300; }
+    border-bottom: 92px solid #0D89F0; }
     .owl-home-top-carousel.owl-theme .owl-controls .owl-pagination .pagination-bg:before {
       content: '';
       position: absolute;
@@ -2895,7 +2895,7 @@ text-align:center;
     position: absolute;
     width: 50%;
     height: 14px;
-    background-color: #e80300;
+    background-color: #0D89F0;
     bottom: 0;
     left: 0; }
 #bannerscollection_zoominout_generous .owl-controls.clickable.style1 {
@@ -2939,10 +2939,10 @@ text-align:center;
     position: absolute;
     border-left: 92px solid transparent;
     border-right: 92px solid transparent;
-    border-bottom: 92px solid #e80300; }
+    border-bottom: 92px solid #0D89F0; }
 
 #bannerscollection_zoominout_generous .owl-controls .owl-pagination::after {
-  background-color: #e80300;
+  background-color: #0D89F0;
   bottom: 0;
   content: "";
   height: 14px;
@@ -2977,11 +2977,11 @@ text-align:center;
     left: 0;
     width: 167px;
     height: 0;
-    background-color: #e90100;
+    background-color: #0D89F0;
  }
 .owl-home-top-carousel.owl-theme .top-bg::before {
   border-bottom: 702px solid transparent;
-  border-left: 712px solid #e90100;
+  border-left: 712px solid #0D89F0;
   content: "";
   left: 0;
   position: absolute;
@@ -3013,12 +3013,12 @@ text-align:center;
     left: 0;
     width: 167px;
     height: 0;
-    background-color: #e90100;
+    background-color: #0D89F0;
  }
 .bannerscollection_zoominout { /*  overflow: hidden; */}
 #bannerscollection_zoominout_generous .top-bg::before{
   border-bottom: 727px solid transparent;
-  border-left: 723px solid #e90100;
+  border-left: 723px solid #0D89F0;
   content: "";
   left: 0;
   position: absolute;
@@ -3061,7 +3061,7 @@ text-align:center;
           font-size: 30px;
           line-height: 35px; } }
       .owl-home-top-carousel.owl-theme .caption h5 span {
-        color: #e80300; }
+        color: #0D89F0; }
     .owl-home-top-carousel.owl-theme .caption p {
       font-size: 16px;
       color: #d9d9d9;
@@ -3083,7 +3083,7 @@ text-align:center;
     position: absolute;
     border-left: 92px solid transparent;
     border-right: 92px solid transparent;
-    border-bottom: 92px solid #e80300; }
+    border-bottom: 92px solid #0D89F0; }
     .home-top-carousel-2-wrapper .pagination-bg:before {
       content: '';
       position: absolute;
@@ -3106,7 +3106,7 @@ text-align:center;
       display: block;
       width: 252px;
       height: 14px;
-      background-color: #e80300;
+      background-color: #0D89F0;
       bottom: -92px; }
     .home-top-carousel-2-wrapper .pagination-bg .left {
       right: 116px; }
@@ -3115,7 +3115,7 @@ text-align:center;
         position: absolute;
         border-top: 14px solid transparent;
         border-bottom: 0 solid transparent;
-        border-right: 14px solid #e80300;
+        border-right: 14px solid #0D89F0;
         right: 100%;
         top: 0; }
       .home-top-carousel-2-wrapper .pagination-bg .left:after {
@@ -3123,7 +3123,7 @@ text-align:center;
         position: absolute;
         border-top: 0 solid transparent;
         border-bottom: 14px solid transparent;
-        border-left: 14px solid #e80300;
+        border-left: 14px solid #0D89F0;
         left: 100%;
         top: 0; }
     .home-top-carousel-2-wrapper .pagination-bg .right {
@@ -3133,7 +3133,7 @@ text-align:center;
         position: absolute;
         border-top: 0 solid transparent;
         border-bottom: 14px solid transparent;
-        border-right: 14px solid #e80300;
+        border-right: 14px solid #0D89F0;
         right: 100%;
         top: 0; }
       .home-top-carousel-2-wrapper .pagination-bg .right:after {
@@ -3141,7 +3141,7 @@ text-align:center;
         position: absolute;
         border-top: 14px solid transparent;
         border-bottom: 0 solid transparent;
-        border-left: 14px solid #e80300;
+        border-left: 14px solid #0D89F0;
         left: 100%;
         top: 0; }
 
@@ -3188,7 +3188,7 @@ text-align:center;
         font: 400 40px/45px "Dancing Script", serif;
         color: #fff; }
         .owl-home-top-carousel-2 .entry-item .entry-content .entry-title a:hover {
-          color: #e80300; }
+          color: #0D89F0; }
         @media screen and (max-width: 1023px) {
           .owl-home-top-carousel-2 .entry-item .entry-content .entry-title a {
             font-size: 30px;
@@ -3219,7 +3219,7 @@ text-align:center;
       color: #fff;
       padding: 0 15px;
       text-transform: uppercase;
-      border: 1px solid #e80300;
+      border: 1px solid #0D89F0;
       background-color: rgba(206, 3, 61, 0.3); }
       .owl-home-top-carousel-2 .entry-item .entry-content .read-more:hover {
         border-color: #fff; }
@@ -3259,7 +3259,7 @@ text-align:center;
     width: auto;
     height: auto;
     background: none;
-    color: #e80300; }
+    color: #0D89F0; }
   .sb-search-wrapper .sb-search {
     min-width: 42px; }
     .sb-search-wrapper .sb-search form > button {
@@ -3333,9 +3333,9 @@ text-align:center;
     .sb-search-wrapper .sb-search.sb-search-open .sb-icon-search {
       display: none; }
   .sb-search-wrapper ::selection {
-    background: #e80300; }
+    background: #0D89F0; }
   .sb-search-wrapper ::-moz-selection {
-    background: #e80300; }
+    background: #0D89F0; }
 
 .kopa-header.style1 .sb-search-wrapper {
   float: left;
@@ -3435,7 +3435,7 @@ html[data-useragent*='MSIE 10.0']
       text-transform: none; }
 	  
       .widget header.style-1 .widget-title span {
-        color: #e80300; }
+        color: #0D89F0; }
     .widget header.style-1 p {
       padding: 0 300px;
       font: italic 14px/22px "Raleway", sans-serif;
@@ -3463,7 +3463,7 @@ html[data-useragent*='MSIE 10.0']
     position: absolute;
     width: 5px;
     height: 100%;
-    background-color: #e80300;
+    background-color: #0D89F0;
     top: 0;
     left: 0; }
 
@@ -3483,7 +3483,7 @@ html[data-useragent*='MSIE 10.0']
     left: 0;
     width: 5px;
     height: 22px;
-    background: #e80300; }
+    background: #0D89F0; }
 
 @media screen and (max-width: 979px) {
   .widget header.style-1 p {
@@ -3512,8 +3512,8 @@ html[data-useragent*='MSIE 10.0']
     .kopa-team-widget .member-thumb img {
       width: 100%; }
     .kopa-team-widget .member-thumb:hover {
-      border: 1px solid #e80300;
-      background-color: #e80300; }
+      border: 1px solid #0D89F0;
+      background-color: #0D89F0; }
       .kopa-team-widget .member-thumb:hover .kopa-social-links {
         opacity: 1;
         -moz-opacity: 1;
@@ -3536,7 +3536,7 @@ html[data-useragent*='MSIE 10.0']
             width: 30px;
             height: 30px;
             line-height: 30px;
-            background-color: #e80300;
+            background-color: #0D89F0;
             font-size: 15px;
             color: #fff; }
             .kopa-team-widget .member-thumb .kopa-social-links ul li a:hover {
@@ -3550,12 +3550,12 @@ html[data-useragent*='MSIE 10.0']
         color: #292929;
         text-transform: uppercase; }
         .kopa-team-widget .member-content .member-name a:hover {
-          color: #e80300; }
+          color: #0D89F0; }
     .kopa-team-widget .member-content .job {
       font-style: italic;
       color: #494949; }
   .kopa-team-widget .owl-theme .owl-controls .owl-page.active span, .kopa-team-widget .owl-theme .owl-controls .owl-page:hover span {
-    background-color: #e80300; }
+    background-color: #0D89F0; }
   .kopa-team-widget .owl-theme .owl-controls .owl-page span {
     width: 10px;
     height: 10px;
@@ -3595,9 +3595,9 @@ html[data-useragent*='MSIE 10.0']
     border: 5px solid #fff;
     margin-bottom: 20px; }
     .kopa-video-widget .play-icon:hover {
-      border-color: #e80300; }
+      border-color: #0D89F0; }
       .kopa-video-widget .play-icon:hover i {
-        color: #e80300; }
+        color: #0D89F0; }
     .kopa-video-widget .play-icon i {
       line-height: 112px;
       font-size: 45px;
@@ -3637,7 +3637,7 @@ html[data-useragent*='MSIE 10.0']
       position: absolute;
       width: 63px;
       height: 126px;
-      background-color: #e80300;
+      background-color: #0D89F0;
       top: 18px; }
       .kopa-feature-widget .feature-item-wrapper .feature-icon i {
         position: absolute;
@@ -3694,7 +3694,7 @@ html[data-useragent*='MSIE 10.0']
       left: 0;
       border: 3px solid transparent; }
     .kopa-feature-widget .feature-item:hover .mask {
-      border-color: #e80300; }
+      border-color: #0D89F0; }
     .kopa-feature-widget .feature-item .feature-content-wrapper {
       position: absolute;
       width: 100%;
@@ -3884,7 +3884,7 @@ html[data-useragent*='MSIE 10.0']
         color: #fff;
         height: 46px; }
       .kopa-newsletter-widget .newsletter-form .input-area label.error {
-        color: #e80300;
+        color: #0D89F0;
         position: absolute;
         top: 0;
         right: 10px;
@@ -3920,7 +3920,7 @@ html[data-useragent*='MSIE 10.0']
   .kopa-portfolio-widget .element header .widget-title {
     font: bold 55px/60px "Dancing Script", serif;
     text-transform: none;
-    color: #e80300;
+    color: #0D89F0;
     margin-bottom: 30px; }
     @media screen and (max-width: 1023px) {
       .kopa-portfolio-widget .element header .widget-title {
@@ -4013,21 +4013,21 @@ html[data-useragent*='MSIE 10.0']
 
 
       .kopa-portfolio-widget .masonry-wrapper .element .popup-icon span:before {
-        color: #e80300; }
+        color: #0D89F0; }
       .kopa-portfolio-widget .masonry-wrapper .element .popup-icon:hover {
-        background-color: #e80300; }
+        background-color: #0D89F0; }
         .kopa-portfolio-widget .masonry-wrapper .element .popup-icon:hover span:before {
           color: #f6dde1; }
     .kopa-portfolio-widget .masonry-wrapper .element .link-icon {
       bottom: 17px;
       right: 15px;
-      background-color: #e80300; }
+      background-color: #0D89F0; }
       .kopa-portfolio-widget .masonry-wrapper .element .link-icon span:before {
         color: #f6dde1; }
       .kopa-portfolio-widget .masonry-wrapper .element .link-icon:hover {
         background-color: rgba(255, 255, 255, 0.6); }
         .kopa-portfolio-widget .masonry-wrapper .element .link-icon:hover span:before {
-          color: #e80300; }
+          color: #0D89F0; }
     .kopa-portfolio-widget .masonry-wrapper .element:hover .thumb-hover, .kopa-portfolio-widget .masonry-wrapper .element:hover .popup-icon, .kopa-portfolio-widget .masonry-wrapper .element:hover .link-icon {
       opacity: 1;
       -moz-opacity: 1;
@@ -4083,7 +4083,7 @@ html[data-useragent*='MSIE 10.0']
 .kopa-portfolio-2-widget header.style-1 {
   margin-bottom: 30px; }
   .kopa-portfolio-2-widget header.style-1 .widget-title {
-    color: #e80300; }
+    color: #0D89F0; }
     .kopa-portfolio-2-widget header.style-1 .widget-title span {
       color: #fff; }
   .kopa-portfolio-2-widget header.style-1 p {
@@ -4106,7 +4106,7 @@ html[data-useragent*='MSIE 10.0']
   background: #efefef !important;
   padding: 3px 30px;
 }
-.filters-options.activeAllFilter li.active { background: #e80300 !important; }
+.filters-options.activeAllFilter li.active { background: #0D89F0 !important; }
 .filters-options.activeAllFilter li {
     line-height: normal;
     min-height: 36px;
@@ -4114,7 +4114,7 @@ html[data-useragent*='MSIE 10.0']
 }
 
 .filterWrapper > a > i {
-    background-color: #e80300;
+    background-color: #0D89F0;
     color: #ffffff;
     left: 0;
     padding: 11.1px 15px;
@@ -4160,8 +4160,8 @@ html[data-useragent*='MSIE 10.0']
     background: transparent;
     border: 1px solid rgba(220, 220, 220, 0.2); }
     .kopa-portfolio-2-widget .filters-options li.active, .kopa-portfolio-2-widget .filters-options li:hover {
-      border: 1px solid #e80300;
-      background-color: #e80300; color:#FFFFFF; }
+      border: 1px solid #0D89F0;
+      background-color: #0D89F0; color:#FFFFFF; }
       
       
       .kopa-portfolio-2-widget .filters-options li a:before { content: "\f005"; font-family:fontawesome;   font-size: 11px;
@@ -4279,21 +4279,21 @@ html[data-useragent*='MSIE 10.0']
     margin-right: 3px;
     background-color: rgba(255, 255, 255, 0.6); }
     .kopa-portfolio-2-widget .entry-thumb .popup-icon span:before {
-      color: #e80300; }
+      color: #0D89F0; }
     .kopa-portfolio-2-widget .entry-thumb .popup-icon:hover {
-      background-color: #e80300; }
+      background-color: #0D89F0; }
       .kopa-portfolio-2-widget .entry-thumb .popup-icon:hover span:before {
         color: #f6dde1; }
   .kopa-portfolio-2-widget .entry-thumb .link-icon {
     left: 50%;
     margin-left: 3px;
-    background-color: #e80300; }
+    background-color: #0D89F0; }
     .kopa-portfolio-2-widget .entry-thumb .link-icon span:before {
       color: #f6dde1; }
     .kopa-portfolio-2-widget .entry-thumb .link-icon:hover {
       background-color: rgba(255, 255, 255, 0.6); }
       .kopa-portfolio-2-widget .entry-thumb .link-icon:hover span:before {
-        color: #e80300; }
+        color: #0D89F0; }
   .kopa-portfolio-2-widget .entry-thumb:hover .thumb-hover, .kopa-portfolio-2-widget .entry-thumb:hover .popup-icon, .kopa-portfolio-2-widget .entry-thumb:hover .link-icon {
     opacity: 1;
     -moz-opacity: 1;
@@ -4371,7 +4371,7 @@ html[data-useragent*='MSIE 10.0']
           border-color: rgba(255, 255, 255, 0.7) !important;
           background-color: rgba(255, 255, 255, 0.7); }
           .kopa-sync-portfolio-widget.style2 .sm-thumb-port .item .entry-thumb .popup-icon:hover span:before {
-            color: #e80300; }
+            color: #0D89F0; }
       .kopa-sync-portfolio-widget.style2 .sm-thumb-port .item .entry-thumb:hover .thumb-hover, .kopa-sync-portfolio-widget.style2 .sm-thumb-port .item .entry-thumb:hover .popup-icon {
         opacity: 1;
         -moz-opacity: 1;
@@ -4394,7 +4394,7 @@ html[data-useragent*='MSIE 10.0']
     text-transform: none;
     margin-bottom: 5px; }
     .kopa-testimonial-widget .entry-name span, .kopa-testimonial-widget .entry-name strong {
-      color: #e80300; }
+      color: #0D89F0; }
     @media screen and (max-width: 479px) {
       .kopa-testimonial-widget .entry-name {
         font-size: 45px;
@@ -4424,7 +4424,7 @@ html[data-useragent*='MSIE 10.0']
         position: absolute;
         width: 32px;
         height: 1px;
-        background-color: #e80300;
+        background-color: #0D89F0;
         bottom: 7px; }
 .kopa-testimonial-widget p.job span::before {
   display: none;
@@ -4488,19 +4488,19 @@ width:100%;
     padding: 9px;
     position: absolute;
 }
-.HomeServices .col-md-3:hover > .fa{background-color:#e80300;}
-.HomeServices .col-md-3:hover > .details h3{color:#e80300;}
+.HomeServices .col-md-3:hover > .fa{background-color:#0D89F0;}
+.HomeServices .col-md-3:hover > .details h3{color:#0D89F0;}
 .HomeServices .col-md-3:hover > .details p{color:#8e8e8e;}
 
 .noPadding{padding:0 !important;}
 
-.red{color:#e80300 !important;}
+.red{color:#003CE8 !important;}
 .black{color:#000000 !important;}
 
 
     .kopa-testimonial-widget .kopa-quotes:before, .kopa-testimonial-widget .kopa-quotes:after {
       position: absolute;
-      color: #e80300;
+      color: #0D89F0;
       font-size: 26px; }
     .kopa-testimonial-widget .kopa-quotes:before {
       content: "\f10d";
@@ -4519,7 +4519,7 @@ width:100%;
   .kopa-testimonial-widget .owl-theme .owl-controls {
     margin-top: 0; }
   .kopa-testimonial-widget .owl-theme .owl-controls .owl-page.active span, .kopa-testimonial-widget .owl-theme .owl-controls .owl-page:hover span {
-    background-color: #e80300; }
+    background-color: #0D89F0; }
   .kopa-testimonial-widget .owl-theme .owl-controls .owl-page span {
     width: 13px;
     height: 13px;
@@ -4556,16 +4556,16 @@ width:100%;
       .kopa-testimonial-2-widget .entry-item .entry-thumb img {
         width: 100%; }
       .kopa-testimonial-2-widget .entry-item .entry-thumb:hover {
-        border-color: #e80300; }
+        border-color: #0D89F0; }
     .kopa-testimonial-2-widget .entry-item .entry-title {
       margin-bottom: 10px; }
       .kopa-testimonial-2-widget .entry-item .entry-title a {
         font: 400 35px/45px "Dancing Script", serif;
         color: #292929; }
         .kopa-testimonial-2-widget .entry-item .entry-title a span {
-          color: #e80300; }
+          color: #0D89F0; }
         .kopa-testimonial-2-widget .entry-item .entry-title a:hover {
-          color: #e80300; }
+          color: #0D89F0; }
     .kopa-testimonial-2-widget .entry-item .entry-content {
       margin-bottom: 70px;
       padding: 0 25px; }
@@ -4582,7 +4582,7 @@ width:100%;
           position: absolute;
           width: 25px;
           height: 1px;
-          background-color: #e80300;
+          background-color: #0D89F0;
           bottom: 6px;
           left: -35px; }
         .kopa-testimonial-2-widget .entry-item .entry-content .job:after {
@@ -4631,13 +4631,13 @@ width:100%;
       .kopa-purchase-2-widget .kopa-button {
         width: 140px; } }
   .kopa-purchase-2-widget .read-more {
-    background-color: #e80300; }
+    background-color: #0D89F0; }
     .kopa-purchase-2-widget .read-more:hover {
       background-color: #171717; }
   .kopa-purchase-2-widget .purchase {
     background-color: #171717; }
     .kopa-purchase-2-widget .purchase:hover {
-      background-color: #e80300; }
+      background-color: #0D89F0; }
 
 @media screen and (max-width: 1023px) {
   .kopa-purchase-1-widget p {
@@ -4692,7 +4692,7 @@ width:100%;
   text-transform: none;
 } }
       .kopa-post-list-widget .big-post h5 a:hover {
-        color: #e80300; }
+        color: #0D89F0; }
   .kopa-post-list-widget .big-post .excerpt {
     margin-bottom: 20px; }
   .kopa-post-list-widget .big-post .kopa-button {
@@ -4720,7 +4720,7 @@ width:100%;
       width: 32px;
       height: 32px;
       border-radius: 50%;
-      background-color: #e80300;
+      background-color: #0D89F0;
       left: 0;
       top: 10px;
       margin-left: -16px; }
@@ -4759,7 +4759,7 @@ width:100%;
           font: 600 18px/20px "Raleway", sans-serif;
           color: #fff; }
           .kopa-post-list-widget .related-posts ul li .entry-item h5 a:hover {
-            color: #e80300; }
+            color: #0D89F0; }
 
 /*--- kopa post list 2 widget ---*/
 @media screen and (min-width: 1200px) {
@@ -4790,7 +4790,7 @@ width:100%;
       text-transform: none;
       color: #fff; }
       .kopa-post-list-2-widget .big-post h5 a:hover {
-        color: #e80300; }
+        color: #0D89F0; }
   .kopa-post-list-2-widget .big-post .excerpt {
     margin-bottom: 20px; }
 .kopa-post-list-2-widget .related-posts {
@@ -4817,7 +4817,7 @@ width:100%;
       .kopa-post-list-2-widget .related-posts ul li .entry-thumb img {
         width: 100%; }
     .kopa-post-list-2-widget .related-posts ul li:hover .entry-thumb {
-      border-color: #e80300; }
+      border-color: #0D89F0; }
     .kopa-post-list-2-widget .related-posts ul li .entry-item {
       padding-left: 110px;
       padding-right: 60px; }
@@ -4836,7 +4836,7 @@ width:100%;
           font: 600 18px/20px "Raleway", sans-serif;
           color: #fff; }
           .kopa-post-list-2-widget .related-posts ul li .entry-item h5 a:hover {
-            color: #e80300; }
+            color: #0D89F0; }
 
 /*--- Kopa product list widget ---*/
 .kopa-product-list-widget .owl-product-list-carousel {
@@ -4855,12 +4855,12 @@ width:100%;
   border: 1px solid #494949;
   position: relative; }
   .kopa-product-list-widget .product-thumb:hover {
-    border-color: #e80300; }
+    border-color: #0D89F0; }
     .kopa-product-list-widget .product-thumb:hover .price {
-      background-color: #e80300; }
+      background-color: #0D89F0; }
     .kopa-product-list-widget .product-thumb:hover > a {
-      border: 1px solid #e80300;
-      border: 10px solid #e80300; }
+      border: 1px solid #0D89F0;
+      border: 10px solid #0D89F0; }
   .kopa-product-list-widget .product-thumb > a {
     display: block;
     width: 100%;
@@ -4888,14 +4888,14 @@ width:100%;
       color: #292929;
       text-transform: uppercase; }
       .kopa-product-list-widget .product-content .product-name a:hover {
-        color: #e80300; }
+        color: #0D89F0; }
   .kopa-product-list-widget .product-content .desc {
     font-style: italic;
     color: #494949;
     width: 80%;
     margin: 0 auto 20px; }
 .kopa-product-list-widget .owl-theme .owl-controls .owl-page.active span, .kopa-product-list-widget .owl-theme .owl-controls .owl-page:hover span {
-  background-color: #e80300; }
+  background-color: #0D89F0; }
 .kopa-product-list-widget .owl-theme .owl-controls .owl-page span {
   width: 10px;
   height: 10px;
@@ -4909,7 +4909,7 @@ width:100%;
     float: left;
     height: 30px;
     width: 43px;
-    background-color: #e80300;
+    background-color: #0D89F0;
     line-height: 30px;
     font-size: 16px;
     color: #fff; }
@@ -4918,7 +4918,7 @@ width:100%;
   .kopa-product-list-widget footer .read-more {
     display: block;
     float: left;
-    border: 1px solid #e80300;
+    border: 1px solid #0D89F0;
     height: 30px;
     font: 11px/28px arial;
     text-transform: uppercase;
@@ -4968,7 +4968,7 @@ width:100%;
   width: 100%;
   top: -60px; }
   .kopa-product-list-3-widget.style1 .owl-theme .owl-controls .owl-pagination .owl-page.active span, .kopa-product-list-3-widget.style1 .owl-theme .owl-controls .owl-pagination .owl-page:hover span {
-    background-color: #e80300; }
+    background-color: #0D89F0; }
   .kopa-product-list-3-widget.style1 .owl-theme .owl-controls .owl-pagination .owl-page span {
     width: 10px;
     height: 10px;
@@ -4996,7 +4996,7 @@ width:100%;
   .kopa-product-list-4-widget header.style-1 .widget-title {
     color: #292929; }
     .kopa-product-list-4-widget header.style-1 .widget-title span {
-      color: #e80300; }
+      color: #0D89F0; }
   .kopa-product-list-4-widget header.style-1 p {
     color: #959595; }
 .kopa-product-list-4-widget .filters-options {
@@ -5018,7 +5018,7 @@ width:100%;
     .kopa-product-list-4-widget .filters-options li:first-child {
       border-left: none; }
     .kopa-product-list-4-widget .filters-options li.active, .kopa-product-list-4-widget .filters-options li:hover {
-      color: #e80300; }
+      color: #0D89F0; }
 .kopa-product-list-4-widget .product-container {
   position: relative; }
   .kopa-product-list-4-widget .product-container .product-list-item {
@@ -5085,21 +5085,21 @@ width:100%;
         margin-right: 3px;
         background-color: rgba(255, 255, 255, 0.6); }
         .kopa-related-posts .item .entry-thumb .popup-icon span:before {
-          color: #e80300; }
+          color: #0D89F0; }
         .kopa-related-posts .item .entry-thumb .popup-icon:hover {
-          background-color: #e80300; }
+          background-color: #0D89F0; }
           .kopa-related-posts .item .entry-thumb .popup-icon:hover span:before {
             color: #f6dde1; }
       .kopa-related-posts .item .entry-thumb .link-icon {
         left: 50%;
         margin-left: 3px;
-        background-color: #e80300; }
+        background-color: #0D89F0; }
         .kopa-related-posts .item .entry-thumb .link-icon span:before {
           color: #f6dde1; }
         .kopa-related-posts .item .entry-thumb .link-icon:hover {
           background-color: rgba(255, 255, 255, 0.6); }
           .kopa-related-posts .item .entry-thumb .link-icon:hover span:before {
-            color: #e80300; }
+            color: #0D89F0; }
       .kopa-related-posts .item .entry-thumb:hover .thumb-hover, .kopa-related-posts .item .entry-thumb:hover .popup-icon, .kopa-related-posts .item .entry-thumb:hover .link-icon {
         opacity: 1;
         -moz-opacity: 1;
@@ -5117,7 +5117,7 @@ width:100%;
           font: 700 16px/20px "Raleway", sans-serif;
           color: #292929; }
           .kopa-related-posts .item .entry-content .entry-title a:hover {
-            color: #e80300; }
+            color: #0D89F0; }
       .kopa-related-posts .item .entry-content p {
         font-style: italic;
         color: #494949; }
@@ -5130,9 +5130,9 @@ width:100%;
         background-color: #171717;
         border: 1px solid #171717; }
         .kopa-related-posts .item .entry-content .show-more:hover {
-          border-color: #e80300;
+          border-color: #0D89F0;
           background-color: transparent;
-          color: #e80300; }
+          color: #0D89F0; }
 
 /*--- kopa related posts style2 ---*/
 .kopa-related-posts.s-left .item .entry-content {
@@ -5144,13 +5144,13 @@ width:100%;
       font: 500 14px/22px "Raleway", sans-serif;
       color: #353535; }
       .kopa-related-posts.s-left .item .entry-content .entry-title a:hover {
-        color: #e80300; }
+        color: #0D89F0; }
   .kopa-related-posts.s-left .item .entry-content .entry-meta > span {
     margin: 0; }
   .kopa-related-posts.s-left .item .entry-content .entry-author {
-    color: #e80300; }
+    color: #0D89F0; }
     .kopa-related-posts.s-left .item .entry-content .entry-author a {
-      color: #e80300; }
+      color: #0D89F0; }
       .kopa-related-posts.s-left .item .entry-content .entry-author a:hover {
         color: #292929; }
   .kopa-related-posts.s-left .item .entry-content p {
@@ -5209,10 +5209,10 @@ width:100%;
         font-weight: 600;
         font-size: 26px; }
   .woocommerce .kopa-related-products div.product a:hover .image-wrapper, .woocommerce .kopa-product-list-3-widget div.product a:hover .image-wrapper, .woocommerce .kopa-product-list-4-widget div.product a:hover .image-wrapper, .woocommerce-page .kopa-related-products div.product a:hover .image-wrapper, .woocommerce-page .kopa-product-list-3-widget div.product a:hover .image-wrapper, .woocommerce-page .kopa-product-list-4-widget div.product a:hover .image-wrapper {
-    border: 1px solid #e80300;
-    background-color: #e80300; }
+    border: 1px solid #0D89F0;
+    background-color: #0D89F0; }
   .woocommerce .kopa-related-products div.product a:hover .price, .woocommerce .kopa-related-products div.product a:hover .flag, .woocommerce .kopa-product-list-3-widget div.product a:hover .price, .woocommerce .kopa-product-list-3-widget div.product a:hover .flag, .woocommerce .kopa-product-list-4-widget div.product a:hover .price, .woocommerce .kopa-product-list-4-widget div.product a:hover .flag, .woocommerce-page .kopa-related-products div.product a:hover .price, .woocommerce-page .kopa-related-products div.product a:hover .flag, .woocommerce-page .kopa-product-list-3-widget div.product a:hover .price, .woocommerce-page .kopa-product-list-3-widget div.product a:hover .flag, .woocommerce-page .kopa-product-list-4-widget div.product a:hover .price, .woocommerce-page .kopa-product-list-4-widget div.product a:hover .flag {
-    background-color: #e80300; }
+    background-color: #0D89F0; }
   .woocommerce .kopa-related-products div.product h3, .woocommerce .kopa-product-list-3-widget div.product h3, .woocommerce .kopa-product-list-4-widget div.product h3, .woocommerce-page .kopa-related-products div.product h3, .woocommerce-page .kopa-product-list-3-widget div.product h3, .woocommerce-page .kopa-product-list-4-widget div.product h3 {
     margin-bottom: 15px; }
     .woocommerce .kopa-related-products div.product h3 a, .woocommerce .kopa-product-list-3-widget div.product h3 a, .woocommerce .kopa-product-list-4-widget div.product h3 a, .woocommerce-page .kopa-related-products div.product h3 a, .woocommerce-page .kopa-product-list-3-widget div.product h3 a, .woocommerce-page .kopa-product-list-4-widget div.product h3 a {
@@ -5221,7 +5221,7 @@ width:100%;
       text-transform: uppercase;
       padding: 0; }
       .woocommerce .kopa-related-products div.product h3 a:hover, .woocommerce .kopa-product-list-3-widget div.product h3 a:hover, .woocommerce .kopa-product-list-4-widget div.product h3 a:hover, .woocommerce-page .kopa-related-products div.product h3 a:hover, .woocommerce-page .kopa-product-list-3-widget div.product h3 a:hover, .woocommerce-page .kopa-product-list-4-widget div.product h3 a:hover {
-        color: #e80300; }
+        color: #0D89F0; }
   .woocommerce .kopa-related-products div.product .product-color, .woocommerce .kopa-product-list-3-widget div.product .product-color, .woocommerce .kopa-product-list-4-widget div.product .product-color, .woocommerce-page .kopa-related-products div.product .product-color, .woocommerce-page .kopa-product-list-3-widget div.product .product-color, .woocommerce-page .kopa-product-list-4-widget div.product .product-color {
     margin-bottom: 15px; }
     .woocommerce .kopa-related-products div.product .product-color span, .woocommerce .kopa-product-list-3-widget div.product .product-color span, .woocommerce .kopa-product-list-4-widget div.product .product-color span, .woocommerce-page .kopa-related-products div.product .product-color span, .woocommerce-page .kopa-product-list-3-widget div.product .product-color span, .woocommerce-page .kopa-product-list-4-widget div.product .product-color span {
@@ -5263,11 +5263,11 @@ width:100%;
   .woocommerce .kopa-related-products div.product .star-rating, .woocommerce .kopa-product-list-3-widget div.product .star-rating, .woocommerce .kopa-product-list-4-widget div.product .star-rating, .woocommerce-page .kopa-related-products div.product .star-rating, .woocommerce-page .kopa-product-list-3-widget div.product .star-rating, .woocommerce-page .kopa-product-list-4-widget div.product .star-rating {
     margin-bottom: 20px; }
     .woocommerce .kopa-related-products div.product .star-rating:before, .woocommerce .kopa-product-list-3-widget div.product .star-rating:before, .woocommerce .kopa-product-list-4-widget div.product .star-rating:before, .woocommerce-page .kopa-related-products div.product .star-rating:before, .woocommerce-page .kopa-product-list-3-widget div.product .star-rating:before, .woocommerce-page .kopa-product-list-4-widget div.product .star-rating:before {
-      color: #e80300; }
+      color: #0D89F0; }
     .woocommerce .kopa-related-products div.product .star-rating span, .woocommerce .kopa-product-list-3-widget div.product .star-rating span, .woocommerce .kopa-product-list-4-widget div.product .star-rating span, .woocommerce-page .kopa-related-products div.product .star-rating span, .woocommerce-page .kopa-product-list-3-widget div.product .star-rating span, .woocommerce-page .kopa-product-list-4-widget div.product .star-rating span {
       width: 70%; }
       .woocommerce .kopa-related-products div.product .star-rating span:before, .woocommerce .kopa-product-list-3-widget div.product .star-rating span:before, .woocommerce .kopa-product-list-4-widget div.product .star-rating span:before, .woocommerce-page .kopa-related-products div.product .star-rating span:before, .woocommerce-page .kopa-product-list-3-widget div.product .star-rating span:before, .woocommerce-page .kopa-product-list-4-widget div.product .star-rating span:before {
-        color: #e80300; }
+        color: #0D89F0; }
   .woocommerce .kopa-related-products div.product .product-des, .woocommerce .kopa-product-list-3-widget div.product .product-des, .woocommerce .kopa-product-list-4-widget div.product .product-des, .woocommerce-page .kopa-related-products div.product .product-des, .woocommerce-page .kopa-product-list-3-widget div.product .product-des, .woocommerce-page .kopa-product-list-4-widget div.product .product-des {
     font: 400 italic 14px/22px "Raleway", sans-serif;
     padding: 0 25px;
@@ -5292,8 +5292,8 @@ width:100%;
       line-height: 30px;
       text-align: center; }
     .woocommerce .kopa-related-products div.product .add-to-cart:hover, .woocommerce .kopa-product-list-3-widget div.product .add-to-cart:hover, .woocommerce .kopa-product-list-4-widget div.product .add-to-cart:hover, .woocommerce-page .kopa-related-products div.product .add-to-cart:hover, .woocommerce-page .kopa-product-list-3-widget div.product .add-to-cart:hover, .woocommerce-page .kopa-product-list-4-widget div.product .add-to-cart:hover {
-      border: 1px solid #e80300;
-      background-color: #e80300; }
+      border: 1px solid #0D89F0;
+      background-color: #0D89F0; }
   .woocommerce .kopa-related-products div.product .product_type_simple, .woocommerce .kopa-product-list-3-widget div.product .product_type_simple, .woocommerce .kopa-product-list-4-widget div.product .product_type_simple, .woocommerce-page .kopa-related-products div.product .product_type_simple, .woocommerce-page .kopa-product-list-3-widget div.product .product_type_simple, .woocommerce-page .kopa-product-list-4-widget div.product .product_type_simple {
     display: inline-block;
     float: left;
@@ -5306,8 +5306,8 @@ width:100%;
     text-transform: uppercase;
     margin-left: -4px; }
     .woocommerce .kopa-related-products div.product .product_type_simple:hover, .woocommerce .kopa-product-list-3-widget div.product .product_type_simple:hover, .woocommerce .kopa-product-list-4-widget div.product .product_type_simple:hover, .woocommerce-page .kopa-related-products div.product .product_type_simple:hover, .woocommerce-page .kopa-product-list-3-widget div.product .product_type_simple:hover, .woocommerce-page .kopa-product-list-4-widget div.product .product_type_simple:hover {
-      color: #e80300;
-      border: 1px solid #e80300;
+      color: #0D89F0;
+      border: 1px solid #0D89F0;
       background-color: #fff; }
 
 .widget.kopa-product-list-3-widget .owl-theme .owl-controls.style3 {
@@ -5379,11 +5379,11 @@ width:100%;
       display: inline-block;
       margin: 0; }
       .woocommerce .kopa-product-list-4-widget div.product .star-rating:before, .woocommerce-page .kopa-product-list-4-widget div.product .star-rating:before {
-        color: #e80300; }
+        color: #0D89F0; }
       .woocommerce .kopa-product-list-4-widget div.product .star-rating span, .woocommerce-page .kopa-product-list-4-widget div.product .star-rating span {
         width: 70%; }
         .woocommerce .kopa-product-list-4-widget div.product .star-rating span:before, .woocommerce-page .kopa-product-list-4-widget div.product .star-rating span:before {
-          color: #e80300; }
+          color: #0D89F0; }
     .woocommerce .kopa-product-list-4-widget div.product .product-des, .woocommerce-page .kopa-product-list-4-widget div.product .product-des {
       font: 300 italic 14px/22px "Raleway", sans-serif;
       padding: 0 25px;
@@ -5408,8 +5408,8 @@ width:100%;
         line-height: 30px;
         text-align: center; }
       .woocommerce .kopa-product-list-4-widget div.product .add-to-cart:hover, .woocommerce-page .kopa-product-list-4-widget div.product .add-to-cart:hover {
-        border: 1px solid #e80300;
-        background-color: #e80300; }
+        border: 1px solid #0D89F0;
+        background-color: #0D89F0; }
     .woocommerce .kopa-product-list-4-widget div.product .product_type_simple, .woocommerce-page .kopa-product-list-4-widget div.product .product_type_simple {
       display: inline-block;
       float: left;
@@ -5422,8 +5422,8 @@ width:100%;
       text-transform: uppercase;
       margin-left: -4px; }
       .woocommerce .kopa-product-list-4-widget div.product .product_type_simple:hover, .woocommerce-page .kopa-product-list-4-widget div.product .product_type_simple:hover {
-        color: #e80300;
-        border: 1px solid #e80300;
+        color: #0D89F0;
+        border: 1px solid #0D89F0;
         background-color: #fff; }
 
 /*--- kopa contact info widget ---*/
@@ -5448,7 +5448,7 @@ width:100%;
       margin-right: 10px; }
     .kopa-contact-info-widget .phone span {
       font: 600 20px/24px "Raleway", sans-serif;
-      color: #e80300; }
+      color: #0D89F0; }
   .kopa-contact-info-widget .address, .kopa-contact-info-widget .email {
     float: left;
     width: 49.9%;
@@ -5521,8 +5521,8 @@ width:100%;
       line-height: 44px;
       color: #8f8f8f; }
     .kopa-contact-info-widget .kopa-social-links li:hover {
-      border-color: #e80300;
-      background-color: #e80300; }
+      border-color: #0D89F0;
+      background-color: #0D89F0; }
       .kopa-contact-info-widget .kopa-social-links li:hover a {
         color: #fff; }
 
@@ -5595,7 +5595,7 @@ width:100%;
   .owl-theme .owl-controls.style1 .owl-buttons div:before {
     content: ''; }
   .owl-theme .owl-controls.style1 .owl-buttons div:hover {
-    color: #e80300; }
+    color: #0D89F0; }
   .owl-theme .owl-controls.style1 .owl-buttons div.owl-prev {
     left: 35px;
     background: url(../images/icons/carousel-nav.png) 0 0 no-repeat; }
@@ -5622,7 +5622,7 @@ width:100%;
     -moz-transition: all 0.5s ease 0s, visibility 0s ease 0s;
     border-radius: 50%; }
   .owl-theme .owl-controls.style4 .owl-page.active span, .owl-theme .owl-controls.style4 .owl-page:hover span {
-    background: #e80300; }
+    background: #0D89F0; }
 .owl-theme .owl-controls.style3 {
   position: absolute;
   top: -73px;
@@ -5635,7 +5635,7 @@ width:100%;
     color: #c8c8c8;
     background-color: transparent; }
     .owl-theme .owl-controls.style3 .owl-buttons div:hover {
-      color: #e80300; }
+      color: #0D89F0; }
     .owl-theme .owl-controls.style3 .owl-buttons div.owl-next {
       border-left: 1px solid #c8c8c8; }
 .owl-theme .owl-controls.style5 .owl-buttons div {
@@ -5671,9 +5671,9 @@ width:100%;
     line-height: 20px;
     color: #8e8e8e; }
     .owl-theme .owl-controls.style6 .owl-buttons div:hover {
-      border-color: #e80300; }
+      border-color: #0D89F0; }
       .owl-theme .owl-controls.style6 .owl-buttons div:hover:before {
-        color: #e80300; }
+        color: #0D89F0; }
     .owl-theme .owl-controls.style6 .owl-buttons div.owl-next {
       margin-left: 3px; }
 .owl-theme .owl-controls.style7 .owl-buttons div {
@@ -5803,7 +5803,7 @@ width:100%;
   color: #353535; }
   .sidebar .widget-title:before {
     content: '';
-    background: #e80300;
+    background: #0D89F0;
     height: 1px;
     width: 62px;
     position: absolute;
@@ -5841,7 +5841,7 @@ width:100%;
     .widget_meta ul li a:hover,
     .widget_recent_comments ul li a:hover,
     .widget_rss ul li a:hover {
-      color: #e80300; }
+      color: #0D89F0; }
 
 .widget_calendar table {
   width: 100%; }
@@ -5858,7 +5858,7 @@ width:100%;
   font-weight: 700;
   color: #292929; }
   .widget_rss .rsswidget:hover {
-    color: #e80300; }
+    color: #0D89F0; }
 .widget_rss .rss-date, .widget_rss cite {
   display: block;
   font-style: normal;
@@ -5896,7 +5896,7 @@ width:100%;
       padding-left: 20px;
       background: url("../images/icons/list-style.png") 5px 3px no-repeat; }
       .widget_recent_entries > ul > li a:hover {
-        color: #e80300; }
+        color: #0D89F0; }
 
 #bottom-sidebar .widget_recent_entries > ul > li a {
   padding-left: 0;
@@ -5904,7 +5904,7 @@ width:100%;
 
 .woocommerce .star-rating span:before,
 .woocommerce-page .star-rating span:before {
-  color: #e80300; }
+  color: #0D89F0; }
 
 .widget_product_tag_cloud .tagcloud {
   margin: 0 -4px; }
@@ -5963,7 +5963,7 @@ width:100%;
   line-height: 32px;
   color: #fff;
   border: none;
-  background-color: #e80300;
+  background-color: #0D89F0;
   padding: 0 10px;
   top: 1px;
   right: 1px; }
@@ -6043,7 +6043,7 @@ width:100%;
  
 
     .contact-box input:focus, .contact-box textarea:focus, .comment-box input:focus, .comment-box textarea:focus {
-      border-color: #e80300;
+      border-color: #0D89F0;
       outline: 0; }
     .contact-box input#submit-contact, .contact-box input#submit-comment, .contact-box textarea#submit-contact, .contact-box textarea#submit-comment, .comment-box input#submit-contact, .comment-box input#submit-comment, .comment-box textarea#submit-contact, .comment-box textarea#submit-comment {
       font-family: Arial, sans-serif;
@@ -6053,7 +6053,7 @@ width:100%;
       font-style: normal;
       color: #fff;
       width: 100%;
-      background: #e80300;
+      background: #0D89F0;
       text-align: center;
       padding: 8px 20px;
       margin-top: 10px;
@@ -6068,7 +6068,7 @@ width:100%;
     width: 100%;
     padding: 9px 20px; }
 .contact-box label.error, .comment-box label.error {
-  color: #e80300;
+  color: #0D89F0;
   display: none;
   line-height: 30px;
   margin: 0;
@@ -6078,10 +6078,10 @@ width:100%;
   font-size: 13px;
 }
   .contact-box .input-label, .comment-box .input-label {
-    color: #e80300;
+    color: #0D89F0;
     margin: 5px 0 5px; }
     .contact-box .input-label > span, .comment-box .input-label > span {
-      color: #e80300;
+      color: #0D89F0;
       margin-left: 5px; }
 
 .kopa-comment-form {
@@ -6116,7 +6116,7 @@ width:100%;
   .contact-box-1 input, .contact-box-1 textarea {
     box-shadow: none;
     border: none;
-    border-bottom: 1px solid #e80300;
+    border-bottom: 1px solid #0D89F0;
     background: none;
     font-family: "Raleway", sans-serif;
     font-size: 16px;
@@ -6135,7 +6135,7 @@ width:100%;
       color: #fff;
       width: 100%;
       text-align: center;
-      background: #e80300;
+      background: #0D89F0;
       background: rgba(255, 198, 24, 0.5);
       padding: 11px 15px;
       margin-top: 40px;
@@ -6145,14 +6145,14 @@ width:100%;
       -webkit-transition: all 0.5s ease 0s, visibility 0s ease 0s;
       -moz-transition: all 0.5s ease 0s, visibility 0s ease 0s; }
       .contact-box-1 input#submit-contact-1:hover, .contact-box-1 textarea#submit-contact-1:hover {
-        background: #e80300; }
+        background: #0D89F0; }
   .contact-box-1 textarea {
     width: 100%;
     height: 78px;
     padding: 8px 15px;
-    border: 1px solid #e80300; }
+    border: 1px solid #0D89F0; }
   .contact-box-1 label.error {
-    color: #e80300;
+    color: #0D89F0;
     position: absolute;
     top: 8px;
     right: 0;
@@ -6166,7 +6166,7 @@ width:100%;
     margin: 0 0 10px;
     display: block; }
     .contact-box-1 .input-label > span {
-      color: #e80300;
+      color: #0D89F0;
       margin-left: 5px; }
   .contact-box-1 .contact-button {
     opacity: 1;
@@ -6178,17 +6178,17 @@ width:100%;
   .contact-info address {
     font-family: Arial, sans-serif;
     font-weight: 600;
-    color: #e80300; }
+    color: #0D89F0; }
     .contact-info address a {
       font-family: Arial, sans-serif;
       font-weight: 400;
-      color: #e80300; }
+      color: #0D89F0; }
       .contact-info address a:hover {
-        color: #e80300; }
+        color: #0D89F0; }
     .contact-info address .ct-phone {
       font-family: Arial, sans-serif;
       font-weight: 400;
-      color: #e80300; }
+      color: #0D89F0; }
 
 /*--- kopa mission list ---*/
 .kopa-mission-list {
@@ -6198,7 +6198,7 @@ width:100%;
     color: #292929;
     margin-top: 10px; }
     .kopa-mission-list li span:first-child {
-      color: #e80300;
+      color: #0D89F0;
       margin-right: 10px; }
 
 /*--- single post Comment ---*/
@@ -6212,7 +6212,7 @@ width:100%;
     position: absolute;
     width: 5px;
     height: 100%;
-    background-color: #e80300;
+    background-color: #0D89F0;
     top: 0;
     left: 0; }
 .kopa-comment-form .input-block {
@@ -6226,7 +6226,7 @@ width:100%;
     width: 100%;
     color: #8e8e8e; }
     .kopa-comment-form .input-block input[type="text"]:focus {
-      border-color: #e80300;
+      border-color: #0D89F0;
       outline: 0; }
 .kopa-comment-form .textarea-block {
   margin-bottom: 25px; }
@@ -6240,7 +6240,7 @@ width:100%;
     line-height: 20px;
     color: #8e8e8e; }
     .kopa-comment-form .textarea-block textarea:focus {
-      border-color: #e80300;
+      border-color: #0D89F0;
       outline: 0; }
 .kopa-comment-form #submit-comment {
   font-family: Arial, sans-serif;
@@ -6248,7 +6248,7 @@ width:100%;
   line-height: 24px;
   font-style: normal;
   color: #fff;
-  background: #e80300;
+  background: #0D89F0;
   text-align: center;
   border: 0;
   width: auto;
@@ -6314,7 +6314,7 @@ width:100%;
     .entry-meta > span a, .entry-meta > p a {
       color: #8e8e8e; }
       .entry-meta > span a:hover, .entry-meta > p a:hover {
-        color: #e80300; }
+        color: #0D89F0; }
   @media screen and (max-width: 639px) {
     .entry-meta > p {
       margin-bottom: 10px; } }
@@ -6322,7 +6322,7 @@ width:100%;
     display: inline-block;
     margin-top: 5px; }
     .entry-meta > a:hover span {
-      color: #e80300; }
+      color: #0D89F0; }
 
 .info-area {
   margin-top: 30px;
@@ -6353,10 +6353,10 @@ width:100%;
   .kopa-tag-box a {
     font-style: italic;
     display: inline-block;
-    color: #e80300;
+    color: #0D89F0;
     margin-top: 3px; }
     .kopa-tag-box a:hover {
-      color: #e80300; }
+      color: #0D89F0; }
 
 .single-other-post {
   margin-top: 30px;
@@ -6388,7 +6388,7 @@ width:100%;
         .single-other-post > div > .entry-item header a:hover {
           color: #353535; }
           .single-other-post > div > .entry-item header a:hover i {
-            color: #e80300; }
+            color: #0D89F0; }
     .single-other-post > div > .entry-item .entry-content {
       padding: 15px 30px; }
       @media screen and (max-width: 639px) {
@@ -6450,7 +6450,7 @@ width:100%;
           font: 14px "Raleway", sans-serif;
           color: #292929; }
           .kopa-author .author-content > header .author-name a:hover {
-            color: #e80300; }
+            color: #0D89F0; }
       .kopa-author .author-content > header .author-job {
         text-transform: uppercase; }
   .kopa-author .author-social-link {
@@ -6480,14 +6480,14 @@ width:100%;
           width: 24px;
           height: 24px;
           border-radius: 50%;
-          color: #e80300;
+          color: #0D89F0;
           text-align: center;
           line-height: 24px;
           font-size: 14px;
           margin-right: 8px; }
           .kopa-author .author-social-link .social-filter > div > a:hover {
             color: #fff;
-            background: #e80300; }
+            background: #0D89F0; }
         .kopa-author .author-social-link .social-filter > div > span {
           float: left;
           font-size: 15px;
@@ -6509,16 +6509,16 @@ width:100%;
           width: 24px;
           height: 24px;
           border-radius: 50%;
-          color: #e80300;
+          color: #0D89F0;
           text-align: center;
           line-height: 24px;
           font-size: 14px;
           margin: 8px 0 3px 10px;
           cursor: pointer; }
           .kopa-author .author-social-link .social-filter ul li a {
-            color: #e80300; }
+            color: #0D89F0; }
           .kopa-author .author-social-link .social-filter ul li:hover {
-            background: #e80300; }
+            background: #0D89F0; }
             .kopa-author .author-social-link .social-filter ul li:hover a {
               color: #fff; }
 
@@ -6559,9 +6559,9 @@ width:100%;
           text-transform: capitalize;
           font-weight: 400; }
           #comments .comments-list .comment .comment-wrap .media-body > header .pull-right a {
-            color: #e80300; }
+            color: #0D89F0; }
             #comments .comments-list .comment .comment-wrap .media-body > header .pull-right a:hover {
-              color: #e80300; }
+              color: #0D89F0; }
     #comments .comments-list .children .comment {
       margin-left: 108px;
       margin-bottom: 0;
@@ -6637,7 +6637,7 @@ width:100%;
     .woocommerce .kopa-shop-detail div.product .summary .price ins .amount, .woocommerce-page .kopa-shop-detail div.product .summary .price ins .amount {
       font-size: 30px;
       font-weight: 600;
-      color: #e80300;
+      color: #0D89F0;
       margin-right: 15px;
       float: left; }
     .woocommerce .kopa-shop-detail div.product .summary .price del, .woocommerce-page .kopa-shop-detail div.product .summary .price del {
@@ -6730,7 +6730,7 @@ header.por-style {
     width: 100%; }
 
 address {
-  color: #e80300; }
+  color: #0D89F0; }
 
 .kopa-contact-info-2-widget > ul > li {
   float: left;
@@ -6768,7 +6768,7 @@ address {
         font-family: "Raleway", sans-serif;
         font-weight: 500; }
         .kopa-entry-list .entry-item .inner .entry-box .entry-title a:hover {
-          color: #e80300; }
+          color: #0D89F0; }
     .kopa-entry-list .entry-item .inner .entry-box .entry-meta {
       border-top: 1px solid #ededed;
       border-bottom: 1px solid #ededed;
@@ -6791,7 +6791,7 @@ address {
         .kopa-entry-list .entry-item .inner .entry-box .entry-meta > p > a {
           color: inherit; }
           .kopa-entry-list .entry-item .inner .entry-box .entry-meta > p > a:hover {
-            color: #e80300; }
+            color: #0D89F0; }
     .kopa-entry-list .entry-item .inner .entry-box .entry-content > p {
       color: #8e8e8e;
       font-size: 14px;
@@ -6869,7 +6869,7 @@ address {
   .kopa-entry-list.style1 .entry-item .inner .wrap-entry-date p {
     margin: 0; }
   .kopa-entry-list.style1 .entry-item .inner .wrap-entry-date .entry-month {
-    background: #e80300;
+    background: #0D89F0;
     color: #efefef;
     font-family: "Raleway", sans-serif;
     font-weight: 400;
@@ -6883,7 +6883,7 @@ address {
     line-height: 1;
     font-family: "Raleway", sans-serif;
     font-weight: 400;
-    color: #e80300;
+    color: #0D89F0;
     position: relative; }
     .kopa-entry-list.style1 .entry-item .inner .wrap-entry-date .entry-date:after {
       content: '';
@@ -6893,7 +6893,7 @@ address {
       background: #de7996;
       margin: 7px auto 0; }
   .kopa-entry-list.style1 .entry-item .inner .wrap-entry-date > i {
-    color: #e80300;
+    color: #0D89F0;
     font-size: 18px; }
 .kopa-entry-list.style1 .entry-item .inner .entry-box {
   overflow: hidden; }
@@ -6906,7 +6906,7 @@ address {
       font-family: "Raleway", sans-serif;
       font-weight: 500; }
       .kopa-entry-list.style1 .entry-item .inner .entry-box .entry-title a:hover {
-        color: #e80300; }
+        color: #0D89F0; }
   .kopa-entry-list.style1 .entry-item .inner .entry-box .entry-meta {
     border-top: 1px solid #ededed;
     border-bottom: 1px solid #ededed;
@@ -6929,7 +6929,7 @@ address {
       .kopa-entry-list.style1 .entry-item .inner .entry-box .entry-meta > p > a {
         color: inherit; }
         .kopa-entry-list.style1 .entry-item .inner .entry-box .entry-meta > p > a:hover {
-          color: #e80300; }
+          color: #0D89F0; }
       @media screen and (max-width: 479px) {
         .kopa-entry-list.style1 .entry-item .inner .entry-box .entry-meta > p {
           margin-bottom: 5px; }
@@ -6944,8 +6944,8 @@ address {
     color: #ffffff;
     border: 1px solid #171717; }
     .kopa-entry-list.style1 .entry-item .inner .entry-box .entry-content .more-link:hover {
-      color: #e80300;
-      border: 1px solid #e80300;
+      color: #0D89F0;
+      border: 1px solid #0D89F0;
       background: none; }
 
 .kopa-entry-list.style2 > ul {
@@ -6983,7 +6983,7 @@ address {
       font-family: "Raleway", sans-serif;
       font-weight: 500; }
       .kopa-entry-list.style2 .entry-item .inner .entry-box .entry-title a:hover {
-        color: #e80300; }
+        color: #0D89F0; }
   .kopa-entry-list.style2 .entry-item .inner .entry-box .entry-meta {
     border-top: 1px solid #ededed;
     border-bottom: 1px solid #ededed;
@@ -7004,7 +7004,7 @@ address {
       .kopa-entry-list.style2 .entry-item .inner .entry-box .entry-meta > p > a {
         color: inherit; }
         .kopa-entry-list.style2 .entry-item .inner .entry-box .entry-meta > p > a:hover {
-          color: #e80300; }
+          color: #0D89F0; }
       @media screen and (max-width: 799px) {
         .kopa-entry-list.style2 .entry-item .inner .entry-box .entry-meta > p {
           margin: 0 0 5px 10px; } }
@@ -7022,8 +7022,8 @@ address {
     color: #171717;
     border: 1px solid #171717; }
     .kopa-entry-list.style2 .entry-item .inner .entry-box .entry-content .more-link:hover {
-      background: #e80300;
-      border-color: #e80300;
+      background: #0D89F0;
+      border-color: #0D89F0;
       color: #ffffff; }
 .kopa-entry-list.style2 .kopa-pagination {
   text-align: center; }
@@ -7063,7 +7063,7 @@ address {
     .error-404 .left-col p {
       font-size: 120px;
       font-weight: 700;
-      color: #e80300;
+      color: #0D89F0;
       line-height: 30px;
       text-align: right;
       margin-top: 20px; }
@@ -7083,7 +7083,7 @@ address {
     .error-404 .right-col h1 {
       font-size: 30px;
       font-family: "Raleway", sans-serif;
-      color: #e80300;
+      color: #0D89F0;
       font-weight: 700;
       text-transform: uppercase;
       margin-bottom: 10px;
@@ -7094,7 +7094,7 @@ address {
     .error-404 .right-col a {
       color: #292929; }
       .error-404 .right-col a:hover {
-        color: #e80300; }
+        color: #0D89F0; }
 
 .woocommerce header, .woocommerce-page header {
   padding: 0;
@@ -7115,7 +7115,7 @@ address {
     height: 30px;
     line-height: 30px;
     padding: 0 20px 0 40px;
-    background-color: #e80300;
+    background-color: #0D89F0;
     position: relative;
     font: 600 12px/30px "Raleway", sans-serif;
     text-transform: uppercase; }
@@ -7157,7 +7157,7 @@ address {
     color: #171717;
     font-style: italic; }
     .woocommerce .product_meta .product-tag a:hover, .woocommerce-page .product_meta .product-tag a:hover {
-      color: #e80300; }
+      color: #0D89F0; }
 
 .woocommerce .woocommerce-ordering, .woocommerce-page .woocommerce-ordering {
   float: left;
@@ -7270,12 +7270,12 @@ address {
             font-weight: 600;
             font-size: 26px; }
       .woocommerce ul.products div.product a:hover .image-wrapper, .woocommerce ul.products li.product a:hover .image-wrapper, .woocommerce-page ul.products div.product a:hover .image-wrapper, .woocommerce-page ul.products li.product a:hover .image-wrapper {
-        border: 1px solid #e80300;
-        background-color: #e80300; }
+        border: 1px solid #0D89F0;
+        background-color: #0D89F0; }
       .woocommerce ul.products div.product a:hover h3, .woocommerce ul.products li.product a:hover h3, .woocommerce-page ul.products div.product a:hover h3, .woocommerce-page ul.products li.product a:hover h3 {
-        color: #e80300; }
+        color: #0D89F0; }
       .woocommerce ul.products div.product a:hover .price, .woocommerce ul.products div.product a:hover .flag, .woocommerce ul.products li.product a:hover .price, .woocommerce ul.products li.product a:hover .flag, .woocommerce-page ul.products div.product a:hover .price, .woocommerce-page ul.products div.product a:hover .flag, .woocommerce-page ul.products li.product a:hover .price, .woocommerce-page ul.products li.product a:hover .flag {
-        background-color: #e80300; }
+        background-color: #0D89F0; }
     .woocommerce ul.products div.product h3, .woocommerce ul.products li.product h3, .woocommerce-page ul.products div.product h3, .woocommerce-page ul.products li.product h3 {
       font: 600 16px/18px "Raleway", sans-serif;
       color: #292929;
@@ -7285,11 +7285,11 @@ address {
     .woocommerce ul.products div.product .star-rating, .woocommerce ul.products li.product .star-rating, .woocommerce-page ul.products div.product .star-rating, .woocommerce-page ul.products li.product .star-rating {
       margin-bottom: 20px; }
       .woocommerce ul.products div.product .star-rating:before, .woocommerce ul.products li.product .star-rating:before, .woocommerce-page ul.products div.product .star-rating:before, .woocommerce-page ul.products li.product .star-rating:before {
-        color: #e80300; }
+        color: #0D89F0; }
       .woocommerce ul.products div.product .star-rating span, .woocommerce ul.products li.product .star-rating span, .woocommerce-page ul.products div.product .star-rating span, .woocommerce-page ul.products li.product .star-rating span {
         width: 70%; }
         .woocommerce ul.products div.product .star-rating span:before, .woocommerce ul.products li.product .star-rating span:before, .woocommerce-page ul.products div.product .star-rating span:before, .woocommerce-page ul.products li.product .star-rating span:before {
-          color: #e80300; }
+          color: #0D89F0; }
     .woocommerce ul.products div.product .product-des, .woocommerce ul.products li.product .product-des, .woocommerce-page ul.products div.product .product-des, .woocommerce-page ul.products li.product .product-des {
       font: 300 italic 14px/22px "Raleway", sans-serif;
       padding: 0 25px;
@@ -7314,8 +7314,8 @@ address {
         line-height: 30px;
         text-align: center; }
       .woocommerce ul.products div.product .add-to-cart:hover, .woocommerce ul.products li.product .add-to-cart:hover, .woocommerce-page ul.products div.product .add-to-cart:hover, .woocommerce-page ul.products li.product .add-to-cart:hover {
-        border: 1px solid #e80300;
-        background-color: #e80300; }
+        border: 1px solid #0D89F0;
+        background-color: #0D89F0; }
     .woocommerce ul.products div.product .product_type_simple, .woocommerce ul.products li.product .product_type_simple, .woocommerce-page ul.products div.product .product_type_simple, .woocommerce-page ul.products li.product .product_type_simple {
       display: inline-block;
       float: left;
@@ -7328,11 +7328,11 @@ address {
       text-transform: uppercase;
       margin-left: -4px; }
       .woocommerce ul.products div.product .product_type_simple:hover, .woocommerce ul.products li.product .product_type_simple:hover, .woocommerce-page ul.products div.product .product_type_simple:hover, .woocommerce-page ul.products li.product .product_type_simple:hover {
-        color: #e80300;
-        border: 1px solid #e80300;
+        color: #0D89F0;
+        border: 1px solid #0D89F0;
         background-color: #fff; }
     .woocommerce ul.products div.product form.cart .button, .woocommerce ul.products li.product form.cart .button, .woocommerce-page ul.products div.product form.cart .button, .woocommerce-page ul.products li.product form.cart .button {
-      background-color: #e80300; }
+      background-color: #0D89F0; }
 .woocommerce ul.products.style-2 li.product, .woocommerce-page ul.products.style-2 li.product {
   text-align: left;
   margin-bottom: 35px; }
@@ -7383,7 +7383,7 @@ address {
         color: #292929;
         text-transform: uppercase; }
         .woocommerce ul.products.style-2 li.product .product-info h3 a:hover, .woocommerce-page ul.products.style-2 li.product .product-info h3 a:hover {
-          color: #e80300; }
+          color: #0D89F0; }
     .woocommerce ul.products.style-2 li.product .product-info .product-des, .woocommerce-page ul.products.style-2 li.product .product-info .product-des {
       padding: 0; }
     .woocommerce ul.products.style-2 li.product .product-info .add-to-cart, .woocommerce-page ul.products.style-2 li.product .product-info .add-to-cart {
@@ -7395,7 +7395,7 @@ address {
       .woocommerce ul.products.style-2 li.product .product-info .price ins .amount, .woocommerce-page ul.products.style-2 li.product .product-info .price ins .amount {
         font-size: 30px;
         font-weight: 600;
-        color: #e80300;
+        color: #0D89F0;
         margin-right: 15px;
         float: left; }
       .woocommerce ul.products.style-2 li.product .product-info .price del, .woocommerce-page ul.products.style-2 li.product .product-info .price del {
@@ -7422,8 +7422,8 @@ address {
     border: 1px solid #dfdfdf;
     text-align: center; }
     .display-type a:hover, .display-type a.active {
-      border: 1px solid #e80300;
-      background-color: #e80300; }
+      border: 1px solid #0D89F0;
+      background-color: #0D89F0; }
       .display-type a:hover i, .display-type a.active i {
         color: #fff; }
 
@@ -7458,7 +7458,7 @@ address {
   color: #353535; }
   .widget-title.style3:before {
     content: '';
-    background: #e80300;
+    background: #0D89F0;
     height: 1px;
     width: 62px;
     position: absolute;
@@ -7475,7 +7475,7 @@ address {
   .entry-title.style1 a {
     color: #353535; }
     .entry-title.style1 a:hover {
-      color: #e80300; }
+      color: #0D89F0; }
 
 .sidebar .widget {
   margin: 0 0 50px; }
@@ -7548,7 +7548,7 @@ address {
       margin-left: -20px;
       left: 0;
       margin: 0;
-      color: #e80300;
+      color: #0D89F0;
       border: 1px solid #dfdfdf;
       border-radius: 50%;
       -webkit-border-radius: 50%;
@@ -7564,21 +7564,21 @@ address {
       .kopa-twitter-widget ul li .tw-item header h6 a {
         color: #292929; }
         .kopa-twitter-widget ul li .tw-item header h6 a:hover {
-          color: #e80300; }
+          color: #0D89F0; }
   .kopa-twitter-widget ul li .tw-item .twitter-content p {
     color: #8e8e8e;
     font-size: 14px;
     line-height: 20px;
     margin: 0 0 7px; }
     .kopa-twitter-widget ul li .tw-item .twitter-content p a {
-      color: #e80300; }
+      color: #0D89F0; }
   .kopa-twitter-widget ul li .tw-item .twitter-content .entry-date {
     color: #353535;
     font-size: 14px;
     line-height: 21px;
     font-style: italic; }
     .kopa-twitter-widget ul li .tw-item .twitter-content .entry-date:hover {
-      color: #e80300; }
+      color: #0D89F0; }
 
 .widget .kopa-social-links-1 ul {
   margin: -10px -5px 0;
@@ -7603,7 +7603,7 @@ address {
       -moz-transition: all 0.3s ease 0s, visibility 0s ease 0s; }
       .widget .kopa-social-links-1 ul li a:hover {
         color: #ffffff;
-        background: #e80300; }
+        background: #0D89F0; }
 
 .widget_tag_cloud .tagcloud {
   margin: 0 -4px; }
@@ -7640,7 +7640,7 @@ address {
     -ms-border-radius: 50%;
     margin: 0 2px; }
   .owl-blog-carousel-1.owl-theme .owl-controls .owl-pagination .active span, .owl-blog-carousel-3 .owl-controls .owl-pagination .active span {
-    background: #e80300; }
+    background: #0D89F0; }
 
 .owl-blog-carousel-1.owl-theme .owl-controls .owl-pagination {
   bottom: 15px; }
@@ -7668,7 +7668,7 @@ address {
 .widget_top_rated_products ul.product_list_widget li .star-rating:before, .widget_top_rated_products ul.product_list_widget li .star-rating span:before {
   position: absolute;
   top: 0;
-  color: #e80300;
+  color: #0D89F0;
   font-size: 12px; }
 
 .widget_top_rated_products ul.product_list_widget {
@@ -7685,7 +7685,7 @@ address {
     .widget_top_rated_products ul.product_list_widget li:after {
       clear: both; }
     .widget_top_rated_products ul.product_list_widget li:hover:before {
-      background: #e80300; }
+      background: #0D89F0; }
     .widget_top_rated_products ul.product_list_widget li:after {
       display: table;
       content: "";
@@ -7709,7 +7709,7 @@ address {
       -moz-transition: all 0.3s ease 0s, visibility 0s ease 0s;
       font-family: Arial, sans-serif; }
       .widget_top_rated_products ul.product_list_widget li a .product-title:hover {
-        color: #e80300; }
+        color: #0D89F0; }
     .widget_top_rated_products ul.product_list_widget li .star-rating {
       position: relative;
       top: 4px;
@@ -7752,7 +7752,7 @@ address {
     .widget_categories ul li:first-child {
       margin: 0; }
     .widget_categories ul li:hover a span {
-      background: #e80300;
+      background: #0D89F0;
       color: #ffffff; }
     .widget_categories ul li a {
       color: #8e8e8e;
@@ -7767,7 +7767,7 @@ address {
       float: left;
       width: 85%; }
       .widget_categories ul li a:hover {
-        color: #e80300; }
+        color: #0D89F0; }
       .widget_categories ul li a:before {
         display: inline-block;
         font-family: FontAwesome;
@@ -7883,7 +7883,7 @@ address {
       left: 50%;
       margin-top: -43px;
       margin-left: -43px;
-      background-color: #e80300;
+      background-color: #0D89F0;
       z-index: 3;
       -webkit-transform: rotate(45deg);
       -moz-transform: rotate(45deg);
@@ -7944,7 +7944,7 @@ h5 {
 }
 
 .blogdate {
-    background-color: #e80300;
+    background-color: #0D89F0;
     border-top: 5px solid #9f0000;
     color: #ffffff;
     float: left;
@@ -8065,7 +8065,7 @@ opacity:1;
  * -------------------------------------------------------------------
  */
 #kopa-footer {
-  background-color: #e80300;
+  background-color: #0D89F0;
   padding: 5px 0;
   text-align: center;
   position: relative;
@@ -8099,7 +8099,7 @@ opacity:1;
     position: absolute;
     border-left: 60px solid transparent;
     border-right: 60px solid transparent;
-    border-bottom: 60px solid #e80300;
+    border-bottom: 60px solid #0D89F0;
     bottom: 0;
     left: 0; }
   .back-to-top:after {
@@ -8155,7 +8155,7 @@ opacity:1;
 }
 .owl-home-top-carousel.owl-theme .top-bg::before {
   border-bottom: 982px solid transparent;
-  border-left: 1012px solid #e90100;
+  border-left: 1012px solid #0D89F0;
   content: "";
   left: 0;
   position: absolute;
@@ -8169,10 +8169,10 @@ opacity:1;
 }
 
 .single-other-post > div > .entry-item header a:hover {
-  color: #e80300; }
+  color: #0D89F0; }
 
 .error {
-  color: #e80300; }
+  color: #0D89F0; }
 
 .contact-box label.error,
 .comment-box label.error {
@@ -8244,15 +8244,15 @@ opacity:1;
   margin-right: 0; }
 
 .woocommerce .kopa-shop-detail div.product div.images .images-right:hover, .woocommerce-page .kopa-shop-detail div.product div.images .images-right:hover {
-  border: 1px solid #e80300;
-  background-color: #e80300; }
+  border: 1px solid #0D89F0;
+  background-color: #0D89F0; }
 
 .woocommerce .kopa-shop-detail div.product div.images .images-left li:hover, .woocommerce-page .kopa-shop-detail div.product div.images .images-left li:hover {
-  border: 1px solid #e80300;
-  background-color: #e80300; }
+  border: 1px solid #0D89F0;
+  background-color: #0D89F0; }
 
 .HomeServices .member-item a i{transition:all 0.5s; -webkit-transition:all 0.5s; -ms-transition:all 0.5s; -moz-transition:all 0.5s;}
-.HomeServices .member-item a:hover i {background: #e80300;}
+.HomeServices .member-item a:hover i {background: #0D89F0;}
 
 .kopa-logo.HeaderLogo {
   position: absolute;
@@ -8411,7 +8411,7 @@ transition:all 0.5s; -webkit-transition:all 0.5s; -ms-transition:all 0.5s; -moz-
 .intro .stars li .introContent p strong {
     font-size: 14px;
     font-weight: bolder;
-	color:#e90100;
+	color:#3792DD;
 }
 
 .intro .stars li .introContent{  color: #333333;
@@ -8425,7 +8425,7 @@ transition:all 0.5s; -webkit-transition:all 0.5s; -ms-transition:all 0.5s; -moz-
 
 
 .intro .stars li .introContent h3 {
-    color: #e90101;
+    color: #3792DD;
     font-size: 30px;
     margin-bottom: 7px;
 }
@@ -8443,7 +8443,7 @@ transition:all 0.5s; -webkit-transition:all 0.5s; -ms-transition:all 0.5s; -moz-
   width: 220px;
 }
 .intro .stars.startic_stars li .introContent h3 {
-    color: #e90101;
+    color:#3792DD;
     font-size: 30px;
     margin-bottom: 7px;
 text-align:center;
@@ -8749,7 +8749,7 @@ z-index:-1;
 }
 
 .absolutediv .clearfix a { color: #fff;}
-.absolutediv .clearfix a:hover { color: #E90100;}
+.absolutediv .clearfix a:hover { color: #0D89F0;}
 
 @media screen and (min-width: 1800px) and (max-width: 2000px) {
 
@@ -8757,7 +8757,7 @@ z-index:-1;
 border-top: 1336px solid transparent; content: "";left: 88%; position: absolute; top: 0;}
 .businesses .kopa-breadcrumb.imageBreadcrumb {min-height: 600px;}
 .businesses{background-size:1200px;}
-#bannerscollection_zoominout_generous .top-bg::before {border-bottom: 897px solid transparent; border-left: 923px solid #e90100; content: ""; left: 0; position: absolute; top: -295px; z-index: 2;}
+#bannerscollection_zoominout_generous .top-bg::before {border-bottom: 897px solid transparent; border-left: 923px solid #0D89F0; content: ""; left: 0; position: absolute; top: -295px; z-index: 2;}
 #bannerscollection_zoominout_generous .right-bg {background-color: #000000; height: 100%; left: 0; position: absolute; top: 0; width: 217px;z-index: 2;}
 .top-bg > a { margin-left: 158px; position: absolute; z-index: 2147483647;}
 .top-bg > a img {width:450px;}
@@ -8834,7 +8834,7 @@ border-top: 1336px solid transparent; content: "";left: 88%; position: absolute;
 
 .pad-bottom-20{padding-bottom:20px !important;}
 
-.homepage-contact .absolutediv a { color: #e90100;}
+.homepage-contact .absolutediv a { color: #0D89F0;}
 
 
 .homepage-contact .absolutediv li {
@@ -8851,7 +8851,7 @@ border-top: 1336px solid transparent; content: "";left: 88%; position: absolute;
 
 .timeline-div .top-bg::before {
     border-bottom: transparent solid 727px;
-    border-left: #e90100 solid 723px;
+    border-left: #0D89F0 solid 723px;
     content: "";
     left: 0;
     position: absolute;
@@ -8965,7 +8965,7 @@ border-top: 1336px solid transparent; content: "";left: 88%; position: absolute;
 }
 
 
-#dates .selected { color: #e80300 !important; position:relative;}
+#dates .selected { color: #0D89F0 !important; position:relative;}
 
 /*#issues li p {
   font-size: 14px;
@@ -9087,7 +9087,7 @@ border-top: 1336px solid transparent; content: "";left: 88%; position: absolute;
 }
 
 .autoplay-btn .fa, .stop-btn .fa {
-  color: #e80300;
+  color: #0D89F0;
   font-size: 29px;
   line-height: 36px;
   position: relative;
@@ -9096,7 +9096,7 @@ border-top: 1336px solid transparent; content: "";left: 88%; position: absolute;
 
 .autoplay-btn > span , .stop-btn > span { position: relative; top: -6px;}
 
-.autoplay-btn:hover, .stop-btn:hover{color:#e80300;}
+.autoplay-btn:hover, .stop-btn:hover{color:#0D89F0;}
 
 #issues li p{display:none;}
 
@@ -9117,7 +9117,7 @@ border-top: 1336px solid transparent; content: "";left: 88%; position: absolute;
   font-size: 46px;
 }
 
-.kopa-post-list-widget h5 span, .kopa-post-list-widget h5 strong{color:#e80300;}
+.kopa-post-list-widget h5 span, .kopa-post-list-widget h5 strong{color:#0D89F0;}
 
 .prjectDetailWrap .projectdescrtriton { line-height: 16px;}
 
@@ -9138,7 +9138,7 @@ border-top: 1336px solid transparent; content: "";left: 88%; position: absolute;
 
 .pop-upform input[type="button"], input[type="submit"] { 
 
-background: #e80300 none repeat scroll 0 0;
+background: #0D89F0 none repeat scroll 0 0;
 border: 0 none;
 color: #fff;
 font-family: Arial,sans-serif;
@@ -9246,11 +9246,11 @@ transition: all 0.5s ease 0s, visibility 0s ease 0s;
 
 
 .imageBreadcrumb .page-title h1 strong b, .imageBreadcrumb .page-title h1 strong strong {
-  color: #e80300 !important;
+  color: #0D89F0 !important;
 }
 
 .kopa-testimonial-widget .entry-name span, .kopa-testimonial-widget .entry-name strong {
-  color: #e80300;
+  color: #0D89F0;
 }
 
 .footer-text {
@@ -9261,7 +9261,7 @@ transition: all 0.5s ease 0s, visibility 0s ease 0s;
 }
 
 .footer-text .copyright > a {
-  color: #e90100;
+  color: #0D89F0;
 }
 
 
@@ -9289,7 +9289,7 @@ transition: all 0.5s ease 0s, visibility 0s ease 0s;
 
 
 .sitemap .fa-star-o {
-  color: #e80300;
+  color: #0D89F0;
 }
 
 .sitemap-text > li {
@@ -9420,7 +9420,7 @@ transition: all 0.5s ease 0s, visibility 0s ease 0s;
   line-height: 21px;
 }
 .widget-title.borderB.text-style3 > strong {
-  color: #e80300;
+  color: #0D89F0;
 }
 
 .widget-title.borderB.text-style4 {
@@ -9476,7 +9476,7 @@ transition: all 0.5s ease 0s, visibility 0s ease 0s;
   top: -2px;
 }
 .course-details strong {
-  color: #e80300;
+  color: #0D89F0;
 }
 .course-details small {
   color: #333;
@@ -9496,7 +9496,7 @@ transition: all 0.5s ease 0s, visibility 0s ease 0s;
 }
 
 .course-btn:hover {
- background-color:#e80300;
+ background-color:#0D89F0;
  color:#fff
 }
 
@@ -9526,7 +9526,7 @@ transition: all 0.5s ease 0s, visibility 0s ease 0s;
   width: 81%;
 }
 .text-style3 strong {
-  color: #e80300;
+  color: #0D89F0;
 }
 
 .course-details > ul {

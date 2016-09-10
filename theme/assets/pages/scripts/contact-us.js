@@ -7,15 +7,15 @@ var ContactUs = function () {
 			$(document).ready(function(){
 			  map = new GMaps({
 				div: '#map',
-	            lat: 28.7501,
-				lng: 77.1177,
+	            lat: 27.568108,
+				lng: 77.674725,
 			  });
 			   var marker = map.addMarker({
-		            lat: 28.7501,
-					lng: 77.1177,
-		            title: 'Loop, Inc.',
+		            lat: 27.568108,
+					lng: 77.674725,
+		            title: 'Find us here!',
 		            infoWindow: {
-		                content: "<b>DTU</b> Shabad Daultpur, Bawana Road<br>New Delhi, India"
+		                content: "<b>Ocean Films,</b> Fauji Bhawan, B-167, Sec-2, B.S. Dham Chaitanya Vihar<br> Phase-2, Vrindavan, Uttar Pradesh, India-281121"
 		            }
 		        });
 

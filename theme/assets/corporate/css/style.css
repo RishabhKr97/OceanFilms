@@ -759,6 +759,7 @@ body.page-header-fixed {
 	-moz-transition: all 0.1s ease;
 	-webkit-transition: all 0.1s ease;
 }*/
+/*
 .reduce-header .site-logo {
 	padding-top: 9px;
 	padding-bottom: 11px;
@@ -776,7 +777,7 @@ body.page-header-fixed {
 	.ecommerce .reduce-header .header-navigation li.menu-search {
 		top: 21px;
 	}
-}
+}*/
 .reduce-header .mobi-toggler {
 	margin-top: 12px;
 }

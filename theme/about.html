@@ -54,7 +54,7 @@
                 <!-- BEGIN TOP BAR MENU -->
                 <div class="col-md-6 col-sm-6 additional-nav">
                     <ul class="list-unstyled list-inline pull-right">
-                        <li><a href="register.html">Registration</a></li><!--page-login.html here this will come instead of this-->
+                        <li><a href="register.html">Registration</a></li><!--login.html here this will come instead of this-->
                         <li><a href="contacts.html">Contact Us</a></li>
                     </ul>
                 </div>
@@ -63,7 +63,7 @@
         </div>        
     </div>
     <!-- END TOP BAR -->
-   <!-- BEGIN HEADER -->
+    <!-- BEGIN HEADER -->
     <div class="header">
       <div class="container">
         <a class="site-logo" href="home.html"><img src="assets/corporate/img/logos/finalogo.png" alt="Ocean Films" style="height: 60px; margin: 0px; margin-top: 5px;"></a>
@@ -74,14 +74,14 @@
         <div class="header-navigation pull-right font-transform-inherit">
           <ul>
             <li class="dropdown">
-              <a class="dropdown-toggle" style="font-size: 1.03em;" href="home.html">
+              <a class="dropdown-toggle" data-toggle="dropdown" style="font-size: 1.03em;" href="home.html">
                 Home 
                 
               </a>
 
               
             </li>
-            <li class="dropdown dropdown-megamenu">
+            <li class="dropdown dropdown-megamenu active">
               <a class="dropdown-toggle" data-toggle="dropdown" style="font-size: 1.03em;" data-target="#" href="javascript:;">
                 Explore the Ocean
                 
@@ -94,8 +94,8 @@
                         <h4>All you need to know about us</h4>
                         <ul>
                           <li><a href="gallery.html">Gallery</a></li>
-                          <li><a href="projects.html">Projects</a></li>
                           <li><a href="services.html">Our Services</a></li>
+                          <li><a href="projects.html">Projects</a></li>
                           <li><a href="about.html">About Ocean Films</a></li>
                         </ul>
                       </div>
@@ -118,8 +118,8 @@
                 Gallery </a>
             </li>
             <li class="dropdown">
-              <a class="dropdown-toggle" href="projects.html" style="font-size: 1.03em;">
-                Projects
+              <a class="dropdown-toggle" href="services.html" style="font-size: 1.03em;">
+                Our Services
                 
               </a>
             </li>          
@@ -222,30 +222,30 @@
                     <div class="thumbnail">
                       <img alt="" src="assets/pages/img/people/lalit.jpg">
                       <h3>
-                        <strong style="font-weight: bold;">MR. LALIT KUMAR</strong> 
+                        <strong style="font-weight: bold;">LALIT KUMAR</strong> 
                         <small>(OPERATIONS HEAD)</small>
                       </h3>
                       <p style="line-height: 1.6em;">The operations head or the chief technocrat of the group has completed his B. Tech. from Delhi Technological University (D.C.E.). His fascination for the entertainment industry forced him to leave his settled line and join hands with the parivar. Today, he handles the finance and planning  of the parivar, with his known agility and accuracy.</p>
                     </div>
+                  <li class="col-md-3">
+                    <div class="thumbnail">
+                      <img alt="" src="assets/pages/img/people/sheetal.jpg">
+                      <h3>
+                        <strong style="font-weight: bold;">SHEETAL</strong>
+                        <small>(CHOREOGRAPHER)</small>
+                      </h3>
+                      <p style="line-height: 1.6em;">The power girl of the group did her graduation from Delhi University. Once a student of Master VK himself, she today handles three dance academies in Delhi. Her management skills are as agile as her dancing steps, which naturally makes her the member of the parivar. </p>
+                    </div>
+                  </li>
                   </li>
                   <li class="col-md-3">
                     <div class="thumbnail">
                       <img alt="" src="assets/pages/img/people/abhiskek1.jpg">
                       <h3>
-                        <strong style="font-weight: bold;">MR. ABHISHEK KUMAR </strong> 
+                        <strong style="font-weight: bold;">ABHISHEK KUMAR </strong> 
                         <small>(IT HEAD)</small>
                       </h3>
                       <p style="line-height: 1.6em;">The constant source of inspiration for the parivar, our very own ‘bawa’ did his graduation from DCAC, DU. After his Graduation he made his name in the Designing Industry, of which he is well known face today. </p>
-                    </div>
-                  </li>
-                  <li class="col-md-3">
-                    <div class="thumbnail">
-                      <img alt="" src="assets/pages/img/people/sheetal.jpg">
-                      <h3>
-                        <strong style="font-weight: bold;">MS. SHEETAL</strong>
-                        <small>(CHOREOGRAPHER)</small>
-                      </h3>
-                      <p style="line-height: 1.6em;">The power girl of the group did her graduation from Delhi University. Once a student of Master VK himself, she today handles three dance academies in Delhi. Her management skills are as agile as her dancing steps, which naturally makes her the member of the parivar. </p>
                     </div>
                   </li>
                 </ul>            
@@ -299,7 +299,6 @@
     <script type="text/javascript">
         jQuery(document).ready(function() {
             Layout.init();    
-            Layout.initTwitter();
         });
     </script>
     <!-- END PAGE LEVEL JAVASCRIPTS -->

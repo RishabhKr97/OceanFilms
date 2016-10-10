@@ -2032,7 +2032,7 @@ Demo Utils
     vertical-align: baseline;
 }
 .service-box .service-box-heading i.blue {
-  color: #0da3e2;
+  color: #BAF6FA;
   border:1px solid #0da3e2;
 }
 .service-box .service-box-heading i.red {
@@ -2085,7 +2085,7 @@ Demo Utils
 .quote-v1 a.btn-transparent {
   color: #fff;
   font-size: 16px;
-  padding: 8px 18px;
+  padding: 8px 6px;
   white-space: nowrap;   
   text-decoration: none;
   border: solid 1px #fff;
@@ -2405,17 +2405,19 @@ Demo Utils
   font-size: 35px;
 }
 .service-box-v1:hover {
-  background: #d73d04;
+  background: #BAF6FA;
   transition: all 0.4s ease-in-out;
   -o-transition: all 0.4s ease-in-out;
   -moz-transition: all 0.4s ease-in-out;
   -webkit-transition: all 0.4s ease-in-out;
 }
-.service-box-v1:hover i,
 .service-box-v1:hover p,
-.service-box-v1:hover h2 {
-  color: #fff;
+.service-box-v1:hover a,
+.service-box-v1>a:hover {
+  color: #fff !important;
+  font-weight: bold !important; 
 }
+
 
 /* corp. search result */
 .content-search-view2 {

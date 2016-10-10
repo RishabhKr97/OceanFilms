@@ -34,6 +34,30 @@
   <link href="assets/corporate/css/themes/red.css" rel="stylesheet" id="style-color">
   <link href="assets/corporate/css/custom.css" rel="stylesheet">
   <!-- Theme styles END -->
+
+  <script language="javascript">
+    function tab1click(){
+      document.getElementById('MM_tab').click();
+      document.getElementById('MM_tab').scrollIntoView();
+    }
+    function tab2click(){
+      document.getElementById('Pariyojna_tab').click();
+      document.getElementById('Pariyojna_tab').scrollIntoView();
+    }
+    function tab3click(){
+      document.getElementById('Film_tab').click();
+      document.getElementById('Film_tab').scrollIntoView();
+    }
+    function tab4click(){
+      document.getElementById('Event_tab').click();
+      document.getElementById('Event_tab').scrollIntoView();
+    }
+    function tab5click(){
+      document.getElementById('Portfolios_tab').click();
+      document.getElementById('Portfolios_tab').scrollIntoView();
+    }
+  </script>
+
 </head>
 <!-- Head END -->
 
@@ -54,7 +78,7 @@
                 <!-- BEGIN TOP BAR MENU -->
                 <div class="col-md-6 col-sm-6 additional-nav">
                     <ul class="list-unstyled list-inline pull-right">
-                        <li><a href="register.html">Registration</a></li><!--page-login.html here this will come instead of this-->
+                        <li><a href="register.html">Registration</a></li><!--login.html here this will come instead of this-->
                         <li><a href="contacts.html">Contact Us</a></li>
                     </ul>
                 </div>
@@ -63,7 +87,7 @@
         </div>        
     </div>
     <!-- END TOP BAR -->
-   <!-- BEGIN HEADER -->
+    <!-- BEGIN HEADER -->
     <div class="header">
       <div class="container">
         <a class="site-logo" href="home.html"><img src="assets/corporate/img/logos/finalogo.png" alt="Ocean Films" style="height: 60px; margin: 0px; margin-top: 5px;"></a>
@@ -94,8 +118,8 @@
                         <h4>All you need to know about us</h4>
                         <ul>
                           <li><a href="gallery.html">Gallery</a></li>
-                          <li><a href="projects.html">Projects</a></li>
                           <li><a href="services.html">Our Services</a></li>
+                          <li><a href="projects.html">Projects</a></li>
                           <li><a href="about.html">About Ocean Films</a></li>
                         </ul>
                       </div>
@@ -117,9 +141,9 @@
               <a class="dropdown-toggle" href="gallery.html" style="font-size: 1.03em;">
                 Gallery </a>
             </li>
-            <li class="dropdown">
-              <a class="dropdown-toggle" href="projects.html" style="font-size: 1.03em;">
-                Projects
+            <li class="dropdown active">
+              <a class="dropdown-toggle" href="services.html" style="font-size: 1.03em;">
+                Our Services
                 
               </a>
             </li>          
@@ -137,7 +161,6 @@
         <div class="row margin-bottom-40">
           <!-- BEGIN CONTENT -->
           <div class="col-md-12 col-sm-12">
-            <h1>About Us</h1>
             <div class="content-page">
               <div class="row">
                 <!-- BEGIN SERVICE BLOCKS -->               
@@ -145,48 +168,40 @@
                   <div class="row margin-bottom-20">
                     <div class="col-md-6">
                       <div class="service-box-v1">
-                        <div><i class="fa fa-thumbs-up color-grey"></i></div>
-                        <h2>Associations</h2>
-                        <p>We are associated with other big production companies like Maa Vindhyavasni visions , Green Stone Films & Entertainment , SV Films , Garv Of India , Shubharambh and few other.</p>
-                      </div>
-                    </div>
-                    <div class="col-md-6">
-                      <div class="service-box-v1">
-                        <div><i class="fa fa-cloud-download color-grey"></i></div>
-                        <h2>What We Do</h2>
-                        <p>We plan events in every budget for our clients to promote every talent with full dedication and we present them in every best possible way for making them shine like a star.</p>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="row margin-bottom-20">
-                    <div class="col-md-6">
-                      <div class="service-box-v1">
-                        <div><i class="fa fa-dropbox color-grey"></i></div>
-                        <h2>Actions</h2>
-                        <p>Ocean films represents large number of actors (male and female), models, Kids and singers, writers, dancers, and media professionals and continues to launch men, women, children, and seniors into to acting, music, modeling, media world.</p>
+                        <div><i class="fa fa-check-square color-grey"></i></div>
+                        <h2 style="font-weight: bold;">Ocean Films</h2>
+                        <p style="line-height: 1.6em;">We plan events in every budget for our clients to promote every talent with full dedication and we present them in best possible way to make them shine like a star. We are a full spectrum event planning, production and entertainment company that designs, plans and produces original, signature events &amp; talent hunt shows.</p>
                       </div>
                     </div>
                     <div class="col-md-6">
                       <div class="service-box-v1">
                         <div><i class="fa fa-gift color-grey"></i></div>
-                        <h2>Persons</h2>
-                        <p>—From kids to Catwalk, from character to commercials,from men, women, children, and seniors into to acting, music, modeling, media world. Ocean Film is about to one of India's busiest company with a client's list.</p>
+                        <h2 style="font-weight: bold;">Our Services</h2>
+                        <ul style="line-height: 1.6em;">
+                          <li><a href="#tab-1" onclick="tab1click()" >70MM (youtube channel)</a></li>
+                          <li><a href="#tab-2" onclick="tab2click()" >Pariyojna (Acting Certification Course)</a></li>
+                          <li><a href="#tab-3" onclick="tab3click()" >Film Production</a></li>
+                          <li><a href="#tab-3" onclick="tab3click()" >Music Albums</a></li>
+                          <li><a href="#tab-4" onclick="tab4click()" >Event Organizing</a></li>
+                          <li><a href="#tab-5" onclick="tab5click()" >Portfolios</a></li>
+                          <li><a href="#tab-5" onclick="tab5click()" >Promotions</a></li>
+                        </ul>
                       </div>
                     </div>
                   </div>
                   <div class="row margin-bottom-20">
                     <div class="col-md-6">
                       <div class="service-box-v1">
-                        <div><i class="fa fa-comments color-grey"></i></div>
-                        <h2>Master V.K</h2>
-                        <p>In production (films, documentary films, audio and video albums, reality shows, print ads, commercials ads, modeling,grooming classes,acting and theater classes,dance and singing workshops, events), promotions in above mentioned domains, celebrity management, artist co-ordinations, and media.</p>
+                        <div><i class="fa fa-gears color-grey"></i></div>
+                        <h2 style="font-weight: bold;">Actions</h2>
+                        <p style="line-height: 1.6em;">Ocean films represents a large number of actors, models, singers, writers, dancers, and media professionals and continues to launch men, women, children, and seniors into acting, music, modeling and media world.</p>
                       </div>
                     </div>
                     <div class="col-md-6">
                       <div class="service-box-v1">
-                        <div><i class="fa fa-globe color-grey"></i></div>
-                        <h2>Lalit Sir</h2>
-                        <p>— You never knew to be we have plans that go beyond your wildest dreams. We have your chance to reach into every home...everywhere across the globe promotions in above mentioned domains, celebrity management, artist co-ordinations, and media.</p>
+                        <div><i class="fa fa-link color-grey"></i></div>
+                        <h2 style="font-weight: bold;">Associations</h2>
+                        <p style="line-height: 1.6em;">We are associated with other big production companies like Maa Vindhyavasni Visions, Green Stone Films &amp; Entertainment, SV Films, Garv Of India, Shubharambh and many more.</p>
                       </div>
                     </div>
                   </div>
@@ -196,42 +211,42 @@
                 <!-- BEGIN VIDEO AND TESTIMONIALS -->   
                 <div class="col-md-5">
                   <!-- BEGIN VIDEO -->   
-                  <!--<iframe height="270" allowfullscreen="" style="width:100%; border:0" src="http://player.vimeo.com/video/56974716?portrait=0" class="margin-bottom-10"></iframe>
+                  <!--<iframe height="270" allowfullscreen="" style="width:100%; border:0" src="http://player.vimeo.com/video/56974716?portrait=0" class="margin-bottom-10"></iframe> -->
                   <!-- END VIDEO -->   
 
                 <!-- BEGIN TESTIMONIALS -->
                 <div class="testimonials-v1 testimonials-v1-another-color">
-                  <h2>Clients Testimonials</h2>                
+                  <h2 style="color: #78D4E3; font-weight: bold;">Testimonials</h2>                
                   <div id="myCarousel1" class="carousel slide">
                     <!-- Carousel items -->
                     <div class="carousel-inner">
                       <div class="active item">
-                        <blockquote><p>In production (films, documentary films, audio and video albums, reality shows, print ads, commercials ads, modeling,grooming classes,acting and theater classes,dance and singing workshops, events), promotions in above mentioned domains, celebrity management, artist co-ordinations, and media.</p></blockquote>
+                        <blockquote><p>We specialize in producing and organizing films, documentary, audio &amp; video albums, reality shows, print &amp; commercials ads, modeling, grooming, acting &amp; theater classes, dance &amp; singing workshops etc. promotions in above mentioned domains, celebrity management, artist co-ordinations and media.</p></blockquote>
                         <div class="carousel-info">
-                          <img class="pull-left" src="assets/pages/img/people/vk.jpg" alt="">
+                          <img class="pull-left" src="assets/pages/img/people/bg9cropped.jpg" alt="">
                           <div class="pull-left">
                             <span class="testimonials-name">Master V.K</span>
-                            <span class="testimonials-post">Commercial Director</span>
+                            <span class="testimonials-post">Managing Director</span>
                           </div>
                         </div>
                       </div>
                       <div class="item">
-                        <blockquote><p>— You never knew to be we have plans that go beyond your wildest dreams. We have your chance to reach into every home...everywhere across the globe promotions in above mentioned domains, celebrity management, artist co-ordinations, and media.</p></blockquote>
+                        <blockquote><p>You never know that we have plans that go beyond your wildest dreams. We have your chance to reach into every home and everywhere across the globe. Promotions in above mentioned domains, celebrity management, artist co-ordinations, and media are all our area of expertise.</p></blockquote>
                         <div class="carousel-info">
-                          <img class="pull-left" src="assets/pages/img/people/Abhishek.jpg" alt="">
+                          <img class="pull-left" src="assets/pages/img/people/lalit_thumb.jpg" alt="">
                           <div class="pull-left">
-                            <span class="testimonials-name">Abhishek</span>
-                            <span class="testimonials-post">Commercial Producer</span>
+                            <span class="testimonials-name">Lalit</span>
+                            <span class="testimonials-post">Operations Head</span>
                           </div>
                         </div>
                       </div>
                       <div class="item">
-                        <blockquote><p>From kids to Catwalk, from character to commercials,from men, women, children, and seniors into to acting, music, modeling, media world. Ocean Film is about to one of India's busiest company with a client's list.</p></blockquote>
+                        <blockquote><p>From kids to catwalk, from characters to commercials, men, women, children, and seniors, we introduce everyone to the field of acting, music, modeling, media world. Ocean Films is one of India's busiest entertainment company. We even give acting and dance classes to budding talents of the country.</p></blockquote>
                         <div class="carousel-info">
-                          <img class="pull-left" src="assets/pages/img/people/sunil.jpg" alt="">
+                          <img class="pull-left" src="assets/pages/img/people/sheetal_thumb.jpg" alt="">
                           <div class="pull-left">
-                            <span class="testimonials-name">Sunil</span>
-                            <span class="testimonials-post">Commercial Worker</span>
+                            <span class="testimonials-name">Sheetal</span>
+                            <span class="testimonials-post">Choreographer</span>
                           </div>
                         </div>
                       </div>
@@ -248,85 +263,63 @@
 
               <!-- BEGIN BLOCKQUOTE BLOCK -->   
               <div class="row quote-v1 margin-bottom-30">
-                <div class="col-md-9">
-                  <span>OceanFilms - The Most Complete &amp; Popular Admin &amp; Movie Academic Website</span>
+                <div class="col-md-10">
+                  <span style="font-weight: bold !important;">Ocean Films - Most Trusted Brand In Management &amp; Entertainment Industry</span>
                 </div>
-                <div class="col-md-3 text-right">
-                  <a class="btn-transparent" href="#" target="_blank"><i class="fa fa-rocket margin-right-10"></i>Preview Admin</a>
+                <div class="col-md-2">
+                  <a class="btn-transparent" href="gallery.html"><i class="fa fa-rocket margin-right-10"></i>See Our Gallery!</a>
                 </div>
               </div>
-              <!-- END BLOCKQUOTE BLOCK -->
+        <!-- END BLOCKQUOTE BLOCK -->
 
               <div class="row">
                 <!-- TABS -->
-                <div class="col-md-7 tab-style-1">
+                <div class="col-md-8 tab-style-1">
                   <ul class="nav nav-tabs">
-                    <li class="active"><a data-toggle="tab" href="#tab-1">MultiTasks</a></li>
-                    <li class=""><a data-toggle="tab" href="#tab-2">Acting Classes</a></li>
-                    <li class=""><a data-toggle="tab" href="#tab-3">Upcoming Projects</a></li>
+                    <li class="active"><a data-toggle="tab" id="MM_tab" href="#tab-1">70MM</a></li>
+                    <li class=""><a data-toggle="tab" id="Pariyojna_tab" href="#tab-2">Pariyojna</a></li>
+                    <li class=""><a data-toggle="tab" id="Film_tab" href="#tab-3">Film Production &amp; Music Albums</a></li>
+                    <li class=""><a data-toggle="tab" id="Event_tab" href="#tab-4">Event Organizing</a></li>
+                    <li class=""><a data-toggle="tab" id="Portfolios_tab" href="#tab-5">Portfolios &amp; Promotions</a></li>
                   </ul>
                   <div class="tab-content">
-                    <div id="tab-1" class="tab-pane row fade active in">
-                      <div class="col-md-3">
-                        <a data-rel="fancybox-button" title="Image Title" class="fancybox-button" href="assets/temp/pics/img1-large.jpg">
-                          <img alt="" src="assets/pages/img/pics/img14.jpg" class="img-responsive">
-                        </a>
-                      </div>
-                      <div class="col-md-9">
-                        <p class="margin-bottom-10">In over Six years with full dedication OCEAN FILMS has done lots off events, cultural program, stage shows and other talent hunt shows in more than twenty cities including all metro cities. We know that the success of our business is directly related to the success of our customers. As a producer Mr. V.K and his company progressed immensely in the field of TV SERIAL and FILMS . He has also given oportunity to new faces and talent and introduced them to the media and this industry. OCEAN FILMS has provided that platform to many new comers to show their talents.</p>
-                        <p><a class="read-more" href="javascript:;">Read more</a></p>
-                      </div>
+                    <div id="tab-1" class="tab-pane fade active in">
+                        <p class="margin-bottom-10">Ocean Films is extending their spotless quality in its art, to the universe of internet through its newly established YouTube channel fabricated with each of its unparalleled proficiency in the field of filmmaking.</p>
+                        <p><a class="read-more" href="javascript:;">Contact us for further information</a></p>
                     </div>
-                    <div id="tab-2" class="tab-pane row fade">
-                      <div class="col-md-9">
-                        <p>
-ACTING CLASSES ARE NOW STARTED TO TAKE ADMISSION FOR ACTING CLASSES CLICK ON THE LINK REGISTER YOU WILL GET CALL FROM OCEAN FILMS.</p>
-                      </div>
-                      <div class="col-md-3">
-                        <a data-rel="fancybox-button" title="Image Title" class="fancybox-button" href="assets/temp/pics/img2-large.jpg">
-                          <img alt="" src="assets/pages/img/pics/img4.jpg" class="img-responsive">
-                        </a>
-                      </div>
-                    </div>
+                    <div id="tab-2" class="tab-pane fade">
+                        <p>The ethical creed is the backbone of Oceans Films that accentuated its prominence in its field. Its compulsion advanced into constructing the formidable pillar in the explicit teachings of dance, music &amp; acting, with the Pariyojna, an initiative by Ocean Films. Pariyojna situated in Vrindavan is the first step towards our aim of giving back to the society what we have got from it. Since it’s inauguration in November'15, it has been serving and persuading the hidden talents to light up like the stars on the sky, only throughout the timeline.</p>
+                        <p><a class="read-more" href="javascript:;">Read more about Pariyojna</a></p>
+                        <p><a class="read-more" href="javascript:;">Contact us for further information</a></p>
+                        <a class="read-more" href="javascript:;">Register for Pariyojna</a></p>
+                    </div>                    
                     <div id="tab-3" class="tab-pane fade">
-                      <p>OCEAN FILMS GOING TO START A NEW PROJECT NAME "PARIYOJANA" IN THIS PROGRAM OUR EXPERTISE WILL TEACH YOU -
-
-
-
-
-
-1.MOVEMENT AND BALANCING
-
-. INTERPRETATION OF DIFFERENT BODY LANGUAGE.
-. SOUND-AIMS TO ENHANCING SENSE OF STAGE MUSIC. 
-. VOICE MODULATION.
-. DISCUSSING FILMS,PLAYS,DRAMA AND BIOGRAPHY OF ACCLAIMED ACTORS/ACTRESS.
-
-
-2.ACTING AND THEATRE
-
-. FACING AUDIENCE AND REMOVING INHIBITION.
-. FACING CAMERA AND EXPLORE CONFIDENCE. 
-. PORTRAY SMALL STORIES THROUGH ACT.</p>
+                      <p class="margin-bottom-10">The very basic craft that fills in the gaps of your breathe, with a luscious and sparkling Entertainment, has been the epitome of Ocean Films success for nearly a decade.</p>
+                      <p class="margin-bottom-10">The impeccable platform to boost your career, nothing can beat the superiority of a music album or a successfully produceed Film, which urges the talent under the spotlight to bask in the adulations of the numerous admirers.</p>               
+                      <p><a class="read-more" href="javascript:;">Contact us for further information</a></p>
+                    </div>              
+                    <div id="tab-4" class="tab-pane fade">
+                      <p class="margin-bottom-10">Nothing can close the magnitude of prosperity and triumph, than a successful event. Ocean Films precisely executes the philosophy behind an extravagant event. Events that we have successfully organized range from Bhagwat Kathas to College Festivals to Marriage Choreography and countless many more.</p>
+                      <p><a class="read-more" href="javascript:;">Contact us for further information</a></p>
+                    </div>                    
+                    <div id="tab-5" class="tab-pane fade">
+                      <p class="margin-bottom-10">The box is the first to be perceived than what’s inside it, if the box is impeccable so are you. This is certainly what we consider to be the top most priority for our customers. Portfolios is the airstrip to your flight. Let’s enclose your ambitions, you are waiting to fulfil, in a beautiful box.</p>
+                      <p class="margin-bottom-10">You never know that we have plans that go beyond your wildest dreams. We have your chance to reach into every home and everywhere across the globe. Promotions in above mentioned domains, celebrity management, artist co-ordinations, and media are all our area of expertise.</p>
+                      <p><a class="read-more" href="javascript:;">Contact us for further information</a></p>
                     </div>
                   </div>
                 </div>
                 <!-- END TABS -->
 
-                <!-- BEGIN BLOCKQUOTE -->   
-                <!--<div class="col-md-5">
-                  <h2>Harumquid rerumetde</h2>
-                  <p>Laborum et dolorum fuga. Et harum quidem rerum et quas molestias excepturi sint occaecati facilis est et expedita elit. Ut non libero consectetur adipiscing elit magna. Sed et quam lacus dolores et quas</p>
-                  <p>Molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi.</p>
-                  <br>
+                   
+                <div class="col-md-4">
+                  <p style="line-height: 1.6em;">We, at Ocean Films beileve that it is our responsiblity to give back the love and praise we have got from the society. Keeping this point of social welfare in mind, we have started projects like <em>70MM</em> and <em>Pariyojna</em>. Knowledge must spread in all directons and we are playing our part by teaching the fine points of art, creativity and film production to talented individuals.</p>
                   <blockquote>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
-                    <small>Someone famous <cite title="Source Title">Source Title</cite></small>
+                    <p>“Knowledge isn’t a piece of portrait you hang on to your showcase, but it’s an analogous entity to your hand that you extend for other’s welfare.”</p>
+                    <small>Master VK, <cite title="Source Title">Founder (Ocean Films)</cite></small>
                   </blockquote>                
-                </div>
-                <!-- END BLOCKQUOTE -->
+                </div>                
               </div>
-
             </div>
           </div>
         </oiv>
@@ -374,10 +367,9 @@ ACTING CLASSES ARE NOW STARTED TO TAKE ADMISSION FOR ACTING CLASSES CLICK ON THE
 
     <script src="assets/corporate/scripts/layout.js" type="text/javascript"></script>
     <script type="text/javascript">
-        jQuery(document).ready(function() {
-            Layout.init();    
-            Layout.initTwitter();
-        });
+      $(document).ready(function() {
+        Layout.init();
+      });
     </script>
     <!-- END PAGE LEVEL JAVASCRIPTS -->
 </body>

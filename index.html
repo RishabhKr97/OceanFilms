@@ -25,6 +25,7 @@
         <link rel="stylesheet" type="text/css" href="css/style.css"> 
         <link rel="stylesheet" type="text/css" href="css/responsive.css"> 
         <link rel="stylesheet" type="text/css" href="css/responsive-landing.css"> 
+		<link href="theme/assets/pages/css/animate.css" rel="stylesheet">
         
         
         <script async="" src="js/analytics.js"></script><script src="js/superfish.min.js"></script><script src="js/jquery-navgoco-min.js"></script><script src="js/modernizr.custom.js"></script>
@@ -67,6 +68,7 @@
             display: block;
             max-width:50px;
           padding: 10px;
+          margin-bottom: 5px;
           -webkit-transition:  background .2s ease-in-out;
           -moz-transition:  background .2s ease-in-out;
           -o-transition:  background .2s ease-in-out;
@@ -75,20 +77,52 @@
 
         #social_side_links li a:hover img {background: rgba(0, 0, 0, .2);}
 
+        .tag-line{
+        	position: fixed;
+        	top: 100px;
+        	left: 100px;
+        	color: #3792DD !important;
+        	z-index: 999999999;
+        	font-size: 2.5em;
+        }
+
+        @media (max-width: 1220px)
+		{
+  			.tag-line
+  			{
+    			font-size: 2em;
+  			}
+		}
+
+		@media (max-width: 1000px)
+		{
+  			.tag-line
+  			{
+    			font-size: 1.5em;
+  			}
+		}
+
+		@media (max-width: 800px)
+		{
+  			.tag-line
+  			{
+    			display: none;
+  			}
+		}
 
     </style>
-<body style="background-attachment: scroll;" class="woocommerce woocommerce-page" >
+<body style="background-attachment: scroll;" class="woocommerce woocommerce-page" style="overflow: scroll;" >
 
   <!-- Social Icons -->
   <ul id="social_side_links">
-    <li><a style="background-color: #E0F2F1;" href="theme/home.html" ><img src="images/logo.png" alt="" /></a></li>
-    <li><a style="background-color: #3c5a96;" href="https://www.facebook.com/oceanfilmsvk/?fref=ts"><img src="images/facebook-icon.png" alt="" /></a></li>    
-    <li><a style="background-color: #E0F2F1;" href="https://www.youtube.com/channel/UCGm18j2hXr9EwelD6X3h5gg"><img src="images/youtube.png" alt=""/></a></li>
-    <li><a style="background-color: #1dadeb;" href="https://twitter.com/OCEANFILMZ"><img src="images/twitter-icon.png" alt="" /></a></li>
-    <li><a style="background-color: #1178b3;" href="https://in.linkedin.com/in/oceanfilm"><img src="images/linkedin-icon.png" alt="" /></a></li>
-    <li><a style="background-color: #3c6a92;" href="theme/contacts.html"><img src="images/mail.png" alt=""/></a></li>
+    <li class="wow fadeInLeft" data-wow-duration="1s" ><a style="background-color: #E0F2F1;" href="theme/home.html" ><img src="images/logo.png" alt="" /></a></li>
+    <li class="wow fadeInLeft" data-wow-duration="1s" data-wow-delay="0.5s"><a style="background-color: #3c5a96;" href="https://www.facebook.com/oceanfilmsvk/?fref=ts"><img src="images/facebook-icon.png" alt="" /></a></li>    
+    <li class="wow fadeInLeft" data-wow-duration="1s" data-wow-delay="1s"><a style="background-color: #E0F2F1;" href="https://www.youtube.com/channel/UCGm18j2hXr9EwelD6X3h5gg"><img src="images/youtube.png" alt=""/></a></li>
+    <li class="wow fadeInLeft" data-wow-duration="1s" data-wow-delay="1.5s"><a style="background-color: #1dadeb;" href="https://twitter.com/OCEANFILMZ"><img src="images/twitter-icon.png" alt="" /></a></li>
+    <li class="wow fadeInLeft" data-wow-duration="1s" data-wow-delay="2s"><a style="background-color: #1178b3;" href="https://in.linkedin.com/in/oceanfilm"><img src="images/linkedin-icon.png" alt="" /></a></li>
+    <li class="wow fadeInLeft" data-wow-duration="1s" data-wow-delay="2.5s"><a style="background-color: #3c6a92;" href="theme/contacts.html"><img src="images/mail.png" alt=""/></a></li>
   </ul>
-
+	<h1 class="tag-line" >"YOUR TRUST, OUR PRIORITY"</h1>
 
 <div class="intro" style="overflow: scroll;">
 
@@ -149,6 +183,12 @@
 	<script type="text/javascript" src="js/adblock-uiscrip...tclick_hook.js"></script>
 	<script type="text/javascript" src="js/adblock-functions..tclick_hook.js"></script>
 	<script type="text/javascript" src="js/adblock-notificationoverlay.js"></script>
+	<script type="text/javascript" src="theme/assets/corporate/scripts/wow.js"></script>
+    <script>
+ 	$(document).ready(function(){ 
+        new WOW().init();              
+ 	});
+    </script>
 </div>
 </body>
 </html>

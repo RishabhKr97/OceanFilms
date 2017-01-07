@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="en">
+<!--<![endif]-->
+
+<!-- Head BEGIN -->
+<head>
+  <meta charset="utf-8">
+  <title>Contacts | OceanFilms</title>
+
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+  <link rel="shortcut icon" href="favicon.ico">
+
+  <!-- Fonts START -->
+  <link href="http://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700|PT+Sans+Narrow|Source+Sans+Pro:200,300,400,600,700,900|Cookie|Mirza" rel="stylesheet" type="text/css">
+  <!-- Fonts END -->
+
+  <!-- Global styles START -->          
+  <link href="assets/plugins/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+  <link href="assets/plugins/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Global styles END --> 
+   
+  <!-- Page level plugin styles START -->
+  <link href="assets/plugins/fancybox/source/jquery.fancybox.css" rel="stylesheet">
+  <link href="assets/plugins/uniform/css/uniform.default.css" rel="stylesheet" type="text/css">
+  <!-- Page level plugin styles END -->
+
+  <!-- Theme styles START -->
+  <link href="assets/pages/css/components.css" rel="stylesheet">
+  <link href="assets/corporate/css/style.css" rel="stylesheet">
+  <link href="assets/corporate/css/style-responsive.css" rel="stylesheet">
+  <link href="assets/corporate/css/themes/red.css" rel="stylesheet" id="style-color">
+  <link href="assets/corporate/css/custom.css" rel="stylesheet">
+  <!-- Theme styles END -->
+      <style type="text/css">
+       /* Social Icons */
+
+        #social_side_links  a {display: inline;}
+
+        #social_side_links  a img {
+            display: inline;
+            max-width:50px;
+          padding: 10px;
+          -webkit-transition:  background .2s ease-in-out;
+          -moz-transition:  background .2s ease-in-out;
+          -o-transition:  background .2s ease-in-out;
+          transition:  background .2s ease-in-out;
+        }
+
+        #social_side_links  a:hover img {background: rgba(0, 0, 0, .2);}
+
+
+    </style>
+  <!-- Form PHP Start -->
+    <?php
+ 
+    if(isset($_POST['submit'])) {
+
+      require 'phpmailer/PHPMailerAutoload.php';
+
+ 
+      function died($error) {
+        echo '<script language="javascript">';
+      echo 'alert("Please fix the following errors in your form :-\n'.$error.'")';
+      echo '</script>'; 
+      }
+   
+       
+   
+      // validation expected data exists
+   
+      if(empty($_POST['name']) ||
+   
+          empty($_POST['message']) ||
+   
+          empty($_POST['email']) )
+   
+           {
+   
+          died('Fill all the fields marked with *');       
+   
+      }
+    
+    else {
+         
+     
+        $name = $_POST['name']; // required
+     
+        $email = $_POST['email']; // required
+        
+        $message = $_POST['message']; //required
+
+        $error_message = "";
+     
+        $email_exp = '/^[A-Za-z0-9._%-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,4}$/';
+     
+      if(!preg_match($email_exp,$email)) {
+     
+        $error_message .= 'The Email Address you entered does not appear to be valid.\n';
+     
+      }
+     
+        $string_exp = "/^[A-Za-z .'-]+$/";
+     
+      if(!preg_match($string_exp,$name)) {
+     
+        $error_message .= 'The First Name you entered does not appear to be valid.\n';
+     
+      }
+     
+      if(strlen($error_message) > 0) {
+     
+        died($error_message);
+     
+      }
+      else{
+
+         $email_message = "Someone contacted you through your website.\n\n";
+       
+           
+       
+          function clean_string($string) {
+       
+            $bad = array("content-type","bcc:","to:","cc:","href");
+       
+            return str_replace($bad,"",$string);
+       
+          }
+       
+          $email_message .= "Name: ".clean_string($name)."\n";
+       
+          $email_message .= "Email: ".clean_string($email)."\n";
+       
+          $email_message .= "Message: ".clean_string($message)."\n";
+
+          $mail = new PHPMailer;
+          //$mail->isSMTP();
+          //$mail->SMTPDebug = 0;
+          //$mail->Debugoutput = 'html';
+          //$mail->Host = 'smtp.gmail.com';
+          //$mail->Port = 587;
+          //$mail->SMTPSecure = 'tls';
+          //$mail->SMTPAuth = true;
+          //$mail->Username = "oceanfilmmailer@gmail.com";
+          //$mail->Password = "theoceanfilms";
+          $mail->Host=localhost;
+          $mail->addAddress('trustoceanfilms@gmail.com');
+          $mail->Subject = 'Contact Us message from website';
+          $mail->Body = $email_message;
+          //send the message, check for errors
+           if (!$mail->send()) {
+            echo '<script language="javascript">';
+          echo 'alert("An error occured. Please try again later.")';
+          echo '</script>';
+          } else {
+            echo '<script language="javascript">';
+          echo 'alert("Message successfully sent.  We will get in touch with you, shortly !")';
+          echo '</script>';
+          }
+      }
+    }
+  }
+
+  ?>
+ 
+  <!-- Form PHP END -->
+</head>
+<!-- Head END -->
+
+<!-- Body BEGIN -->
+<body class="corporate">
+    <!-- BEGIN TOP BAR -->
+    <div class="pre-header">
+        <div class="container">
+            <div class="row">
+                <!-- BEGIN TOP BAR LEFT PART -->
+                <div class="col-md-6 col-sm-6 additional-shop-info">
+                    <ul class="list-unstyled list-inline">
+                        <!--<li><i class="fa fa-phone"></i><span>what to add?</span></li>
+                        <li><i class="fa fa-envelope-o"></i><span>info@oceanfilms.in</span></li>-->
+                    </ul>
+                </div>
+                <!-- END TOP BAR LEFT PART -->
+                <!-- BEGIN TOP BAR MENU -->
+                <div class="col-md-6 col-sm-6 additional-nav">
+                    <ul class="list-unstyled list-inline pull-right">
+                        <li><a href="register.php">Registration</a></li><!--login.php here this will come instead of this-->
+                        <li><a href="contacts.php">Contact Us</a></li>
+                    </ul>
+                </div>
+                <!-- END TOP BAR MENU -->
+            </div>
+        </div>        
+    </div>
+    <!-- END TOP BAR -->
+    <!-- BEGIN HEADER -->
+    <div class="header">
+      <div class="container">
+        <a class="site-logo" href="home.php"><img src="assets/corporate/img/logos/finalogo.png" alt="Ocean Films" style="height: 60px; margin: 0px; margin-top: 5px;"></a>
+        <a class="site-logo" href="home.php" style="text-decoration: none;"><h2 style="font-size: 2.3em; font-family:Mirza; margin-top: 5px;"> OCEAN FILMS</h2>
+        <h5 style="text-align: center; line-height: 0em; margin-top: -10px;">"Your Trust, Our Priority"</h5></a>
+        <a href="javascript:void(0);" class="mobi-toggler"><i class="fa fa-bars"></i></a>
+        <!-- BEGIN NAVIGATION -->
+        <div class="header-navigation pull-right font-transform-inherit">
+          <ul>
+            <li class="dropdown">
+              <a class="dropdown-toggle" style="font-size: 1.03em;" href="home.php">
+                Home 
+                
+              </a>
+
+              
+            </li>
+            <li class="dropdown dropdown-megamenu">
+              <a class="dropdown-toggle" data-toggle="dropdown" style="font-size: 1.03em;" data-target="#" href="javascript:;">
+                Explore the Ocean
+                
+              </a>
+              <ul class="dropdown-menu">
+                <li>
+                  <div class="header-navigation-content">
+                    <div class="row">
+                      <div class="col-md-4 header-navigation-col">
+                        <h4>All you need to know about us</h4>
+                        <ul>
+                          <li><a href="gallery.php">Gallery</a></li>
+                          <li><a href="services.php">Our Services</a></li>
+                          <li><a href="projects.php">Projects</a></li>
+                          <li><a href="about.php">About Ocean Films</a></li>
+                        </ul>
+                      </div>
+                      <div class="col-md-4 header-navigation-col">
+                        <h4>Reach out to us &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</h4>
+                        <ul>
+                          
+                          <li><a href="register.php">Registration</a></li>
+                          <li><a href="contacts.php">Contact Us</a></li>
+                        </ul>
+                      </div>
+         
+                    </div>
+                  </div>
+                </li>
+              </ul>
+            </li>           
+            <li class="dropdown">
+              <a class="dropdown-toggle" href="gallery.php" style="font-size: 1.03em;">
+                Gallery </a>
+            </li>
+            <li class="dropdown">
+              <a class="dropdown-toggle" href="services.php" style="font-size: 1.03em;">
+                Our Services
+                
+              </a>
+            </li>          
+            
+        </ul>
+        </div>
+        <!-- END NAVIGATION -->
+      </div>
+    </div>
+    <!-- Header END -->
+
+    <div class="main">
+      <div class="container">
+
+        <div class="row margin-bottom-40">
+          <!-- BEGIN CONTENT -->
+          <div class="col-md-12">
+            <div class="">
+              <div class="row">
+                <div class="col-md-9 col-sm-9">
+                  <h2 style="font-weight: bold; font-family: sans-serif !important; font-size: 3em !important; color:#0079b3; text-align: center;">Reach Out To Us</h2>
+                  <h4 style="text-align: center; font-size: 2em; font-family: Cookie;">We at OceanFilms, are looking forward to hear from you :)</h4>
+                  
+                  <!-- BEGIN FORM-->
+                  <form action="contacts.php" role="form" method="POST">
+                    <div class="form-group">
+                      <label for="contacts-name" style="text-align: center; font-size: 2em; font-family: Cookie;">Name <span style="color: red;">*</span></label>
+                      <input type="text" class="form-control" id="contacts-name" name="name" style="color: #44b1c1; font-weight: bold;">
+                    </div>
+                    <div class="form-group">
+                      <label for="contacts-email" style="text-align: center; font-size: 2em; font-family: Cookie;">Email <span style="color: red;">*</span></label>
+                      <input type="email" class="form-control" id="contacts-email" name="email" style="color: #44b1c1; font-weight: bold;">
+                    </div>
+                    <div class="form-group">
+                      <label for="contacts-message" style="text-align: center; font-size: 2em; font-family: Cookie;">Message <span style="color: red;">*</span></label>
+                      <textarea class="form-control" rows="5" id="contacts-message" name="message" style="color: #44b1c1; font-weight: bold;"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary" name="submit"><i class="icon-ok"></i> Send</button>
+                  </form>
+                  <!-- END FORM-->
+                </div>
+                <div class="col-md-3 col-sm-3 sidebar2">
+                  <h2 style="color: #44b1c1; font-weight: bold; text-decoration: underline;">Find Us Here!</h2>
+                  <address>
+                    <strong>Ocean Films</strong><br>
+                    <abbr title="Phone">Phone:</abbr>  9350665657, 9650821702 
+                  </address>
+                  <address>
+                    <strong>Email</strong><br>
+                    <a href="mailto:trustoceanfilms@gmail.com"> oceanfilms.india@outlook.com </a>
+                  </address>  
+                  <div id="social_side_links">
+                      <a  href="https://www.facebook.com/oceanfilmsvk/?fref=ts"><img style="background-color: #3c5a96;" src="assets/pages/img/social/facebook-icon.png" alt="" /></a>   
+                      <a href="https://www.youtube.com/channel/UCGm18j2hXr9EwelD6X3h5gg"><img style="background-color: #E0F2F1;" src="assets/pages/img/social/youtube-icon.png" alt=""/></a>
+                      <a href="https://twitter.com/OCEANFILMZ"><img style="background-color: #1dadeb;" src="assets/pages/img/social/twitter-icon.png" alt="" /></a>
+                      <a href="https://in.linkedin.com/in/oceanfilm"><img style="background-color: #1178b3;" src="assets/pages/img/social/linkedin-icon.png" alt="" /></a>
+                  </div>
+     
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- END CONTENT -->
+        </div>
+      </div>
+    </div>
+    <!-- BEGIN FOOTER -->
+    <div class="footer">
+      <div class="container">
+        <div class="row">
+          <!-- BEGIN COPYRIGHT -->
+          <div class="col-md-4 col-sm-4 padding-top-10">
+            2016 &copy; &reg; Ocean Films, All Rights Reserved. Copyright Protected. 
+          </div>
+          <!-- END COPYRIGHT -->
+          <!-- BEGIN PAYMENTS -->
+          <div class="col-md-offset-2 col-md-4 col-sm-4">
+            <ul class="social-footer list-unstyled list-inline ">
+              <li class="wow rollIn"><a href="https://twitter.com/OCEANFILMZ"><i class="fa fa-twitter" style="color: #00aced;"></i></a></li>
+              <li class="wow rollIn"><a href="https://www.facebook.com/oceanfilmsvk/?fref=ts"><i class="fa fa-facebook" style="color: #3b5998;"></i></a></li>
+              <li class="wow rollIn"><a href="https://www.youtube.com/channel/UCGm18j2hXr9EwelD6X3h5gg"><i class="fa fa-youtube" style="color: white;"></i></a></li>              
+              <li class="wow rollIn"><a href="https://in.linkedin.com/in/oceanfilm"><i class="fa fa-linkedin" style="color: #007bb6;"></i></a></li>
+            </ul>  
+          </div>
+          <!-- END PAYMENTS -->
+        </div>
+      </div>
+    </div>
+    <!-- END FOOTER -->
+    <!-- Load javascripts at bottom, this will reduce page load time -->
+    <!-- BEGIN CORE PLUGINS (REQUIRED FOR ALL PAGES) -->
+    <!--[if lt IE 9]>
+    <script src="assets/plugins/respond.min.js"></script>
+    <![endif]-->
+    <script src="assets/plugins/jquery.min.js" type="text/javascript"></script>
+    <script src="assets/plugins/jquery-migrate.min.js" type="text/javascript"></script>
+    <script src="assets/plugins/bootstrap/js/bootstrap.min.js" type="text/javascript"></script>      
+    <script src="assets/corporate/scripts/back-to-top.js" type="text/javascript"></script>
+    <!-- END CORE PLUGINS -->
+
+    <!-- BEGIN PAGE LEVEL JAVASCRIPTS (REQUIRED ONLY FOR CURRENT PAGE) -->
+    <script src="assets/plugins/fancybox/source/jquery.fancybox.pack.js" type="text/javascript"></script><!-- pop up -->
+    <script src="http://maps.google.com/maps/api/js?sensor=true" type="text/javascript"></script>
+    <script src="assets/plugins/gmaps/gmaps.js" type="text/javascript"></script>
+    <script src="assets/pages/scripts/contact-us.js" type="text/javascript"></script>
+
+    <script src="assets/corporate/scripts/layout.js" type="text/javascript"></script>
+    <script type="text/javascript">
+        jQuery(document).ready(function() {
+            Layout.init();
+            Layout.initUniform();
+            ContactUs.init();
+        });
+    </script>
+    <!-- END PAGE LEVEL JAVASCRIPTS -->
+</body>
+<!-- END BODY -->
+</html>

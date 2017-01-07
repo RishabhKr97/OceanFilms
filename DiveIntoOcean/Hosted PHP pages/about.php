@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<!--[if IE 8]> <html lang="en" class="ie8 no-js"> <![endif]-->
+<!--[if IE 9]> <html lang="en" class="ie9 no-js"> <![endif]-->
+<!--[if !IE]><!-->
+<html lang="en">
+<!--<![endif]-->
+
+<!-- Head BEGIN -->
+<head>
+  <meta charset="utf-8">
+  <title>About Us | OceanFilms</title>
+
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <link rel="shortcut icon" href="favicon.ico">
+
+  <!-- Fonts START -->
+  <link href="http://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700|PT+Sans+Narrow|Source+Sans+Pro:200,300,400,600,700,900|Cookie|Mirza" rel="stylesheet" type="text/css">
+  <!-- Fonts END -->
+  <!-- Global styles START -->          
+  <link href="assets/plugins/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+  <link href="assets/plugins/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Global styles END --> 
+   
+  <!-- Page level plugin styles START -->
+  <link href="assets/plugins/fancybox/source/jquery.fancybox.css" rel="stylesheet">
+  <!-- Page level plugin styles END -->
+
+  <!-- Theme styles START -->
+  <link href="assets/pages/css/components.css" rel="stylesheet">
+  <link href="assets/corporate/css/style.css" rel="stylesheet">
+  <link href="assets/corporate/css/style-responsive.css" rel="stylesheet">
+  <link href="assets/corporate/css/themes/red.css" rel="stylesheet" id="style-color">
+  <link href="assets/corporate/css/custom.css" rel="stylesheet">
+  <!-- Theme styles END -->
+
+  <script type="text/javascript">
+    function set1click(){
+      var status = document.getElementById("intro1").style.display;
+      if(status == "none"){
+        document.getElementById("intro1").style.display = "block";
+        document.getElementById("intro2").style.display = "block";
+        document.getElementById("intro3").style.display = "block";
+      }
+      else{
+        document.getElementById("intro1").style.display = "none";
+        document.getElementById("intro2").style.display = "none";
+        document.getElementById("intro3").style.display = "none";
+      }
+    }
+    function set2click(){
+      var status = document.getElementById("intro4").style.display;
+      if(status == "none"){
+        document.getElementById("intro4").style.display = "block";
+        document.getElementById("intro5").style.display = "block";
+      }
+      else{
+        document.getElementById("intro4").style.display = "none";
+        document.getElementById("intro5").style.display = "none";
+      }
+    }
+  </script>
+
+</head>
+<!-- Head END -->
+
+<!-- Body BEGIN -->
+<body class="corporate">
+    <!-- BEGIN TOP BAR -->
+    <div class="pre-header">
+        <div class="container">
+            <div class="row">
+                <!-- BEGIN TOP BAR LEFT PART -->
+                <div class="col-md-6 col-sm-6 additional-shop-info">
+                    <ul class="list-unstyled list-inline">
+                        <!--<li><i class="fa fa-phone"></i><span>what to add?</span></li>
+                        <li><i class="fa fa-envelope-o"></i><span>info@oceanfilms.in</span></li>-->
+                    </ul>
+                </div>
+                <!-- END TOP BAR LEFT PART -->
+                <!-- BEGIN TOP BAR MENU -->
+                <div class="col-md-6 col-sm-6 additional-nav">
+                    <ul class="list-unstyled list-inline pull-right">
+                        <li><a href="register.php">Registration</a></li><!--login.php here this will come instead of this-->
+                        <li><a href="contacts.php">Contact Us</a></li>
+                    </ul>
+                </div>
+                <!-- END TOP BAR MENU -->
+            </div>
+        </div>        
+    </div>
+    <!-- END TOP BAR -->
+    <!-- BEGIN HEADER -->
+    <div class="header">
+      <div class="container">
+        <a class="site-logo" href="home.php"><img src="assets/corporate/img/logos/finalogo.png" alt="Ocean Films" style="height: 60px; margin: 0px; margin-top: 5px;"></a>
+        <a class="site-logo" href="home.php" style="text-decoration: none;"><h2 style="font-size: 2.3em; font-family:Mirza; margin-top: 5px;"> OCEAN FILMS</h2>
+        <h5 style="text-align: center; line-height: 0em; margin-top: -10px;">"Your Trust, Our Priority"</h5></a>
+        <a href="javascript:void(0);" class="mobi-toggler"><i class="fa fa-bars"></i></a>
+        <!-- BEGIN NAVIGATION -->
+        <div class="header-navigation pull-right font-transform-inherit">
+          <ul>
+            <li class="dropdown">
+              <a class="dropdown-toggle" style="font-size: 1.03em;" href="home.php">
+                Home 
+                
+              </a>
+
+              
+            </li>
+            <li class="dropdown dropdown-megamenu active">
+              <a class="dropdown-toggle" data-toggle="dropdown" style="font-size: 1.03em;" data-target="#" href="javascript:;">
+                Explore the Ocean
+                
+              </a>
+              <ul class="dropdown-menu">
+                <li>
+                  <div class="header-navigation-content">
+                    <div class="row">
+                      <div class="col-md-4 header-navigation-col">
+                        <h4>All you need to know about us</h4>
+                        <ul>
+                          <li><a href="gallery.php">Gallery</a></li>
+                          <li><a href="services.php">Our Services</a></li>
+                          <li><a href="projects.php">Projects</a></li>
+                          <li><a href="about.php">About Ocean Films</a></li>
+                        </ul>
+                      </div>
+                      <div class="col-md-4 header-navigation-col">
+                        <h4>Reach out to us &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</h4>
+                        <ul>
+                          
+                          <li><a href="register.php">Registration</a></li>
+                          <li><a href="contacts.php">Contact Us</a></li>
+                        </ul>
+                      </div>
+         
+                    </div>
+                  </div>
+                </li>
+              </ul>
+            </li>           
+            <li class="dropdown">
+              <a class="dropdown-toggle" href="gallery.php" style="font-size: 1.03em;">
+                Gallery </a>
+            </li>
+            <li class="dropdown">
+              <a class="dropdown-toggle" href="services.php" style="font-size: 1.03em;">
+                Our Services
+                
+              </a>
+            </li>          
+            
+        </ul>
+        </div>
+        <!-- END NAVIGATION -->
+      </div>
+    </div>
+    <!-- Header END -->
+    <div class="main">
+      <div class="container" style="padding: 20px !important;">
+        <!-- BEGIN SIDEBAR & CONTENT -->
+        <div class="row margin-bottom-40">
+          <!-- BEGIN CONTENT -->
+          <div class="col-md-12 col-sm-12">
+            <h1 style="font-weight: bold; font-family: sans-serif; !important; font-size: 3em !important; color:#0079b3; text-align: center;">About Us</h1>
+            <div  style="padding: 20px !important;">
+              <div class="row margin-bottom-30">
+                <!-- BEGIN INFO BLOCK -->               
+                <div class="col-md-7" style="font-family: 'Mirza', cursive !important; font-weight: bold; font-size:1.4em; line-height: 1.2em; ">
+                  <p>Ocean Films is the prodigy lineage from the critically acclaimed, Choreographer &amp; Director, Mr VK Dasaundhi (Master VK). Ocean Films has no less prestige than its Founder himself, who had garnered his impeccable reputation from nearly a decade of astounding and widely-praised work he had contributed to Indian Cinema. In this journey from year 2008, We have seen astounding success and continues to be the most trusted entertainment company.</p>
+                  <p>It is a full-spectrum event planning, production and entertainment company that designs, plans and produces original, signature events &amp; talent hunt shows. Driven by the irrevocable notion of excellence, Ocean Films has strived to provide a platform to the great talents of India.</p> 
+                  <p>With over seven years of experience, we have done lot of events, cultural program, stage shows and talent hunt shows in more than twenty cities including all metro cities and have the oppurtunity to work with some of the greatest name in Indian Cinema like Ravi Kishan (film "Love Aur Rajneeti"). We know that our success is directly related to the success of our customers. As a producer Mr. V.K and his team has progressed immensely in the field of TV Serials and films. Our works include many bojpuri films, realty show, albums etc. like "Kaisan Piyawa Ke Charitar Baa", "Raju Raja Ram", "Loot", "Love Aur Rajneeti", "Sakhi Rakhiyah Sendurwa Ke Laaj".</p>
+
+                </div>
+                <!-- END INFO BLOCK -->   
+
+                <!-- BEGIN CAROUSEL -->            
+                <div class="col-md-5 front-carousel">
+                  <div id="myCarousel" class="carousel slide">
+                    <!-- Carousel items -->
+                    <div class="carousel-inner">
+                      <div class="item active">
+                        <img src="assets/pages/img/pics/img21.jpg" alt="">
+                        <div class="carousel-caption">
+                          <p> Ocean Films has provided platform to many new comers to show their talents.</p>
+                        </div>
+                      </div>
+                      <div class="item">
+                        <img src="assets/pages/img/pics/img4.jpg" alt="">
+                        <div class="carousel-caption">
+                          <p>In over Six years with full dedication Ocean Films has done lots of events, cultural program, stage shows and talent hunt shows in more than twenty cities including all metro cities.</p>
+                        </div>
+                      </div>
+                      <div class="item">
+                        <img src="assets/pages/img/pics/img14.jpg" alt="">
+                        <div class="carousel-caption">
+                          <p>We know that our success is directly related to the success of our customers.</p>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- Carousel nav -->
+                    <a class="carousel-control left" href="#myCarousel" data-slide="prev">
+                      <i class="fa fa-angle-left"></i>
+                    </a>
+                    <a class="carousel-control right" href="#myCarousel" data-slide="next">
+                      <i class="fa fa-angle-right"></i>
+                    </a>
+                  </div>                
+                </div>
+                <!-- END CAROUSEL -->
+              </div>
+              <div class="well" style="  margin: auto !important; margin-top: 30px !important; margin-bottom: 30px !important;   width: 80% !important;">
+                <p id="quote" style="line-height: 1.6em; font-style: italic;">
+                <i style="color: #44b1c1; font-style: italic;" class="fa fa-quote-left fa-3x"></i>
+                We all work together, we all celebrate together, we all dwell together; let it be happiness, sorrow, ups and downs, we share everything; we are not just another team, we are a <em>"parivar"</em>. Let’s move forward and have a look at the "parivar", which you are soon, going to be a part of.
+                </p>
+              </div>
+              <div class="row front-team" style="text-align: center;">
+              <br><br>
+                <h2 style="font-weight: bold; font-family: 'Mirza', cursive !important; font-size: 3em !important; color:#0079b3; text-align:center;">Chairman</h2>
+                <ul class="list-unstyled">
+                <li class="col-md-4 col-md-offset-4">
+                <div class="thumbnail">
+                    <a href="#rdsingh"><img alt="" src="assets/pages/img/people/rdsingh.jpg"></a>
+                    <h3 style="text-align: center;">
+                       <strong style="font-weight: bold;">R.D. SINGH </strong> 
+                       <small>(CHAIRMAN)</small>
+                     </h3>
+                </div>
+                </li>
+                </ul>
+              </div>
+              <div class="row front-team">
+              	<br><br><br><br>
+                <h2 style="font-weight: bold; font-family: 'Mirza', cursive !important; font-size: 3em !important; color:#0079b3; text-align: center;">Core Team</h2>
+                <p style="text-align: center; font-size: 2em; font-family: Cookie;"> (Those who take responsiblity on their shoulders and steer the parivar forward)</p>
+                <ul class="list-unstyled">
+                  <li class="col-md-4">
+                    <div class="thumbnail">
+                      <a href="#V.K. Dasaundhi" onclick="set1click()"><img alt="" src="assets/pages/img/people/vk.jpg"></a>
+                      <h3 style="text-align: center;">
+                        <strong style="font-weight: bold;">V.K DASAUNDHI </strong> 
+                        <small>(MANAGING DIRECTOR)</small>
+                      </h3>
+                      <p id = "intro1" style="line-height: 1.6em; display: none; font-family: Cookie; text-align: center; font-size:1.5em;">Graduated in English Hons. from Dayal Singh College, DU, this man is a true art genius and a prodigy theatre artist. Let it be his name which he got from Shiamak Davar himself, or his NSD certificate or the reality shows he has won, he has set the standards too high for others and truly deserves to be called the head of the family</p>
+                    </div>
+                  </li>
+                  <li class="col-md-4">
+                    <div class="thumbnail">
+                      <a href="#Lalit Kumar" onclick="set1click()"><img alt="" src="assets/pages/img/people/lalit.jpg"></a>
+                      <h3 style="text-align: center;">
+                        <strong style="font-weight: bold;">LALIT KUMAR</strong> 
+                        <small>(OPERATIONS HEAD)</small>
+                      </h3>
+                      <p id="intro2" style="line-height: 1.6em; display: none; font-family: Cookie; text-align: center; font-size:1.5em;">The operations head or the chief technocrat of the group has completed his B. Tech. from Delhi Technological University (D.C.E.). His fascination for the entertainment industry forced him to leave his settled line and join hands with the parivar. Today, he handles the finance and planning  of the parivar, with his known agility and accuracy.</p>
+                    </div>
+                  </li>
+                  <li class="col-md-4">
+                    <div class="thumbnail">
+                      <a href="#Abhishek Kumar" onclick="set1click()"><img alt="" src="assets/pages/img/people/abhishek1.jpg"></a>
+                      <h3 style="text-align: center;">
+                        <strong style="font-weight: bold;">ABHISHEK KUMAR </strong> 
+                        <small>(IT HEAD)</small>
+                      </h3>
+                      <p id="intro3" style="line-height: 1.6em; display: none; font-family: Cookie; text-align: center; font-size:1.5em;">The constant source of inspiration for the parivar, our very own ‘bawa’ did his graduation from DCAC, DU. After his Graduation he made his name in the Designing Industry, of which he is well known face today. </p>
+                    </div>
+                  </li>
+                </ul>          
+              </div>
+              <div class="row front-team">
+              	<br><br><br><br>
+                <h2 style="font-weight: bold; font-family: Mirza !important; font-size: 3em !important; color:#0079b3; text-align: center;">Our Experts</h2>
+                <p style="text-align: center; font-size: 2em; font-family: Cookie;">(The masters of their field and backbone of parivar) </p>
+                <ul class="list-unstyled">
+                  <li class="col-md-3 col-md-offset-2">
+                    <div class="thumbnail">
+                      <a href="#Sheetal" onclick="set2click()"><img alt="" src="assets/pages/img/people/sheetal.jpg"></a>
+                      <h3 style="text-align: center;">
+                        <strong style="font-weight: bold;">SHEETAL</strong>
+                        <small>(CHOREOGRAPHER)</small>
+                      </h3>
+                      <p  id="intro4" style="line-height: 1.6em; display: none; font-family: Cookie; text-align: center; font-size:1.5em;">The power girl of the group did her graduation from Delhi University. Once a student of VK Dasaundhi himself, she today handles three dance academies in Delhi. Her management skills are as agile as her dancing steps, which naturally makes her the member of the parivar. </p>
+                    </div>
+                  </li>
+                  <li class="col-md-3 col-md-offset-2">
+                    <div class="thumbnail">
+                      <a href="#Sanjay" onclick="set2click()"><img alt="" src="assets/pages/img/people/sanjay.jpg"></a>
+                      <h3 style="text-align: center;">
+                        <strong style="font-weight: bold;">SANJAY</strong>
+                        <small>(DIRECTOR OF PHOTOGRAPHY)</small>
+                      </h3>
+                      <p id="intro5" style="line-height: 1.6em; display: none; font-family: Cookie; text-align: center; font-size:1.5em;">Apart from having a cheerful personality and and numerous years of experience in entertainment industry, he knows how to capture every shot like there is life in it. Through his dedication and hardwork he has achieved name and fame in entertainment industry.</p>
+                    </div>
+                  </li>
+                </ul>  
+              </div>
+            </div>
+          </div>
+          <!-- END CONTENT -->
+        </div>
+        <!-- END SIDEBAR & CONTENT -->
+      </div>
+    </div>
+    <!-- BEGIN FOOTER -->
+    <div class="footer">
+      <div class="container">
+        <div class="row">
+          <!-- BEGIN COPYRIGHT -->
+          <div class="col-md-4 col-sm-4 padding-top-10">
+            2016 &copy; &reg; Ocean Films, All Rights Reserved. Copyright Protected. 
+          </div>
+          <!-- END COPYRIGHT -->
+          <!-- BEGIN PAYMENTS -->
+          <div class="col-md-offset-2 col-md-4 col-sm-4">
+            <ul class="social-footer list-unstyled list-inline ">
+              <li class="wow rollIn"><a href="https://twitter.com/OCEANFILMZ"><i class="fa fa-twitter" style="color: #00aced;"></i></a></li>
+              <li class="wow rollIn"><a href="https://www.facebook.com/oceanfilmsvk/?fref=ts"><i class="fa fa-facebook" style="color: #3b5998;"></i></a></li>
+              <li class="wow rollIn"><a href="https://www.youtube.com/channel/UCGm18j2hXr9EwelD6X3h5gg"><i class="fa fa-youtube" style="color: white;"></i></a></li>              
+              <li class="wow rollIn"><a href="https://in.linkedin.com/in/oceanfilm"><i class="fa fa-linkedin" style="color: #007bb6;"></i></a></li>
+            </ul>  
+          </div>
+          <!-- END PAYMENTS -->
+        </div>
+      </div>
+    </div>
+    <!-- END FOOTER -->
+
+    <!-- Load javascripts at bottom, this will reduce page load time -->
+    <!-- BEGIN CORE PLUGINS (REQUIRED FOR ALL PAGES) -->
+    <!--[if lt IE 9]>
+    <script src="assets/plugins/respond.min.js"></script>
+    <![endif]--> 
+    <script src="assets/plugins/jquery.min.js" type="text/javascript"></script>
+    <script src="assets/plugins/jquery-migrate.min.js" type="text/javascript"></script>
+    <script src="assets/plugins/bootstrap/js/bootstrap.min.js" type="text/javascript"></script>      
+    <script src="assets/corporate/scripts/back-to-top.js" type="text/javascript"></script>
+    <!-- END CORE PLUGINS -->
+
+    <!-- BEGIN PAGE LEVEL JAVASCRIPTS (REQUIRED ONLY FOR CURRENT PAGE) -->
+    <script src="assets/plugins/fancybox/source/jquery.fancybox.pack.js" type="text/javascript"></script><!-- pop up -->
+
+    <script src="assets/corporate/scripts/layout.js" type="text/javascript"></script>
+    <script type="text/javascript">
+        jQuery(document).ready(function() {
+            Layout.init();    
+        });
+    </script>
+    <!-- END PAGE LEVEL JAVASCRIPTS -->
+</body>
+<!-- END BODY -->
+</html>

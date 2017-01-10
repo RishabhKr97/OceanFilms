@@ -56,8 +56,8 @@
                 <!-- BEGIN TOP BAR MENU -->
                 <div class="col-md-6 col-sm-6 additional-nav">
                     <ul class="list-unstyled list-inline pull-right">
-                        <li><a href="register.html">Registration</a></li><!--login.html here this will come instead of this-->
-                        <li><a href="contacts.html">Contact Us</a></li>
+                        <li><a href="register.php">Registration</a></li><!--login.php here this will come instead of this-->
+                        <li><a href="contacts.php">Contact Us</a></li>
                     </ul>
                 </div>
                 <!-- END TOP BAR MENU -->
@@ -68,8 +68,8 @@
     <!-- BEGIN HEADER -->
     <div class="header">
       <div class="container">
-        <a class="site-logo" href="home.html"><img src="assets/corporate/img/logos/finalogo.png" alt="Ocean Films" style="height: 60px; margin: 0px; margin-top: 5px;"></a>
-        <a class="site-logo" href="home.html" style="text-decoration: none;"><h2 style="font-size: 2.3em; font-family:Mirza; margin-top: 5px;"> OCEAN FILMS</h2>
+        <a class="site-logo" href="home.php"><img src="assets/corporate/img/logos/finalogo.png" alt="Ocean Films" style="height: 60px; margin: 0px; margin-top: 5px;"></a>
+        <a class="site-logo" href="home.php" style="text-decoration: none;"><h2 style="font-size: 2.3em; font-family:Mirza; margin-top: 5px;"> OCEAN FILMS</h2>
         <h5 style="text-align: center; line-height: 0em; margin-top: -10px;">"Your Trust, Our Priority"</h5></a>
         <a href="javascript:void(0);" class="mobi-toggler"><i class="fa fa-bars"></i></a>
 
@@ -77,7 +77,7 @@
         <div class="header-navigation pull-right font-transform-inherit">
           <ul>
             <li class="dropdown">
-              <a class="dropdown-toggle" style="font-size: 1.03em;" href="home.html">
+              <a class="dropdown-toggle" style="font-size: 1.03em;" href="home.php">
                 Home 
                 
               </a>
@@ -96,18 +96,18 @@
                       <div class="col-md-4 header-navigation-col">
                         <h4>All you need to know about us</h4>
                         <ul>
-                          <li><a href="gallery.html">Gallery</a></li>
-                          <li><a href="services.html">Our Services</a></li>
-                          <li><a href="projects.html">Projects</a></li>
-                          <li><a href="about.html">About Ocean Films</a></li>
+                          <li><a href="gallery.php">Gallery</a></li>
+                          <li><a href="services.php">Our Services</a></li>
+                          <li><a href="projects.php">Projects</a></li>
+                          <li><a href="about.php">About Ocean Films</a></li>
                         </ul>
                       </div>
                       <div class="col-md-4 header-navigation-col">
                         <h4>Reach out to us &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</h4>
                         <ul>
                           
-                          <li><a href="register.html">Registration</a></li>
-                          <li><a href="contacts.html">Contact Us</a></li>
+                          <li><a href="register.php">Registration</a></li>
+                          <li><a href="contacts.php">Contact Us</a></li>
                         </ul>
                       </div>
          
@@ -117,11 +117,11 @@
               </ul>
             </li>           
             <li class="dropdown active">
-              <a class="dropdown-toggle" href="gallery.html" style="font-size: 1.03em;">
+              <a class="dropdown-toggle" href="gallery.php" style="font-size: 1.03em;">
                 Gallery </a>
             </li>
             <li class="dropdown">
-              <a class="dropdown-toggle" href="services.html" style="font-size: 1.03em;">
+              <a class="dropdown-toggle" href="services.php" style="font-size: 1.03em;">
                 Our Services
                 
               </a>

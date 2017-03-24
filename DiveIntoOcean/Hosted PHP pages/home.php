@@ -11,18 +11,18 @@
   <title>Home | Ocean Films</title>
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-         
+
 <meta name="description" content="Ocean Films is a full spectrum event planning, production and entertainment company that designs, plans and produces original, signature events & talent hunt shows.">
-<meta name="keywords" content="oceanfilms movie production entertainment event planning"> 
+<meta name="keywords" content="oceanfilms movie production entertainment event planning">
   <link rel="shortcut icon" href="favicon.ico" />
   <!-- Fonts START -->
   <link href="http://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700|PT+Sans+Narrow|Source+Sans+Pro:200,300,400,600,700,900|Mirza" rel="stylesheet" type="text/css">
   <!-- Fonts END -->
 
-  <!-- Global styles START -->          
+  <!-- Global styles START -->
   <link href="assets/plugins/font-awesome/css/font-awesome.min.css" rel="stylesheet">
   <link href="assets/plugins/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-  <!-- Global styles END --> 
+  <!-- Global styles END -->
   <!-- Page level plugin styles START -->
   <link href="assets/pages/css/animate.css" rel="stylesheet">
   <link href="assets/plugins/fancybox/source/jquery.fancybox.css" rel="stylesheet">
@@ -46,37 +46,37 @@
 
       require 'phpmailer/PHPMailerAutoload.php';
 
-   
+
       function died($error) {
         echo '<script language="javascript">';
         echo 'alert("Please fix the following errors in your form :-\n'.$error.'")';
         echo '</script>';
       }
-        
+
       // validation expected data exists
-   
+
       if(empty($_POST['email'])){
-           
-        died('Please enter the email id');       
-   
+
+        died('Please enter the email id');
+
       }
-   
-      else{ 
-     
+
+      else{
+
         $email_from = $_POST['email']; // required
-        $error_message = "";     
+        $error_message = "";
         $email_exp = '/^[A-Za-z0-9._%-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,4}$/';
-     
+
        if(!preg_match($email_exp,$email_from)) {
-     
+
           $error_message .= 'The Email Address you entered does not appear to be valid.\n';
-     
+
         }
 
         if(strlen($error_message) > 0) {
-       
+
           died($error_message);
-       
+
         }
 
         else{
@@ -106,7 +106,7 @@
           else{
             echo '<script language="javascript">';
             echo 'alert("Congratulations! Subcription Successful.  We will get in touch with you, shortly !")';
-            echo '</script>';            
+            echo '</script>';
           }
         }
       }
@@ -140,7 +140,7 @@
                 </div>
                 <!-- END TOP BAR MENU -->
             </div>
-        </div>        
+        </div>
     </div>
     <!-- END TOP BAR -->
     <!-- BEGIN HEADER -->
@@ -156,16 +156,16 @@
           <ul>
             <li class="dropdown active">
               <a class="dropdown-toggle" style="font-size: 1.03em;" href="home.php">
-                Home 
-                
+                Home
+
               </a>
 
-              
+
             </li>
             <li class="dropdown dropdown-megamenu">
               <a class="dropdown-toggle" data-toggle="dropdown" style="font-size: 1.03em;" data-target="#" href="javascript:;">
                 Explore the Ocean
-                
+
               </a>
               <ul class="dropdown-menu">
                 <li>
@@ -183,17 +183,17 @@
                       <div class="col-md-4 header-navigation-col">
                         <h4>Reach out to us &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</h4>
                         <ul>
-                          
+
                           <li><a href="register.php">Registration</a></li>
                           <li><a href="contacts.php">Contact Us</a></li>
                         </ul>
                       </div>
-         
+
                     </div>
                   </div>
                 </li>
               </ul>
-            </li>           
+            </li>
             <li class="dropdown">
               <a class="dropdown-toggle" href="gallery.php" style="font-size: 1.03em;">
                 Gallery </a>
@@ -201,10 +201,10 @@
             <li class="dropdown">
               <a class="dropdown-toggle" href="services.php" style="font-size: 1.03em;">
                 Our Services
-                
+
               </a>
-            </li>          
-            
+            </li>
+
         </ul>
         </div>
 
@@ -233,7 +233,7 @@
                         </div>
                     </div>
                 </div>
-                
+
                 <!-- First slide -->
                 <div class="item carousel-item-eight">
 
@@ -250,7 +250,7 @@
                         </div>
                     </div>
                 </div>
-                
+
                 <!-- Second slide -->
                 <div class="item carousel-item-nine">
                     <div class="container">
@@ -262,7 +262,7 @@
                                 This is what you were looking for
                             </p>
                             <p class="carousel-subtitle-v7 margin-bottom-30" data-animation="animated fadeInDown" style="font-weight:bold; color: #fff; text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;">
-                                Ocean Films is a full-spectrum event planning, production and entertainment company <br>that designs, 
+                                Ocean Films is a full-spectrum event planning, production and entertainment company <br>that designs,
                                 plans and produces original, signature events &amp; talent hunt shows.
                             </p>
                             <a class="carousel-btn-green" href="register.php" data-animation="animated fadeInUp">Get In Touch Now!</a>
@@ -309,14 +309,14 @@
 
     <div class="main">
       <div class="container">
-        <!-- BEGIN SERVICE BOX --> 
+        <!-- BEGIN SERVICE BOX -->
         <div class="wow fadeIn" data-wow-duration= "5.5s">
         <div class="row service-box margin-bottom-40">
           <div class="col-md-4 col-sm-4">
             <div class="service-box-heading">
               <em><i class="fa fa-check red" style="font-weight: bold;"></i></em>
               <span style="font-weight: bold; font-family: Mirza !important; font-size: 2.5em !important; color:#0079b3;">Who We Are?</span>
-            </div> 
+            </div>
             <p style="line-height: 1.6em; font-weight: bold;">Ocean Films is a full spectrum event planning, production and entertainment company that designs, plans and produces original, signature events &amp; talent hunt shows. It is the prodigy lineage from the critically acclaimed, Choreographer &amp; Director, Mr VK Dasaundhi (Master VK). Driven by the irrevocable notion of excellence, Ocean Films has strived to provide a platform to the great talents of India.</p>
           </div>
           <div class="col-md-4 col-sm-4">
@@ -337,7 +337,7 @@
         </div>
         <!-- END SERVICE BOX -->
 
-        <!-- BEGIN BLOCKQUOTE BLOCK -->   
+        <!-- BEGIN BLOCKQUOTE BLOCK -->
         <div class="row quote-v1 margin-bottom-30">
             <div class="col-md-10">
                 <span style="font-weight: bold !important;">Ocean Films - Most Trusted Brand In Management &amp; Entertainment Industry</span>
@@ -359,23 +359,23 @@
             <div class="owl-carousel owl-carousel3">
               <div class="recent-work-item">
                 <em>
+                  <img src="assets/pages/img/works/img57.jpg" class="img-responsive">
+                  <a href="gallery.php" title="Visit Gallery"><i class="fa fa-link"></i></a>
+                  <a href="assets/pages/img/works/img57.jpg" class="fancybox-button" title="Love Aur Rajneeti" data-rel="fancybox-button"><i class="fa fa-search"></i></a>
+                </em>
+                <a class="recent-work-description" href="javascript:;">
+                  <strong>Delete Forever</strong>
+                  <b>Ocean Films</b>
+                </a>
+              </div>
+              <div class="recent-work-item">
+                <em>
                   <img src="assets/pages/img/works/img15.jpg" class="img-responsive">
                   <a href="gallery.php" title="Visit Gallery"><i class="fa fa-link"></i></a>
                   <a href="assets/pages/img/works/img15.jpg" class="fancybox-button" title="Love Aur Rajneeti" data-rel="fancybox-button"><i class="fa fa-search"></i></a>
                 </em>
                 <a class="recent-work-description" href="javascript:;">
                   <strong>Love Aur Rajneeti</strong>
-                  <b>Ocean Films</b>
-                </a>
-              </div>
-              <div class="recent-work-item">
-                <em>
-                  <img src="assets/pages/img/works/img13.jpg" class="img-responsive">
-                  <a href="gallery.php" title="Visit Gallery"><i class="fa fa-link"></i></a>
-                  <a href="assets/pages/img/works/img13.jpg" class="fancybox-button" title="DD Bharti, Chatt Shoot" data-rel="fancybox-button"><i class="fa fa-search"></i></a>
-                </em>
-                <a class="recent-work-description" href="javascript:;">
-                  <strong>DD Bharti, Chatt Shoot</strong>
                   <b>Ocean Films</b>
                 </a>
               </div>
@@ -390,10 +390,10 @@
                   <b>Ocean Films</b>
                 </a>
               </div>
-            </div>       
+            </div>
           </div>
         </div>
-        </div>   
+        </div>
         <!-- END RECENT WORKS -->
 
         <!-- BEGIN TABS AND TESTIMONIALS -->
@@ -414,7 +414,7 @@
                   </a>
                 </div>
                 <div class="col-md-9 col-sm-9">
-                  <p class="margin-bottom-10">Ocean Films has no less prestige than its Founder himself, who had garnered his impeccable reputation from nearly a decade of astounding and widely-praised work for Indian Cinema. Driven by the irrevocable notion of excellence, Ocean Films has strived to provide a platform to the great talents of India, thriving towards the experience of what might be the transcendence to the age of indigenous revolution in the field of art.</p>    
+                  <p class="margin-bottom-10">Ocean Films has no less prestige than its Founder himself, who had garnered his impeccable reputation from nearly a decade of astounding and widely-praised work for Indian Cinema. Driven by the irrevocable notion of excellence, Ocean Films has strived to provide a platform to the great talents of India, thriving towards the experience of what might be the transcendence to the age of indigenous revolution in the field of art.</p>
                 </div>
               </div>
               <div class="tab-pane row fade" id="tab-2">
@@ -436,22 +436,22 @@
             </div>
           </div>
           <!-- END TABS -->
-        
+
           <!-- TESTIMONIALS -->
           <div >
           <div class="col-md-5 testimonials-v1">
                   <blockquote>
                     <p>“Knowledge isn’t a piece of portrait you hang on to your showcase, but it’s an analogous entity to your hand that you extend for other’s welfare.”</p>
                     <small>VK Dasaundhi, <cite title="Source Title">Founder (Ocean Films)</cite></small>
-                  </blockquote>   
+                  </blockquote>
                   <div class="carousel-info">
                     <img class="pull-left" src="assets/pages/img/people/bg9cropped.jpg" alt="">
-                  </div>             
-                
+                  </div>
+
           </div>
           <!-- END TESTIMONIALS -->
-        </div>  
-        </div>              
+        </div>
+        </div>
         <!-- END TABS AND TESTIMONIALS -->
 
         <!-- BEGIN STEPS -->
@@ -485,13 +485,13 @@
         <div class="row margin-bottom-40 our-clients" align="center" style="margin-top:20px;">
           <div class="col-md-4">
               <img src="assets/pages/img/clients/client1.jpg" class="img-responsive" alt="" style="height: 100px; width: 200px;">
-          </div> 
+          </div>
           <div class="col-md-4">
               <img src="assets/pages/img/clients/client_2.jpg" class="img-responsive" alt="" style="height: 100px; width:200px;">
-          </div>          
+          </div>
           <div class="col-md-4">
               <img src="assets/pages/img/clients/client_3.jpg" class="img-responsive" alt="" style="height: 100px; width:150px;">
-          </div>                   
+          </div>
         </div>
         <!-- END CLIENTS -->
       </div>
@@ -524,7 +524,7 @@
                 <li><a href="gallery.php"><img alt="" src="assets/pages/img/works/img7.jpg"></a></li>
                 <li><a href="gallery.php"><img alt="" src="assets/pages/img/works/img1.jpg"></a></li>
                 <li><a href="gallery.php"><img alt="" src="assets/pages/img/works/img9.jpg"></a></li>
-              </ul>                    
+              </ul>
             </div>
           </div>
           <!-- END BOTTOM ABOUT BLOCK -->
@@ -534,7 +534,7 @@
             <h2 style="font-weight:bold;">Contact Us</h2>
             <address class="margin-bottom-40" style="line-height: 1.5em;">
               Email: oceanfilms.india@outlook.com<br>
-              Phone: 9350665657, 9650821702<br>              
+              Phone: 9350665657, 9650821702<br>
               Or send us a message directly: <a href="contacts.php">Contact Us</a>
             </address>
 
@@ -553,7 +553,7 @@
           </div>
           <!-- END BOTTOM CONTACTS -->
 
-          <!-- BEGIN TWITTER BLOCK --> 
+          <!-- BEGIN TWITTER BLOCK -->
           <div class="col-md-4 col-sm-6 pre-footer-col">
             <h2 class="margin-bottom-0" style="font-weight:bold;">Latest Tweets</h2>
             <a class="twitter-timeline" href="https://twitter.com/twitterapi" data-tweet-limit="2" data-theme="dark" data-link-color="#57C8EB" data-widget-id="455411516829736961" data-chrome="noheader nofooter noscrollbar noborders transparent">Loading tweets by @keenthemes...</a>
@@ -570,7 +570,7 @@
         <div class="row">
           <!-- BEGIN COPYRIGHT -->
           <div class="col-md-4 col-sm-4 padding-top-10">
-            2016 &copy; &reg; Ocean Films, All Rights Reserved. Copyright Protected. 
+            2016 &copy; &reg; Ocean Films, All Rights Reserved. Copyright Protected.
           </div>
           <!-- END COPYRIGHT -->
           <!-- BEGIN PAYMENTS -->
@@ -578,9 +578,9 @@
             <ul class="social-footer list-unstyled list-inline ">
               <li class="wow rollIn"><a href="https://twitter.com/OCEANFILMZ"><i class="fa fa-twitter" style="color: #00aced;"></i></a></li>
               <li class="wow rollIn"><a href="https://www.facebook.com/oceanfilmsvk/?fref=ts"><i class="fa fa-facebook" style="color: #3b5998;"></i></a></li>
-              <li class="wow rollIn"><a href="https://www.youtube.com/channel/UCGm18j2hXr9EwelD6X3h5gg"><i class="fa fa-youtube" style="color: white;"></i></a></li>              
+              <li class="wow rollIn"><a href="https://www.youtube.com/channel/UCGm18j2hXr9EwelD6X3h5gg"><i class="fa fa-youtube" style="color: white;"></i></a></li>
               <li class="wow rollIn"><a href="https://in.linkedin.com/in/oceanfilm"><i class="fa fa-linkedin" style="color: #007bb6;"></i></a></li>
-            </ul>  
+            </ul>
           </div>
           <!-- END PAYMENTS -->
         </div>
@@ -595,7 +595,7 @@
     <![endif]-->
     <script src="assets/plugins/jquery.min.js" type="text/javascript"></script>
     <script src="assets/plugins/jquery-migrate.min.js" type="text/javascript"></script>
-    <script src="assets/plugins/bootstrap/js/bootstrap.min.js" type="text/javascript"></script>      
+    <script src="assets/plugins/bootstrap/js/bootstrap.min.js" type="text/javascript"></script>
     <script src="assets/corporate/scripts/back-to-top.js" type="text/javascript"></script>
     <!-- END CORE PLUGINS -->
 
@@ -607,7 +607,7 @@
     <script src="assets/pages/scripts/bs-carousel.js" type="text/javascript"></script>
     <script type="text/javascript">
         jQuery(document).ready(function() {
-            Layout.init();    
+            Layout.init();
             Layout.initOWL();
             Layout.initTwitter();
             Layout.initFixHeaderWithPreHeader(); /* Switch On Header Fixing (only if you have pre-header) */
@@ -618,9 +618,9 @@
     <script>
  $(document).ready(function(){
 
- 
+
               new WOW().init();
-              
+
  });
 
 
